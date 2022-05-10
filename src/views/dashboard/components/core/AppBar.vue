@@ -57,7 +57,7 @@
       class="ml-2"
       min-width="0"
       text
-      to="/"
+      to="/Dashboard"
     >
       <v-icon>mdi-view-dashboard</v-icon>
     </v-btn>
@@ -83,7 +83,7 @@
             bordered
           >
             <template v-slot:badge>
-              <span>5</span>
+              <span>4</span>
             </template>
 
             <v-icon>mdi-bell</v-icon>
@@ -110,7 +110,7 @@
       class="ml-2"
       min-width="0"
       text
-      to="/pages/user"
+      to="/"
     >
       <v-icon>mdi-account</v-icon>
     </v-btn>

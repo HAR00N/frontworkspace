@@ -97,7 +97,7 @@
       },
       color: {
         type: String,
-        default: 'success',
+        default: 'blue lighten-1',
       },
       icon: {
         type: String,

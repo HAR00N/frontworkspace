@@ -11,12 +11,12 @@
       >
         <base-material-card>
           <template v-slot:heading>
-            <div class="display-2 font-weight-light">
-              Edit Profile
+            <div class="display-2 font-weight-medium">
+              Profile
             </div>
 
             <div class="subtitle-1 font-weight-light">
-              Complete your profile
+              Haroon's Dev profile
             </div>
           </template>
 
@@ -124,7 +124,7 @@
                   class="text-right"
                 >
                   <v-btn
-                    color="success"
+                    color="blue lighten-2"
                     class="mr-0"
                   >
                     Update Profile
@@ -158,7 +158,7 @@
             </p>
 
             <v-btn
-              color="success"
+              color="blue lighten-1"
               rounded
               class="mr-0"
             >

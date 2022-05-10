@@ -1,7 +1,9 @@
 <template>
-	<v-navigation-drawer
+	<!-- <v-navigation-drawer
+		class="blue lighten-3"
 		id="core-navigation-drawer"
 		v-model="drawer"
+		:color="'#f8f9fa'"
 		:dark="barColor !== 'rgba(228, 226, 226, 1), rgba(255, 255, 255, 0.7)'"
 		:expand-on-hover="expandOnHover"
 		:right="$vuetify.rtl"
@@ -10,69 +12,36 @@
 		app
 		width="260"
 		v-bind="$attrs"
+	> -->
+	<v-navigation-drawer
+		id="core-navigation-drawer"
+		v-model="drawer"
+		:color="'#f8f9fa'"
+		:expand-on-hover="expandOnHover"
+		:right="$vuetify.rtl"
+		:src="barImage"
+		mobile-break-point="960"
+		app
+		width="260"
+		v-bind="$attrs"
+		
 	>
-		<template v-slot:img="props">
+		<!-- <template v-slot:img="props">
 			<v-img :gradient="`to bottom, ${barColor}`" v-bind="props" />
-		</template>
+		</template> -->
 
 		<v-divider class="mb-1" />
 
-
-    <!-- https://vuetifyjs.com/en/styles/spacing/ 참고해서 여백 주기 -->
-    <v-list-item class="ms-3 mb-2 mt-4 d-flex align-center">
+		<!-- https://vuetifyjs.com/en/styles/spacing/ 참고해서 여백 주기 -->
+		<v-list-item class="ms-3 mb-2 mt-4 d-flex align-center">
 			<v-list-item-tile>
-				<v-img src="src/assets/logo.png" width="35"> </v-img>
+				<v-img src="src/assets/mycharacter/haroonHalf.png" width="45"> </v-img>
 			</v-list-item-tile>
 
-			<v-list-item-title title class="display-2 ms-3"
+			<v-list-item-title title class="font-weight-noramal display-2 ms-3"
 				>Haroon's Page</v-list-item-title
 			>
 		</v-list-item>
-
-		<!-- 부동산원 코드 -->
-		<!-- 
-		<v-list-item class="pa-0">
-			<v-list-item-content class="pa-0">
-				<v-list-item-title class="title d-flex align-center mb-0">
-					<div class="v-navigation-drawer-brand pa-5 d-flex align-center">
-						<v-img
-							src="src/assets/logo.png"
-							class="navbar-brand-img ms-3"
-							width="40"
-						>
-						</v-img>
-						<span class="ms-2 font-weight-bold text-lg">HAR00N's Page</span>
-					</div>
-				</v-list-item-title>
-			</v-list-item-content>
-		</v-list-item> -->
-
-		<!-- 초기세팅 코드 -->
-		<!-- 
-    <v-list dense nav>
-      <v-list-item>
-           
-        <v-list-item-avatar
-          class="align-self-center"
-          color="white"
-          contain
-        >
-          <v-img
-            src="https://demos.creative-tim.com/vuetify-material-dashboard/favicon.ico"
-            max-height="30"
-          />
-        </v-list-item-avatar>
-        
-        <v-list-item-content>
-          <v-list-item-title
-            class="display-1"
-            v-text="profile.title"
-          />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-        </v-list-item-content>
-        
-      </v-list-item>
-    </v-list>
-  -->
 
 		<v-divider class="mb-2" />
 
@@ -125,14 +94,15 @@ export default {
 	data: () => ({
 		items: [
 			{
-				icon: 'mdi-view-dashboard',
-				title: 'dashboard',
-				to: '/',
-			},
-			{
 				icon: 'mdi-account',
 				title: 'user',
-				to: '/pages/user',
+				to: '/',
+				
+			},
+			{
+				icon: 'mdi-view-dashboard',
+				title: 'dashboard',
+				to: '/Dashboard',
 			},
 			{
 				title: 'rtables',
