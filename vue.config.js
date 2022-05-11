@@ -1,4 +1,5 @@
 module.exports = {
+  outputDir: '../HAR00N.github.io',
   devServer: {
     disableHostCheck: true,
     overlay: false, 

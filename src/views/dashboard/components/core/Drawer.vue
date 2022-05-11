@@ -14,12 +14,12 @@
 		v-bind="$attrs"
 	> -->
 	<v-navigation-drawer
+		floating
 		id="core-navigation-drawer"
 		v-model="drawer"
 		:color="'#f8f9fa'"
 		:expand-on-hover="expandOnHover"
 		:right="$vuetify.rtl"
-		:src="barImage"
 		mobile-break-point="960"
 		app
 		width="260"
@@ -33,17 +33,17 @@
 		<v-divider class="mb-1" />
 
 		<!-- https://vuetifyjs.com/en/styles/spacing/ 참고해서 여백 주기 -->
-		<v-list-item class="ms-3 mb-2 mt-4 d-flex align-center">
-			<v-list-item-tile>
-				<v-img src="src/assets/mycharacter/haroonHalf.png" width="45"> </v-img>
-			</v-list-item-tile>
+		<v-list-item class="ms-3 mb-1 mt-4 d-flex align-center">
+			<!-- <v-list-item-tile>
+				<v-img src="src/assets/mycharacter/haroonHalf.png" width="60"> </v-img>
+			</v-list-item-tile> -->
 
 			<v-list-item-title title class="font-weight-noramal display-2 ms-3"
 				>Haroon's Page</v-list-item-title
 			>
 		</v-list-item>
 
-		<v-divider class="mb-2" />
+		<v-divider class="ml-3 mr-3 mb-2" />
 
 		<v-list expand nav>
 			<!-- Style cascading bug  -->
@@ -92,6 +92,7 @@ export default {
 	},
 
 	data: () => ({
+		// icon page : https://materialdesignicons.com/
 		items: [
 			{
 				icon: 'mdi-account',

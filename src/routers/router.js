@@ -12,9 +12,9 @@ export default new Router({
       component: () => import('@/views/dashboard/Index'),
       children: [
         {
-          name: 'User Profile',
+          name: 'Profile',
           path: '',
-          component: () => import('@/views/dashboard/pages/UserProfile'),
+          component: () => import('@/views/pages/profile/UserProfile'),
           
         },
         {

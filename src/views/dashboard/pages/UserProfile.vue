@@ -16,7 +16,7 @@
             </div>
 
             <div class="subtitle-1 font-weight-light">
-              Haroon's Dev profile
+              Haroon's Dev profile2
             </div>
           </template>
 
