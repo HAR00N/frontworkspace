@@ -23,6 +23,31 @@ export default new Router({
           component: () => import('@/views/dashboard/Dashboard'),
         },
         {
+          name: 'User Stack',
+          path: '/Profile/Stack',
+          component: () => import('@/views/pages/profile/UserStack'),
+        },
+        {
+          name: 'GWNU QA',
+          path: '/Work/GwnuQa',
+          component: () => import('@/views/pages/Work/GwnuQa'),
+        },
+        {
+          name: 'REB',
+          path: '/Work/RebHrd',
+          component: () => import('@/views/pages/Work/RebHrd'),
+        },
+        {
+          name: 'MERS Modeling',
+          path: '/Personal/MersModeling',
+          component: () => import('@/views/pages/Personal/MersModeling'),
+        },
+        {
+          name: 'Game Modeling',
+          path: '/Personal/GameModeling',
+          component: () => import('@/views/pages/Personal/GameModeling'),
+        },
+        {
           name: 'Notifications',
           path: 'components/notifications',
           component: () => import('@/views/dashboard/component/Notifications'),

@@ -42,9 +42,9 @@
 			<v-icon size="23">mdi-account</v-icon>
 		</v-btn>
 
-		<v-btn class="ml-1" min-width="0" text to="/Dashboard">
+		<!-- <v-btn class="ml-1" min-width="0" text to="/Dashboard">
 			<v-icon>mdi-view-dashboard</v-icon>
-		</v-btn>
+		</v-btn> -->
 
 		<v-btn
 			class="ml-1 mr-0"

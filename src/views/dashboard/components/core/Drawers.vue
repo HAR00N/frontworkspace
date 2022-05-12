@@ -1,4 +1,18 @@
 <template>
+	<!-- <v-navigation-drawer
+		class="blue lighten-3"
+		id="core-navigation-drawer"
+		v-model="drawer"
+		:color="'#f8f9fa'"
+		:dark="barColor !== 'rgba(228, 226, 226, 1), rgba(255, 255, 255, 0.7)'"
+		:expand-on-hover="expandOnHover"
+		:right="$vuetify.rtl"
+		:src="barImage"
+		mobile-break-point="960"
+		app
+		width="260"
+		v-bind="$attrs"
+	> -->
 	<v-navigation-drawer
 		floating
 		id="core-navigation-drawer"
@@ -10,7 +24,12 @@
 		app
 		width="260"
 		v-bind="$attrs"
+		
 	>
+		<!-- <template v-slot:img="props">
+			<v-img :gradient="`to bottom, ${barColor}`" v-bind="props" />
+		</template> -->
+
 		<v-divider class="mb-1" />
 
 		<!-- https://vuetifyjs.com/en/styles/spacing/ 참고해서 여백 주기 -->
@@ -26,54 +45,36 @@
 
 		<v-divider class="ml-3 mr-3 mb-2" />
 
-		<v-list>
-			<v-list-group
-				:ripple="false"
-				v-for="item in itemsPage"
-				:key="item.title"
-				v-model="item.active"
-				:prepend-icon="item.icon"
-				no-action
-				active-class="grey lighten-5 grey--text rounded"
-				class="pa-0 ml-2"
-			>
-				<template v-slot:activator>
-					<v-list-item-content>
-						<v-list-item-title v-text="item.title"></v-list-item-title>
-					</v-list-item-content>
-				</template>
+		<v-list expand nav>
+			<!-- Style cascading bug  -->
+			<!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
+			<div />
 
-				<v-list-item
-					v-for="child in item.items"
-					:key="child.title"
-					:to="child.to"
-					:ripple="false"
-					active-class="grey darken-1 white--text rounded"
-				>
-					<v-list-item-content>
-						<v-list-item-title v-text="child.title"></v-list-item-title>
-					</v-list-item-content>
-				</v-list-item>
-			</v-list-group>
+			<template v-for="(item, i) in computedItems">
+				<base-item-group v-if="item.children" :key="`group-${i}`" :item="item">
+					<!--  -->
+				</base-item-group>
 
-			<v-list-item
-				v-for="item in itemsLink"
-				:key="item.title"
-				:to="item.to"
-				:href="item.href"
-				:target="item.target"
-				:ripple="false"
-				class="ml-2"
-			>
-				<v-list-item-icon>
-					<v-icon size="25">{{ item.icon }}</v-icon>
-				</v-list-item-icon>
-				<v-list-item-title
-					v-text="item.title"
-					class="align-center pt-1"
-				></v-list-item-title>
-			</v-list-item>
+				<base-item v-else :key="`item-${i}`" :item="item" />
+			</template>
+
+			<!-- Style cascading bug  -->
+			<!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
+			<div />
 		</v-list>
+
+		
+		<!--
+		<template v-slot:append>
+			<base-item
+				:item="{
+					title: $t('upgrade'),
+					icon: 'mdi-package-up',
+					to: '/upgrade',
+				}"
+			/>
+		</template>
+    -->
 	</v-navigation-drawer>
 </template>
 
@@ -93,78 +94,54 @@ export default {
 
 	data: () => ({
 		// icon page : https://materialdesignicons.com/
-		itemsPage: [
+		items: [
 			{
 				icon: 'mdi-account',
-				title: 'Profile',
-				active: false,
-				items: [
-					{ title: 'Profile', to: '/' },
-					{ title: 'Stack', to: '/Profile/Stack' },
-				],
+				title: 'user',
+				to: '/',
+				
 			},
 			{
-				icon: 'mdi-monitor',
-				title: 'Work Exp',
-				active: false,
-				items: [
-					{ title: 'REB', to: '/Work/RebHrd' },
-					{ title: 'GWNU (QA)', to: '/Work/GwnuQa' },
-				],
-			},
-			{
-				icon: 'mdi-book-open-variant',
-				title: 'Personal Exp',
-				active: false,
-				items: [
-					{ title: 'MERS Modeling', to: '/Personal/MersModeling' },
-					{ title: 'Game Modeling', to: '/Personal/GameModeling' },
-				],
+				icon: 'mdi-chart-bell-curve-cumulative',
+				title: 'MERS modeling',
+				to: '/Personal/MersModeling',
 			},
 			{
 				icon: 'mdi-view-dashboard',
-				title: 'Dashboard',
-				active: false,
-				items: [{ title: 'Dashboard', to: '/Dashboard' }],
+				title: 'dashboard',
+				to: '/Dashboard',
 			},
 			{
-				title: 'Regular Tables',
+				title: 'rtables',
 				icon: 'mdi-clipboard-outline',
-				active: false,
-				items: [{ title: 'Regular Tables', to: '/tables/regular-tables' }],
+				to: '/tables/regular-tables',
 			},
 			{
-				title: 'Typography',
+				title: 'typography',
 				icon: 'mdi-format-font',
-				active: false,
-				items: [{ title: 'Typography', to: '/components/typography' }],
+				to: '/components/typography',
 			},
 			{
-				title: 'Icons',
+				title: 'icons',
 				icon: 'mdi-chart-bubble',
-				active: false,
-				items: [{ title: 'Icons', to: '/components/icons' }],
+				to: '/components/icons',
 			},
 			{
-				title: 'Google Maps',
+				title: 'google',
 				icon: 'mdi-map-marker',
-				active: false,
-				items: [{ title: 'Google Maps', to: '/maps/google-maps' }],
+				to: '/maps/google-maps',
 			},
 			{
-				title: 'Notifications',
+				title: 'notifications',
 				icon: 'mdi-bell',
-				active: false,
-				items: [{ title: 'Notifications', to: '/components/notifications' }],
+				to: '/components/notifications',
 			},
-		],
-		itemsLink: [
 			{
 				title: `Haroon's Github`,
 				icon: 'mdi-github',
 				href: 'https://github.com/HAR00N',
-				target: '_blank',
 			},
+			
 		],
 	}),
 
