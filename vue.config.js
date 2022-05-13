@@ -1,5 +1,5 @@
 module.exports = {
-  outputDir: '../../../../../../',
+  // outputDir: '../../../../../../',
   devServer: {
     disableHostCheck: true,
     overlay: false, 

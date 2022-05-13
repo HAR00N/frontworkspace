@@ -12,10 +12,14 @@ export default new Router({
       component: () => import('@/views/dashboard/Index'),
       children: [
         {
-          name: 'Profile',
+          name: 'Home',
           path: '',
+          component: () => import('@/views/pages/main/MainPage'),
+        },
+        {
+          name: 'Profile',
+          path: '/Profile/Profile',
           component: () => import('@/views/pages/profile/UserProfile'),
-          
         },
         {
           name: 'Dashboard',
@@ -40,12 +44,12 @@ export default new Router({
         {
           name: 'MERS Modeling',
           path: '/Personal/MersModeling',
-          component: () => import('@/views/pages/Personal/MersModeling'),
+          component: () => import('@/views/pages/personal/MersModeling'),
         },
         {
           name: 'Game Modeling',
           path: '/Personal/GameModeling',
-          component: () => import('@/views/pages/Personal/GameModeling'),
+          component: () => import('@/views/pages/personal/GameModeling'),
         },
         {
           name: 'Notifications',

@@ -6,7 +6,7 @@
 		:color="'#f8f9fa'"
 		:expand-on-hover="expandOnHover"
 		:right="$vuetify.rtl"
-		mobile-break-point="960"
+		mobile-breakpoint="960"
 		app
 		width="260"
 		v-bind="$attrs"
@@ -15,18 +15,38 @@
 
 		<!-- https://vuetifyjs.com/en/styles/spacing/ 참고해서 여백 주기 -->
 		<v-list-item class="ms-3 mb-1 mt-4 d-flex align-center">
+			<v-list-item-icon>
+				<v-icon size="35" color="black">mdi-web</v-icon>
+			</v-list-item-icon>
 			<!-- <v-list-item-tile>
 				<v-img src="src/assets/mycharacter/haroonHalf.png" width="60"> </v-img>
 			</v-list-item-tile> -->
 
-			<v-list-item-title title class="font-weight-noramal display-2 ms-3"
+			<v-list-item-title title class="font-weight-noramal display-2 mr-3"
 				>Haroon's Page</v-list-item-title
 			>
 		</v-list-item>
 
 		<v-divider class="ml-3 mr-3 mb-2" />
-
+		
 		<v-list>
+			<v-list-item 
+				v-for="item in topLink"
+				:key="item.title"
+				:to="item.to"
+				:ripple="false"
+				class="mx-2"
+				active-class="grey darken-1 white--text rounded"
+			>
+				<v-list-item-icon>
+					<v-icon size="25">{{ item.icon }}</v-icon>
+				</v-list-item-icon>
+				<v-list-item-title
+					v-text="item.title"
+					class="align-center pt-1"
+				></v-list-item-title>
+			</v-list-item>
+			
 			<v-list-group
 				:ripple="false"
 				v-for="item in itemsPage"
@@ -35,7 +55,7 @@
 				:prepend-icon="item.icon"
 				no-action
 				active-class="grey lighten-5 grey--text rounded"
-				class="pa-0 ml-2"
+				class="pa-0 mx-2"
 			>
 				<template v-slot:activator>
 					<v-list-item-content>
@@ -57,13 +77,13 @@
 			</v-list-group>
 
 			<v-list-item
-				v-for="item in itemsLink"
+				v-for="item in bottomLink"
 				:key="item.title"
 				:to="item.to"
 				:href="item.href"
 				:target="item.target"
 				:ripple="false"
-				class="ml-2"
+				class="mx-2"
 			>
 				<v-list-item-icon>
 					<v-icon size="25">{{ item.icon }}</v-icon>
@@ -99,7 +119,7 @@ export default {
 				title: 'Profile',
 				active: false,
 				items: [
-					{ title: 'Profile', to: '/' },
+					{ title: 'Profile', to: '/Profile/Profile' },
 					{ title: 'Stack', to: '/Profile/Stack' },
 				],
 			},
@@ -158,7 +178,14 @@ export default {
 				items: [{ title: 'Notifications', to: '/components/notifications' }],
 			},
 		],
-		itemsLink: [
+		topLink: [
+			{
+				title: 'Home',
+				icon: 'mdi-home',
+				to: '/',
+			},
+		],
+		bottomLink: [
 			{
 				title: `Haroon's Github`,
 				icon: 'mdi-github',

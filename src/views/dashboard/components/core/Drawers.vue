@@ -8,7 +8,7 @@
 		:expand-on-hover="expandOnHover"
 		:right="$vuetify.rtl"
 		:src="barImage"
-		mobile-break-point="960"
+		mobile-breakpoint="960"
 		app
 		width="260"
 		v-bind="$attrs"
@@ -20,7 +20,7 @@
 		:color="'#f8f9fa'"
 		:expand-on-hover="expandOnHover"
 		:right="$vuetify.rtl"
-		mobile-break-point="960"
+		mobile-breakpoint="960"
 		app
 		width="260"
 		v-bind="$attrs"

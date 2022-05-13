@@ -25,7 +25,7 @@ export const ordersChart = {
           {
             label: "Linear",
             tension: 0.4,
-            pointRadius: 0,
+            pointRadius: 3,
             borderColor: "#17ad37",
             borderWidth: 3,
             backgroundColor: gradientStroke1,
