@@ -37,7 +37,7 @@ export default {
             maxBarThickness: 6,
           },
           {
-            label: "Susceptible",
+            label: "Linear",
             tension: 0.4,
             borderWidth: 3,
             pointRadius: 1,
@@ -50,7 +50,7 @@ export default {
             maxBarThickness: 6,
           },
           {
-            label: "Exposed",
+            label: "Quadratic",
             tension: 0.4,
             borderWidth: 3,
             pointRadius: 1,

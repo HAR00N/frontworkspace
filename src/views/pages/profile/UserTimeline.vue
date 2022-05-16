@@ -222,7 +222,7 @@ export default {
         title: "한국 부동산원 직원 홈페이지 개발",
         date: "22 FEB",
         color: "amber",
-        icon: "mdi-application-brackets-outline",
+        icon: "mdi-file-document",
         badges: [
           {
             text: "Spring",
