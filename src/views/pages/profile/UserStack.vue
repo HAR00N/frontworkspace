@@ -1,27 +1,9 @@
 <template>
   <div>
-    <v-container fluid class="pb-6 pt-0">
+    <v-container fluid class="pb-6 pt-3">
       <v-row>
-        <v-col cols="12" md="4">
-          <v-card
-            elevation="0"
-            class="card-shadow border-radius-xl position-sticky top-1"
-          >
-            <v-list
-              v-for="(item, i) in timeline"
-              :key="item.title + i"
-              class="ma-4 pt-4"
-            >
-              <v-list-item v-if="item.action">
-                맨위에 고정 <br />
-                position sticky
-              </v-list-item>
-            </v-list>
-          </v-card>
-        </v-col>
-
         <v-col cols="12" md="8">
-          <v-card class="card-shadow border-radius-xl mb-30">
+          <v-card class="card-shadow mb-30">
             <div class="pt-2">
               <h2 class="mb-0 mt-4 ml-6 pl-4">Timeline</h2>
             </div>
@@ -45,8 +27,8 @@
                       <!-- <div v-html="item.action"> {{item.action}} </div> -->
                       <v-avatar size="26"
                         ><img
-                          src="../../../assets/icon/matlab.svg"
-                          class="color-filter"
+                          :src="item.src"
+                          class="color-grey"
                       /></v-avatar>
                     </v-avatar>
                   </template>
@@ -87,6 +69,33 @@
                 </v-timeline-item>
               </v-timeline>
             </v-card-text>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-card elevation="0" class="card-shadow rounded position-sticky top-1">
+            <base-material-card
+              class="v-card-profile"
+              elevation="0"
+              avatar="src/assets/mycharacter/haroonwhiteback.png"
+            >
+              <v-card-text class="text-center">
+                <h6 class="display-1 mb-1 grey--text">Fullstack Dev</h6>
+
+                <h4 class="display-2 font-weight-medium mb-3 black--text">
+                  Haroon
+                </h4>
+
+                <p class="font-weight-light grey--text">
+                  Don't be scared of the truth because we need to restart the
+                  human foundation in truth And I love you like Kanye loves
+                  Kanye I love Rick Owens’ bed design but the back is...
+                </p>
+
+                <v-btn color="blue lighten-1" rounded class="mr-0">
+                  Follow
+                </v-btn>
+              </v-card-text>
+            </base-material-card>
           </v-card>
         </v-col>
       </v-row>
@@ -168,7 +177,7 @@ export default {
           ],
         },
         {
-          title: "엘크로니클 길드전 점수 예측 모델링",
+          title: "모바일게임 점수 예측 모델링",
           date: "19 SEP.",
           color: "#fdd1da",
           iconColor: "#f80031",
@@ -180,8 +189,7 @@ export default {
           date: "17 MAR.",
           color: "#fdd1da",
           iconColor: "#f80031",
-          action:
-            '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="-80 -120 700 700"><path d="M495.85495,367.604248c-28.9803467-73.1774597-53.0365906-148.2316895-80.7252808-221.8935089c-12.2297668-31.3618469-24.1973877-62.9860611-40.8671875-92.3295364c-6.6195374-10.5348358-12.9564819-22.1188946-23.8140564-28.8593864c-2.7394409-1.7407379-5.8284912-2.4797993-8.8795776-2.4216614c-5.0852356,0.096571-10.1411743,2.3711586-14.0261536,5.6506233c-14.5708618,11.5436554-23.2085266,28.3346519-32.8954163,43.7936096c-17.1139526,28.6977844-35.1559448,58.7478027-63.7731628,77.3953247c-13.4405823,9.4851074-31.0388947,10.514389-43.9951324,20.6858521c-17.7192688,13.3600159-29.7674561,32.3103027-44.2981567,48.7379303c-3.3095093,3.9554596-8.4356537,5.5296631-12.9158478,7.6687622C86.3153,243.7111053,42.9456635,261.3495483,0,279.9165344c36.3665314,28.1326294,75.1148148,53.1575317,112.2080917,80.3215027c10.171463-2.0181274,20.3830795-6.1955566,30.8772659-4.3390503c16.6296387,5.2069397,26.3771362,21.150238,34.005722,35.7210999c15.4991302,31.7653809,26.6998596,65.3067322,39.2525787,98.2829285c20.9886169-1.4934082,39.8782959-12.3105469,56.1041565-25.0248718c31.2406616-25.3072205,55.0342712-58.0010986,81.2298279-88.1922913c12.5527344-13.1986694,25.3475952-28.9197388,44.1968994-32.592865c19.0513-4.6014099,39.4545593,2.2198792,53.5814819,15.337738C471.2739868,377.1499939,488.8318787,397.6340637,512,411.1958618C508.8919983,395.8581238,501.4250183,382.094574,495.85495,367.604248z M171.84375,316.0408936c-18.2841492,10.8174133-37.6985779,19.7171936-56.709465,29.1621399c-29.8280487-19.9795532-58.8889542-41.1497192-88.192276-61.8557739c39.5149345-17.3154907,79.6354065-33.4001923,119.6750793-49.5452576c18.9704895,14.8132782,38.546524,28.8796082,57.5167694,43.692627C195.2138672,291.7427368,184.4772797,304.9815674,171.84375,316.0408936z M212.5091553,266.3948975c-18.8492889-14.1673279-37.9407349-27.9510803-56.5076904-42.4815369c11.9070282-16.2258606,24.9440765-31.9067841,40.5643921-44.7016754c10.33284-6.6195374,22.9663544-8.4561005,33.7029572-14.4296875c25.4688263-12.7143402,42.8448944-36.043808,59.4338837-58.3240738C268.4317627,161.673996,245.7277832,217.1122589,212.5091553,266.3948975z"/></svg>',
+          src: "src/assets/icon/matlab.svg",
           btn: "warning",
           badges: [
             {
@@ -197,7 +205,7 @@ export default {
           date: "17 MAR.",
           color: "#fdd1da",
           iconColor: "#f80031",
-          icon: "mdi-package-variant",
+          icon: "mdi-pencil",
           btn: "warning",
           badges: [
             {
@@ -213,7 +221,7 @@ export default {
           date: "14 SEP.",
           color: "#fdd1da",
           iconColor: "#f80031",
-          icon: "mdi-google-controller",
+          icon: "mdi-license",
           btn: "default",
           badges: [
             {
@@ -227,13 +235,6 @@ export default {
 };
 </script>
 
-<style>
-.color-filter {
-  filter: invert(46%) sepia(21%) saturate(16%) hue-rotate(1deg) brightness(95%)
-    contrast(84%);
-}
-</style>
-
 <style lang="scss">
 $card-box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05) !default;
 $border-radius-xl: 1rem !default;
@@ -244,9 +245,7 @@ $border-radius-xl: 1rem !default;
 .border-radius-xl {
   border-radius: $border-radius-xl !important;
 }
-.position-sticky {
-  position: sticky;
-}
+
 .top-1 {
   top: 1% !important;
 }

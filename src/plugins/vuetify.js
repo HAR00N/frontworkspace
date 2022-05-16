@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Vuetify from 'vuetify/lib'
 import i18n from '@/i18n'
 import '@/sass/overrides.sass'
-import MatlabIcon from '../assets/icon/MatlabIcon.vue'
+import '@/scss/all.scss'
+import '@/css/colorfilter.css'
+
 
 Vue.use(Vuetify)
 
@@ -16,14 +18,7 @@ const theme = {
 export default new Vuetify({
   lang: {
     t: (key, ...params) => i18n.t(key, params),
-  },
-  icons: {
-    values: {
-      matlab: {
-        component: MatlabIcon,
-      }
-    }
-  },
+  },  
   theme: {
     themes: {
       dark: theme,

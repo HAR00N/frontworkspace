@@ -32,6 +32,11 @@ export default new Router({
           component: () => import('@/views/pages/profile/UserStack'),
         },
         {
+          name: 'User Timeline',
+          path: '/Profile/Timeline',
+          component: () => import('@/views/pages/profile/UserTimeline'),
+        },
+        {
           name: 'GWNU QA',
           path: '/Work/GwnuQa',
           component: () => import('@/views/pages/Work/GwnuQa'),

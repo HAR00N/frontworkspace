@@ -1,0 +1,81 @@
+/* convert : https://codepen.io/sosuke/pen/Pjoqqp */
+
+.color-default {
+    filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(129deg) brightness(101%) contrast(101%);
+}
+
+.color-grey {
+    filter: invert(46%) sepia(21%) saturate(16%) hue-rotate(1deg) brightness(95%) contrast(84%);
+}
+
+.color-black {
+    filter: invert(0%) sepia(3%) saturate(23%) hue-rotate(2deg) brightness(103%) contrast(100%);
+}
+
+.color-maven {
+    filter: invert(17%) sepia(50%) saturate(7076%) hue-rotate(342deg) brightness(81%) contrast(91%);
+}
+
+.color-tomcat {
+    filter: invert(100%) sepia(80%) saturate(1540%) hue-rotate(318deg) brightness(106%) contrast(95%);
+}
+
+.color-docekr {
+    filter: invert(46%) sepia(49%) saturate(1292%) hue-rotate(174deg) brightness(98%) contrast(90%);
+}
+
+.color-git {
+    filter: invert(44%) sepia(100%) saturate(2672%) hue-rotate(340deg) brightness(94%) contrast(99%);
+}
+
+.color-go {
+    filter: invert(64%) sepia(95%) saturate(4237%) hue-rotate(158deg) brightness(98%) contrast(101%);
+}
+
+.color-gradle {
+    filter: invert(12%) sepia(70%) saturate(1340%) hue-rotate(159deg) brightness(95%) contrast(98%);
+}
+
+.color-java {
+    filter: invert(18%) sepia(67%) saturate(5781%) hue-rotate(181deg) brightness(96%) contrast(101%);
+}
+
+.color-javascript {
+    filter: invert(90%) sepia(49%) saturate(7496%) hue-rotate(338deg) brightness(102%) contrast(94%);
+}
+
+.color-kotlin {
+    filter: invert(31%) sepia(77%) saturate(3104%) hue-rotate(242deg) brightness(103%) contrast(101%);
+}
+
+.color-mysql {
+    filter: invert(46%) sepia(21%) saturate(1078%) hue-rotate(163deg) brightness(91%) contrast(89%);
+}
+
+.color-oracle {
+    filter: invert(16%) sepia(82%) saturate(7234%) hue-rotate(359deg) brightness(112%) contrast(118%);
+}
+
+.color-spring {
+    filter: invert(64%) sepia(9%) saturate(2242%) hue-rotate(53deg) brightness(93%) contrast(105%);
+}
+
+.color-springboot {
+    filter: invert(64%) sepia(9%) saturate(2242%) hue-rotate(53deg) brightness(93%) contrast(105%);
+}
+
+.color-svn {
+    filter: invert(57%) sepia(4%) saturate(3365%) hue-rotate(178deg) brightness(106%) contrast(92%);
+}
+
+.color-vuejs {
+    filter: invert(71%) sepia(6%) saturate(3017%) hue-rotate(101deg) brightness(91%) contrast(89%);
+}
+
+.color-vuetify {
+    filter: invert(32%) sepia(77%) saturate(1409%) hue-rotate(190deg) brightness(86%) contrast(91%);
+}
+
+.color-matlab {
+    filter: invert(62%) sepia(51%) saturate(5527%) hue-rotate(2deg) brightness(104%) contrast(104%);
+}

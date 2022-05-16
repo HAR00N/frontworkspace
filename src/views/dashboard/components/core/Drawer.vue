@@ -121,6 +121,7 @@ export default {
 				items: [
 					{ title: 'Profile', to: '/Profile/Profile' },
 					{ title: 'Stack', to: '/Profile/Stack' },
+					{ title: 'Timeline', to: '/Profile/Timeline' },
 				],
 			},
 			{
@@ -141,42 +142,42 @@ export default {
 					{ title: 'Game Modeling', to: '/Personal/GameModeling' },
 				],
 			},
-			{
-				icon: 'mdi-view-dashboard',
-				title: 'Dashboard',
-				active: false,
-				items: [{ title: 'Dashboard', to: '/Dashboard' }],
-			},
-			{
-				title: 'Regular Tables',
-				icon: 'mdi-clipboard-outline',
-				active: false,
-				items: [{ title: 'Regular Tables', to: '/tables/regular-tables' }],
-			},
-			{
-				title: 'Typography',
-				icon: 'mdi-format-font',
-				active: false,
-				items: [{ title: 'Typography', to: '/components/typography' }],
-			},
+			// {
+			// 	icon: 'mdi-view-dashboard',
+			// 	title: 'Dashboard',
+			// 	active: false,
+			// 	items: [{ title: 'Dashboard', to: '/Dashboard' }],
+			// },
+			// {
+			// 	title: 'Regular Tables',
+			// 	icon: 'mdi-clipboard-outline',
+			// 	active: false,
+			// 	items: [{ title: 'Regular Tables', to: '/tables/regular-tables' }],
+			// },
+			// {
+			// 	title: 'Typography',
+			// 	icon: 'mdi-format-font',
+			// 	active: false,
+			// 	items: [{ title: 'Typography', to: '/components/typography' }],
+			// },
 			{
 				title: 'Icons',
 				icon: 'mdi-chart-bubble',
 				active: false,
 				items: [{ title: 'Icons', to: '/components/icons' }],
 			},
-			{
-				title: 'Google Maps',
-				icon: 'mdi-map-marker',
-				active: false,
-				items: [{ title: 'Google Maps', to: '/maps/google-maps' }],
-			},
-			{
-				title: 'Notifications',
-				icon: 'mdi-bell',
-				active: false,
-				items: [{ title: 'Notifications', to: '/components/notifications' }],
-			},
+			// {
+			// 	title: 'Google Maps',
+			// 	icon: 'mdi-map-marker',
+			// 	active: false,
+			// 	items: [{ title: 'Google Maps', to: '/maps/google-maps' }],
+			// },
+			// {
+			// 	title: 'Notifications',
+			// 	icon: 'mdi-bell',
+			// 	active: false,
+			// 	items: [{ title: 'Notifications', to: '/components/notifications' }],
+			// },
 		],
 		topLink: [
 			{
