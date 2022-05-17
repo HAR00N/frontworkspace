@@ -1,5 +1,5 @@
 <template>
-  <v-card class="card-shadow border-radius-xl z-index-2">
+  <v-card class="card-shadow border-radius-xl z-index-2" elevation="0">
     <!-- <div class="px-2 py-0">
       <h6 class="text-h6 text-typo font-weight-bold">SIR chart</h6>
     </div> -->

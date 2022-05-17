@@ -3,7 +3,7 @@
     <v-container fluid class="pb-6 pt-3">
       <v-row>
         <v-col cols="12" md="8">
-          <v-card class="card-shadow mb-30 pa-4">
+          <v-card class="card-shadow mb-30 pa-4" elevation="0">
             <div class="pt-2">
               <h2 class="mb-2 mt-2 ml-6 pl-4">Timeline</h2>
             </div>
@@ -16,7 +16,7 @@
               <v-timeline-item
                 v-for="(item, i) in timeline"
                 :key="i"
-                :color="grey"
+                color="grey"
               >
                 <template v-slot:icon>
                   <v-avatar size="40" v-if="item.icon">
@@ -53,12 +53,12 @@
                 </div> -->
 
                 <template>
-                  <h3 :class="`font-weight-light grey--text`">
+                  <h3 :class="`font-weight-light black--text`">
                     {{ item.date }}
                   </h3>
                 </template>
                 <div class="pb-0 pt-0 pr-12 mr-10">
-                  <h3 :class="`font-weight-normal mb-4 grey--text`">
+                  <h3 :class="`font-weight-normal mb-4 black--text`">
                     {{ item.title }}
                   </h3>
                   <div>
@@ -101,10 +101,7 @@
         </v-col>
 
         <v-col cols="12" md="4">
-          <v-card
-            elevation="0"
-            class="card-shadow rounded position-sticky top-1"
-          >
+          <v-card elevation="0" class="position-sticky" rounded="lg">
             <base-material-card
               class="v-card-profile"
               elevation="0"
@@ -175,7 +172,7 @@ export default {
         ],
       },
       {
-        title: "공공데이터 Api 적용",
+        title: "공공 데이터 포털 Api 적용",
         date: "22 APR",
         color: "amber",
         icon: "mdi-application-brackets-outline",
@@ -219,7 +216,7 @@ export default {
         ],
       },
       {
-        title: "한국 부동산원 직원 홈페이지 개발",
+        title: "공공 기업 직원 홈페이지 개발",
         date: "22 FEB",
         color: "amber",
         icon: "mdi-file-document",
@@ -281,7 +278,7 @@ export default {
         ],
       },
       {
-        title: "국립 강릉원주대학교 HIGH 고도화",
+        title: "국립 대학교 사이트 고도화",
         date: "22 FEB",
         color: "orange",
         icon: "mdi-auto-fix",
@@ -330,7 +327,7 @@ export default {
         ],
       },
       {
-        title: "다인리더스 인턴",
+        title: "인턴",
         date: "22 FEB",
         color: "green",
         icon: "mdi-tie",
@@ -376,7 +373,7 @@ export default {
         ],
       },
       {
-        title: "건국대학교 수학 프로그래밍",
+        title: "수학 프로그래밍",
         date: "17 MAR",
         color: "amber",
         src: "src/assets/icon/matlab.svg",
@@ -390,13 +387,13 @@ export default {
         ],
       },
       {
-        title: "건국대학교 편입학",
+        title: "편입학",
         date: "17 MAR",
         color: "orange",
         icon: "mdi-pencil",
       },
       {
-        title: "강남대학교 응용수학과 학술제 최우수상",
+        title: "응용수학과 학술제 최우수상",
         date: "14 SEP",
         color: "cyan",
         icon: "mdi-license",

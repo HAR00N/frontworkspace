@@ -38,7 +38,7 @@
 
 		<div class="mx-3" />
 
-		<v-btn class="ml-1" min-width="0" text to="/">
+		<v-btn class="ml-1" min-width="0" text to="/Profile/Profile">
 			<v-icon size="23">mdi-account</v-icon>
 		</v-btn>
 

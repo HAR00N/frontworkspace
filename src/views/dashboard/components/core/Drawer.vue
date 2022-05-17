@@ -120,7 +120,6 @@ export default {
 				active: false,
 				items: [
 					{ title: 'Profile', to: '/Profile/Profile' },
-					{ title: 'Stack', to: '/Profile/Stack' },
 					{ title: 'Timeline', to: '/Profile/Timeline' },
 				],
 			},
