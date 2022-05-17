@@ -57,7 +57,7 @@
                     {{ item.date }}
                   </h3>
                 </template>
-                <div class="pb-0 pt-0 pr-12 mr-10">
+                <div class="pb-0 pt-0 mr-6">
                   <h3 :class="`font-weight-normal mb-4 black--text`">
                     {{ item.title }}
                   </h3>
