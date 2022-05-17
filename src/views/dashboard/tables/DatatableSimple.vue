@@ -255,7 +255,7 @@
               class="btn-ls me-2 my-2 rounded-sm"
               color="#67748e"
             >
-              <v-icon size="12">ni-ruler-pencil</v-icon>
+              <v-icon size="12">mdi-pencil</v-icon>
             </v-btn>
 
             <v-btn
@@ -269,7 +269,7 @@
               class="btn-ls me-2 my-2 rounded-sm"
               color="#67748e"
             >
-              <v-icon size="12">ni-fat-remove text-lg</v-icon>
+              <v-icon size="12">mdi-close</v-icon>
             </v-btn>
           </template>
         </v-data-table>
@@ -301,8 +301,8 @@
           </v-col>
           <v-col cols="6" class="ml-auto d-flex justify-end">
             <v-pagination
-              prev-icon="fa fa-angle-left"
-              next-icon="fa fa-angle-right"
+              prev-icon="mdi-chevron-left"
+              next-icon="mdi-chevron-right"
               class="pagination"
               color="#cb0c9f"
               v-model="page"
