@@ -38,6 +38,7 @@
             <h4> a=0.4749, b=1.967 </h4>
           </v-card>
         </v-col>
+        <v-spacer/>
       </v-row>
 
       <v-row>
@@ -76,6 +77,7 @@
             </h4>
           </v-card>
         </v-col>
+        <v-spacer/>
       </v-row>
     </v-container>
   </div>
