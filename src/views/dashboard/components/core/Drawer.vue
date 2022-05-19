@@ -128,8 +128,8 @@ export default {
 				title: 'Work Exp',
 				active: false,
 				items: [
-					{ title: 'REB', to: '/Work/RebHrd' },
-					{ title: 'GWNU (QA)', to: '/Work/GwnuQa' },
+					{ title: 'Table Search', to: '/Work/TableSearch' },
+					{ title: 'Open APi', to: '/Work/OpenApi' },
 				],
 			},
 			{

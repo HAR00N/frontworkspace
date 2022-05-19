@@ -1,0 +1,4257 @@
+[
+    {
+        "date": "2020-01-20",
+        "infected": "1",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-21",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-22",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-23",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-24",
+        "infected": "1",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-25",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-26",
+        "infected": "1",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-27",
+        "infected": "1",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-28",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-29",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-30",
+        "infected": "3",
+        "death": "0"
+    },
+    {
+        "date": "2020-01-31",
+        "infected": "4",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-01",
+        "infected": "1",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-02",
+        "infected": "3",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-03",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-04",
+        "infected": "1",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-05",
+        "infected": "5",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-06",
+        "infected": "3",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-07",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-08",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-09",
+        "infected": "3",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-10",
+        "infected": "1",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-11",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-12",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-13",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-14",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-15",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-16",
+        "infected": "2",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-17",
+        "infected": "0",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-18",
+        "infected": "2",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-19",
+        "infected": "34",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-20",
+        "infected": "16",
+        "death": "1"
+    },
+    {
+        "date": "2020-02-21",
+        "infected": "74",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-22",
+        "infected": "190",
+        "death": "2"
+    },
+    {
+        "date": "2020-02-23",
+        "infected": "210",
+        "death": "0"
+    },
+    {
+        "date": "2020-02-24",
+        "infected": "207",
+        "death": "4"
+    },
+    {
+        "date": "2020-02-25",
+        "infected": "130",
+        "death": "1"
+    },
+    {
+        "date": "2020-02-26",
+        "infected": "253",
+        "death": "3"
+    },
+    {
+        "date": "2020-02-27",
+        "infected": "449",
+        "death": "1"
+    },
+    {
+        "date": "2020-02-28",
+        "infected": "427",
+        "death": "1"
+    },
+    {
+        "date": "2020-02-29",
+        "infected": "909",
+        "death": "3"
+    },
+    {
+        "date": "2020-03-01",
+        "infected": "595",
+        "death": "1"
+    },
+    {
+        "date": "2020-03-02",
+        "infected": "686",
+        "death": "6"
+    },
+    {
+        "date": "2020-03-03",
+        "infected": "600",
+        "death": "5"
+    },
+    {
+        "date": "2020-03-04",
+        "infected": "516",
+        "death": "4"
+    },
+    {
+        "date": "2020-03-05",
+        "infected": "438",
+        "death": "3"
+    },
+    {
+        "date": "2020-03-06",
+        "infected": "518",
+        "death": "7"
+    },
+    {
+        "date": "2020-03-07",
+        "infected": "483",
+        "death": "2"
+    },
+    {
+        "date": "2020-03-08",
+        "infected": "367",
+        "death": "6"
+    },
+    {
+        "date": "2020-03-09",
+        "infected": "248",
+        "death": "1"
+    },
+    {
+        "date": "2020-03-10",
+        "infected": "131",
+        "death": "3"
+    },
+    {
+        "date": "2020-03-11",
+        "infected": "242",
+        "death": "6"
+    },
+    {
+        "date": "2020-03-12",
+        "infected": "114",
+        "death": "6"
+    },
+    {
+        "date": "2020-03-13",
+        "infected": "110",
+        "death": "1"
+    },
+    {
+        "date": "2020-03-14",
+        "infected": "107",
+        "death": "5"
+    },
+    {
+        "date": "2020-03-15",
+        "infected": "76",
+        "death": "3"
+    },
+    {
+        "date": "2020-03-16",
+        "infected": "74",
+        "death": "0"
+    },
+    {
+        "date": "2020-03-17",
+        "infected": "84",
+        "death": "6"
+    },
+    {
+        "date": "2020-03-18",
+        "infected": "93",
+        "death": "3"
+    },
+    {
+        "date": "2020-03-19",
+        "infected": "152",
+        "death": "7"
+    },
+    {
+        "date": "2020-03-20",
+        "infected": "87",
+        "death": "3"
+    },
+    {
+        "date": "2020-03-21",
+        "infected": "147",
+        "death": "8"
+    },
+    {
+        "date": "2020-03-22",
+        "infected": "98",
+        "death": "2"
+    },
+    {
+        "date": "2020-03-23",
+        "infected": "64",
+        "death": "7"
+    },
+    {
+        "date": "2020-03-24",
+        "infected": "76",
+        "death": "9"
+    },
+    {
+        "date": "2020-03-25",
+        "infected": "100",
+        "death": "6"
+    },
+    {
+        "date": "2020-03-26",
+        "infected": "104",
+        "death": "5"
+    },
+    {
+        "date": "2020-03-27",
+        "infected": "91",
+        "death": "8"
+    },
+    {
+        "date": "2020-03-28",
+        "infected": "146",
+        "death": "5"
+    },
+    {
+        "date": "2020-03-29",
+        "infected": "105",
+        "death": "8"
+    },
+    {
+        "date": "2020-03-30",
+        "infected": "78",
+        "death": "6"
+    },
+    {
+        "date": "2020-03-31",
+        "infected": "125",
+        "death": "4"
+    },
+    {
+        "date": "2020-04-01",
+        "infected": "101",
+        "death": "3"
+    },
+    {
+        "date": "2020-04-02",
+        "infected": "89",
+        "death": "4"
+    },
+    {
+        "date": "2020-04-03",
+        "infected": "86",
+        "death": "5"
+    },
+    {
+        "date": "2020-04-04",
+        "infected": "94",
+        "death": "3"
+    },
+    {
+        "date": "2020-04-05",
+        "infected": "81",
+        "death": "6"
+    },
+    {
+        "date": "2020-04-06",
+        "infected": "47",
+        "death": "3"
+    },
+    {
+        "date": "2020-04-07",
+        "infected": "47",
+        "death": "6"
+    },
+    {
+        "date": "2020-04-08",
+        "infected": "53",
+        "death": "8"
+    },
+    {
+        "date": "2020-04-09",
+        "infected": "39",
+        "death": "4"
+    },
+    {
+        "date": "2020-04-10",
+        "infected": "27",
+        "death": "4"
+    },
+    {
+        "date": "2020-04-11",
+        "infected": "30",
+        "death": "3"
+    },
+    {
+        "date": "2020-04-12",
+        "infected": "32",
+        "death": "3"
+    },
+    {
+        "date": "2020-04-13",
+        "infected": "25",
+        "death": "3"
+    },
+    {
+        "date": "2020-04-14",
+        "infected": "27",
+        "death": "5"
+    },
+    {
+        "date": "2020-04-15",
+        "infected": "27",
+        "death": "3"
+    },
+    {
+        "date": "2020-04-16",
+        "infected": "22",
+        "death": "4"
+    },
+    {
+        "date": "2020-04-17",
+        "infected": "22",
+        "death": "1"
+    },
+    {
+        "date": "2020-04-18",
+        "infected": "18",
+        "death": "2"
+    },
+    {
+        "date": "2020-04-19",
+        "infected": "8",
+        "death": "2"
+    },
+    {
+        "date": "2020-04-20",
+        "infected": "13",
+        "death": "2"
+    },
+    {
+        "date": "2020-04-21",
+        "infected": "9",
+        "death": "1"
+    },
+    {
+        "date": "2020-04-22",
+        "infected": "11",
+        "death": "1"
+    },
+    {
+        "date": "2020-04-23",
+        "infected": "8",
+        "death": "2"
+    },
+    {
+        "date": "2020-04-24",
+        "infected": "6",
+        "death": "0"
+    },
+    {
+        "date": "2020-04-25",
+        "infected": "10",
+        "death": "0"
+    },
+    {
+        "date": "2020-04-26",
+        "infected": "10",
+        "death": "2"
+    },
+    {
+        "date": "2020-04-27",
+        "infected": "10",
+        "death": "1"
+    },
+    {
+        "date": "2020-04-28",
+        "infected": "14",
+        "death": "1"
+    },
+    {
+        "date": "2020-04-29",
+        "infected": "9",
+        "death": "2"
+    },
+    {
+        "date": "2020-04-30",
+        "infected": "4",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-01",
+        "infected": "9",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-02",
+        "infected": "6",
+        "death": "2"
+    },
+    {
+        "date": "2020-05-03",
+        "infected": "13",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-04",
+        "infected": "8",
+        "death": "2"
+    },
+    {
+        "date": "2020-05-05",
+        "infected": "3",
+        "death": "2"
+    },
+    {
+        "date": "2020-05-06",
+        "infected": "2",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-07",
+        "infected": "4",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-08",
+        "infected": "12",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-09",
+        "infected": "18",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-10",
+        "infected": "34",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-11",
+        "infected": "35",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-12",
+        "infected": "27",
+        "death": "2"
+    },
+    {
+        "date": "2020-05-13",
+        "infected": "26",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-14",
+        "infected": "29",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-15",
+        "infected": "27",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-16",
+        "infected": "19",
+        "death": "2"
+    },
+    {
+        "date": "2020-05-17",
+        "infected": "13",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-18",
+        "infected": "15",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-19",
+        "infected": "13",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-20",
+        "infected": "32",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-21",
+        "infected": "12",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-22",
+        "infected": "20",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-23",
+        "infected": "23",
+        "death": "2"
+    },
+    {
+        "date": "2020-05-24",
+        "infected": "25",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-25",
+        "infected": "16",
+        "death": "1"
+    },
+    {
+        "date": "2020-05-26",
+        "infected": "19",
+        "death": "2"
+    },
+    {
+        "date": "2020-05-27",
+        "infected": "40",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-28",
+        "infected": "79",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-29",
+        "infected": "58",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-30",
+        "infected": "39",
+        "death": "0"
+    },
+    {
+        "date": "2020-05-31",
+        "infected": "27",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-01",
+        "infected": "35",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-02",
+        "infected": "38",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-03",
+        "infected": "49",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-04",
+        "infected": "39",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-05",
+        "infected": "39",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-06",
+        "infected": "51",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-07",
+        "infected": "57",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-08",
+        "infected": "37",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-09",
+        "infected": "38",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-10",
+        "infected": "50",
+        "death": "2"
+    },
+    {
+        "date": "2020-06-11",
+        "infected": "45",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-12",
+        "infected": "56",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-13",
+        "infected": "48",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-14",
+        "infected": "34",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-15",
+        "infected": "37",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-16",
+        "infected": "34",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-17",
+        "infected": "43",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-18",
+        "infected": "59",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-19",
+        "infected": "49",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-20",
+        "infected": "67",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-21",
+        "infected": "48",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-22",
+        "infected": "17",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-23",
+        "infected": "46",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-24",
+        "infected": "51",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-25",
+        "infected": "28",
+        "death": "1"
+    },
+    {
+        "date": "2020-06-26",
+        "infected": "39",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-27",
+        "infected": "51",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-28",
+        "infected": "62",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-29",
+        "infected": "42",
+        "death": "0"
+    },
+    {
+        "date": "2020-06-30",
+        "infected": "42",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-01",
+        "infected": "51",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-02",
+        "infected": "54",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-03",
+        "infected": "61",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-04",
+        "infected": "63",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-05",
+        "infected": "61",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-06",
+        "infected": "48",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-07",
+        "infected": "44",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-08",
+        "infected": "62",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-09",
+        "infected": "50",
+        "death": "2"
+    },
+    {
+        "date": "2020-07-10",
+        "infected": "45",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-11",
+        "infected": "35",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-12",
+        "infected": "44",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-13",
+        "infected": "62",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-14",
+        "infected": "33",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-15",
+        "infected": "39",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-16",
+        "infected": "61",
+        "death": "2"
+    },
+    {
+        "date": "2020-07-17",
+        "infected": "60",
+        "death": "2"
+    },
+    {
+        "date": "2020-07-18",
+        "infected": "39",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-19",
+        "infected": "34",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-20",
+        "infected": "26",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-21",
+        "infected": "45",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-22",
+        "infected": "63",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-23",
+        "infected": "59",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-24",
+        "infected": "41",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-25",
+        "infected": "113",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-26",
+        "infected": "58",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-27",
+        "infected": "25",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-28",
+        "infected": "28",
+        "death": "1"
+    },
+    {
+        "date": "2020-07-29",
+        "infected": "48",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-30",
+        "infected": "18",
+        "death": "0"
+    },
+    {
+        "date": "2020-07-31",
+        "infected": "36",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-01",
+        "infected": "31",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-02",
+        "infected": "30",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-03",
+        "infected": "23",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-04",
+        "infected": "34",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-05",
+        "infected": "33",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-06",
+        "infected": "43",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-07",
+        "infected": "20",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-08",
+        "infected": "43",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-09",
+        "infected": "36",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-10",
+        "infected": "28",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-11",
+        "infected": "34",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-12",
+        "infected": "54",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-13",
+        "infected": "56",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-14",
+        "infected": "103",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-15",
+        "infected": "166",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-16",
+        "infected": "279",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-17",
+        "infected": "197",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-18",
+        "infected": "246",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-19",
+        "infected": "297",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-20",
+        "infected": "288",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-21",
+        "infected": "324",
+        "death": "2"
+    },
+    {
+        "date": "2020-08-22",
+        "infected": "332",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-23",
+        "infected": "396",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-24",
+        "infected": "266",
+        "death": "0"
+    },
+    {
+        "date": "2020-08-25",
+        "infected": "280",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-26",
+        "infected": "320",
+        "death": "2"
+    },
+    {
+        "date": "2020-08-27",
+        "infected": "441",
+        "death": "1"
+    },
+    {
+        "date": "2020-08-28",
+        "infected": "371",
+        "death": "3"
+    },
+    {
+        "date": "2020-08-29",
+        "infected": "323",
+        "death": "5"
+    },
+    {
+        "date": "2020-08-30",
+        "infected": "299",
+        "death": "2"
+    },
+    {
+        "date": "2020-08-31",
+        "infected": "248",
+        "death": "1"
+    },
+    {
+        "date": "2020-09-01",
+        "infected": "235",
+        "death": "0"
+    },
+    {
+        "date": "2020-09-02",
+        "infected": "267",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-03",
+        "infected": "195",
+        "death": "3"
+    },
+    {
+        "date": "2020-09-04",
+        "infected": "198",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-05",
+        "infected": "168",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-06",
+        "infected": "167",
+        "death": "1"
+    },
+    {
+        "date": "2020-09-07",
+        "infected": "119",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-08",
+        "infected": "136",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-09",
+        "infected": "156",
+        "death": "3"
+    },
+    {
+        "date": "2020-09-10",
+        "infected": "155",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-11",
+        "infected": "176",
+        "death": "4"
+    },
+    {
+        "date": "2020-09-12",
+        "infected": "136",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-13",
+        "infected": "121",
+        "death": "3"
+    },
+    {
+        "date": "2020-09-14",
+        "infected": "109",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-15",
+        "infected": "106",
+        "death": "4"
+    },
+    {
+        "date": "2020-09-16",
+        "infected": "113",
+        "death": "0"
+    },
+    {
+        "date": "2020-09-17",
+        "infected": "153",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-18",
+        "infected": "126",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-19",
+        "infected": "110",
+        "death": "1"
+    },
+    {
+        "date": "2020-09-20",
+        "infected": "82",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-21",
+        "infected": "70",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-22",
+        "infected": "61",
+        "death": "3"
+    },
+    {
+        "date": "2020-09-23",
+        "infected": "110",
+        "death": "0"
+    },
+    {
+        "date": "2020-09-24",
+        "infected": "125",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-25",
+        "infected": "114",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-26",
+        "infected": "61",
+        "death": "4"
+    },
+    {
+        "date": "2020-09-27",
+        "infected": "95",
+        "death": "2"
+    },
+    {
+        "date": "2020-09-28",
+        "infected": "50",
+        "death": "5"
+    },
+    {
+        "date": "2020-09-29",
+        "infected": "38",
+        "death": "1"
+    },
+    {
+        "date": "2020-09-30",
+        "infected": "113",
+        "death": "6"
+    },
+    {
+        "date": "2020-10-01",
+        "infected": "77",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-02",
+        "infected": "63",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-03",
+        "infected": "75",
+        "death": "4"
+    },
+    {
+        "date": "2020-10-04",
+        "infected": "64",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-05",
+        "infected": "73",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-06",
+        "infected": "75",
+        "death": "0"
+    },
+    {
+        "date": "2020-10-07",
+        "infected": "114",
+        "death": "3"
+    },
+    {
+        "date": "2020-10-08",
+        "infected": "69",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-09",
+        "infected": "54",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-10",
+        "infected": "72",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-11",
+        "infected": "58",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-12",
+        "infected": "98",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-13",
+        "infected": "91",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-14",
+        "infected": "84",
+        "death": "4"
+    },
+    {
+        "date": "2020-10-15",
+        "infected": "110",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-16",
+        "infected": "47",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-17",
+        "infected": "73",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-18",
+        "infected": "91",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-19",
+        "infected": "76",
+        "death": "0"
+    },
+    {
+        "date": "2020-10-20",
+        "infected": "58",
+        "death": "3"
+    },
+    {
+        "date": "2020-10-21",
+        "infected": "89",
+        "death": "3"
+    },
+    {
+        "date": "2020-10-22",
+        "infected": "121",
+        "death": "3"
+    },
+    {
+        "date": "2020-10-23",
+        "infected": "155",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-24",
+        "infected": "77",
+        "death": "2"
+    },
+    {
+        "date": "2020-10-25",
+        "infected": "61",
+        "death": "0"
+    },
+    {
+        "date": "2020-10-26",
+        "infected": "119",
+        "death": "0"
+    },
+    {
+        "date": "2020-10-27",
+        "infected": "88",
+        "death": "3"
+    },
+    {
+        "date": "2020-10-28",
+        "infected": "103",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-29",
+        "infected": "125",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-30",
+        "infected": "113",
+        "death": "1"
+    },
+    {
+        "date": "2020-10-31",
+        "infected": "127",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-01",
+        "infected": "124",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-02",
+        "infected": "97",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-03",
+        "infected": "75",
+        "death": "4"
+    },
+    {
+        "date": "2020-11-04",
+        "infected": "117",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-05",
+        "infected": "125",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-06",
+        "infected": "145",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-07",
+        "infected": "89",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-08",
+        "infected": "143",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-09",
+        "infected": "126",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-10",
+        "infected": "100",
+        "death": "5"
+    },
+    {
+        "date": "2020-11-11",
+        "infected": "145",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-12",
+        "infected": "143",
+        "death": "0"
+    },
+    {
+        "date": "2020-11-13",
+        "infected": "191",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-14",
+        "infected": "205",
+        "death": "4"
+    },
+    {
+        "date": "2020-11-15",
+        "infected": "208",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-16",
+        "infected": "222",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-17",
+        "infected": "230",
+        "death": "0"
+    },
+    {
+        "date": "2020-11-18",
+        "infected": "285",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-19",
+        "infected": "325",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-20",
+        "infected": "348",
+        "death": "3"
+    },
+    {
+        "date": "2020-11-21",
+        "infected": "386",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-22",
+        "infected": "330",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-23",
+        "infected": "271",
+        "death": "4"
+    },
+    {
+        "date": "2020-11-24",
+        "infected": "349",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-25",
+        "infected": "382",
+        "death": "3"
+    },
+    {
+        "date": "2020-11-26",
+        "infected": "581",
+        "death": "2"
+    },
+    {
+        "date": "2020-11-27",
+        "infected": "555",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-28",
+        "infected": "503",
+        "death": "6"
+    },
+    {
+        "date": "2020-11-29",
+        "infected": "450",
+        "death": "1"
+    },
+    {
+        "date": "2020-11-30",
+        "infected": "438",
+        "death": "3"
+    },
+    {
+        "date": "2020-12-01",
+        "infected": "451",
+        "death": "0"
+    },
+    {
+        "date": "2020-12-02",
+        "infected": "511",
+        "death": "0"
+    },
+    {
+        "date": "2020-12-03",
+        "infected": "540",
+        "death": "3"
+    },
+    {
+        "date": "2020-12-04",
+        "infected": "628",
+        "death": "7"
+    },
+    {
+        "date": "2020-12-05",
+        "infected": "577",
+        "death": "4"
+    },
+    {
+        "date": "2020-12-06",
+        "infected": "631",
+        "death": "5"
+    },
+    {
+        "date": "2020-12-07",
+        "infected": "615",
+        "death": "4"
+    },
+    {
+        "date": "2020-12-08",
+        "infected": "587",
+        "death": "3"
+    },
+    {
+        "date": "2020-12-09",
+        "infected": "670",
+        "death": "4"
+    },
+    {
+        "date": "2020-12-10",
+        "infected": "680",
+        "death": "8"
+    },
+    {
+        "date": "2020-12-11",
+        "infected": "689",
+        "death": "8"
+    },
+    {
+        "date": "2020-12-12",
+        "infected": "950",
+        "death": "6"
+    },
+    {
+        "date": "2020-12-13",
+        "infected": "1,030",
+        "death": "2"
+    },
+    {
+        "date": "2020-12-14",
+        "infected": "718",
+        "death": "7"
+    },
+    {
+        "date": "2020-12-15",
+        "infected": "880",
+        "death": "13"
+    },
+    {
+        "date": "2020-12-16",
+        "infected": "1,078",
+        "death": "12"
+    },
+    {
+        "date": "2020-12-17",
+        "infected": "1,014",
+        "death": "22"
+    },
+    {
+        "date": "2020-12-18",
+        "infected": "1,064",
+        "death": "11"
+    },
+    {
+        "date": "2020-12-19",
+        "infected": "1,045",
+        "death": "14"
+    },
+    {
+        "date": "2020-12-20",
+        "infected": "1,096",
+        "death": "15"
+    },
+    {
+        "date": "2020-12-21",
+        "infected": "924",
+        "death": "24"
+    },
+    {
+        "date": "2020-12-22",
+        "infected": "866",
+        "death": "24"
+    },
+    {
+        "date": "2020-12-23",
+        "infected": "1,090",
+        "death": "17"
+    },
+    {
+        "date": "2020-12-24",
+        "infected": "985",
+        "death": "17"
+    },
+    {
+        "date": "2020-12-25",
+        "infected": "1,240",
+        "death": "17"
+    },
+    {
+        "date": "2020-12-26",
+        "infected": "1,131",
+        "death": "20"
+    },
+    {
+        "date": "2020-12-27",
+        "infected": "970",
+        "death": "15"
+    },
+    {
+        "date": "2020-12-28",
+        "infected": "806",
+        "death": "11"
+    },
+    {
+        "date": "2020-12-29",
+        "infected": "1,044",
+        "death": "40"
+    },
+    {
+        "date": "2020-12-30",
+        "infected": "1,050",
+        "death": "20"
+    },
+    {
+        "date": "2020-12-31",
+        "infected": "967",
+        "death": "21"
+    },
+    {
+        "date": "2021-01-01",
+        "infected": "1,027",
+        "death": "17"
+    },
+    {
+        "date": "2021-01-02",
+        "infected": "820",
+        "death": "25"
+    },
+    {
+        "date": "2021-01-03",
+        "infected": "657",
+        "death": "20"
+    },
+    {
+        "date": "2021-01-04",
+        "infected": "1,020",
+        "death": "19"
+    },
+    {
+        "date": "2021-01-05",
+        "infected": "714",
+        "death": "26"
+    },
+    {
+        "date": "2021-01-06",
+        "infected": "838",
+        "death": "20"
+    },
+    {
+        "date": "2021-01-07",
+        "infected": "869",
+        "death": "19"
+    },
+    {
+        "date": "2021-01-08",
+        "infected": "674",
+        "death": "35"
+    },
+    {
+        "date": "2021-01-09",
+        "infected": "641",
+        "death": "19"
+    },
+    {
+        "date": "2021-01-10",
+        "infected": "657",
+        "death": "25"
+    },
+    {
+        "date": "2021-01-11",
+        "infected": "451",
+        "death": "15"
+    },
+    {
+        "date": "2021-01-12",
+        "infected": "537",
+        "death": "25"
+    },
+    {
+        "date": "2021-01-13",
+        "infected": "561",
+        "death": "20"
+    },
+    {
+        "date": "2021-01-14",
+        "infected": "524",
+        "death": "10"
+    },
+    {
+        "date": "2021-01-15",
+        "infected": "512",
+        "death": "22"
+    },
+    {
+        "date": "2021-01-16",
+        "infected": "580",
+        "death": "19"
+    },
+    {
+        "date": "2021-01-17",
+        "infected": "520",
+        "death": "13"
+    },
+    {
+        "date": "2021-01-18",
+        "infected": "389",
+        "death": "15"
+    },
+    {
+        "date": "2021-01-19",
+        "infected": "386",
+        "death": "19"
+    },
+    {
+        "date": "2021-01-20",
+        "infected": "404",
+        "death": "17"
+    },
+    {
+        "date": "2021-01-21",
+        "infected": "400",
+        "death": "16"
+    },
+    {
+        "date": "2021-01-22",
+        "infected": "346",
+        "death": "12"
+    },
+    {
+        "date": "2021-01-23",
+        "infected": "431",
+        "death": "9"
+    },
+    {
+        "date": "2021-01-24",
+        "infected": "392",
+        "death": "12"
+    },
+    {
+        "date": "2021-01-25",
+        "infected": "437",
+        "death": "11"
+    },
+    {
+        "date": "2021-01-26",
+        "infected": "349",
+        "death": "11"
+    },
+    {
+        "date": "2021-01-27",
+        "infected": "559",
+        "death": "7"
+    },
+    {
+        "date": "2021-01-28",
+        "infected": "497",
+        "death": "8"
+    },
+    {
+        "date": "2021-01-29",
+        "infected": "469",
+        "death": "13"
+    },
+    {
+        "date": "2021-01-30",
+        "infected": "456",
+        "death": "15"
+    },
+    {
+        "date": "2021-01-31",
+        "infected": "354",
+        "death": "6"
+    },
+    {
+        "date": "2021-02-01",
+        "infected": "305",
+        "death": "5"
+    },
+    {
+        "date": "2021-02-02",
+        "infected": "336",
+        "death": "10"
+    },
+    {
+        "date": "2021-02-03",
+        "infected": "467",
+        "death": "6"
+    },
+    {
+        "date": "2021-02-04",
+        "infected": "451",
+        "death": "7"
+    },
+    {
+        "date": "2021-02-05",
+        "infected": "370",
+        "death": "11"
+    },
+    {
+        "date": "2021-02-06",
+        "infected": "390",
+        "death": "5"
+    },
+    {
+        "date": "2021-02-07",
+        "infected": "371",
+        "death": "7"
+    },
+    {
+        "date": "2021-02-08",
+        "infected": "288",
+        "death": "3"
+    },
+    {
+        "date": "2021-02-09",
+        "infected": "303",
+        "death": "8"
+    },
+    {
+        "date": "2021-02-10",
+        "infected": "444",
+        "death": "4"
+    },
+    {
+        "date": "2021-02-11",
+        "infected": "504",
+        "death": "10"
+    },
+    {
+        "date": "2021-02-12",
+        "infected": "403",
+        "death": "11"
+    },
+    {
+        "date": "2021-02-13",
+        "infected": "362",
+        "death": "7"
+    },
+    {
+        "date": "2021-02-14",
+        "infected": "326",
+        "death": "8"
+    },
+    {
+        "date": "2021-02-15",
+        "infected": "343",
+        "death": "5"
+    },
+    {
+        "date": "2021-02-16",
+        "infected": "457",
+        "death": "7"
+    },
+    {
+        "date": "2021-02-17",
+        "infected": "621",
+        "death": "4"
+    },
+    {
+        "date": "2021-02-18",
+        "infected": "621",
+        "death": "6"
+    },
+    {
+        "date": "2021-02-19",
+        "infected": "561",
+        "death": "6"
+    },
+    {
+        "date": "2021-02-20",
+        "infected": "448",
+        "death": "3"
+    },
+    {
+        "date": "2021-02-21",
+        "infected": "416",
+        "death": "4"
+    },
+    {
+        "date": "2021-02-22",
+        "infected": "332",
+        "death": "5"
+    },
+    {
+        "date": "2021-02-23",
+        "infected": "356",
+        "death": "11"
+    },
+    {
+        "date": "2021-02-24",
+        "infected": "440",
+        "death": "3"
+    },
+    {
+        "date": "2021-02-25",
+        "infected": "395",
+        "death": "5"
+    },
+    {
+        "date": "2021-02-26",
+        "infected": "387",
+        "death": "4"
+    },
+    {
+        "date": "2021-02-27",
+        "infected": "415",
+        "death": "10"
+    },
+    {
+        "date": "2021-02-28",
+        "infected": "355",
+        "death": "8"
+    },
+    {
+        "date": "2021-03-01",
+        "infected": "355",
+        "death": "2"
+    },
+    {
+        "date": "2021-03-02",
+        "infected": "344",
+        "death": "1"
+    },
+    {
+        "date": "2021-03-03",
+        "infected": "444",
+        "death": "6"
+    },
+    {
+        "date": "2021-03-04",
+        "infected": "424",
+        "death": "7"
+    },
+    {
+        "date": "2021-03-05",
+        "infected": "398",
+        "death": "8"
+    },
+    {
+        "date": "2021-03-06",
+        "infected": "418",
+        "death": "5"
+    },
+    {
+        "date": "2021-03-07",
+        "infected": "416",
+        "death": "2"
+    },
+    {
+        "date": "2021-03-08",
+        "infected": "346",
+        "death": "8"
+    },
+    {
+        "date": "2021-03-09",
+        "infected": "446",
+        "death": "3"
+    },
+    {
+        "date": "2021-03-10",
+        "infected": "470",
+        "death": "3"
+    },
+    {
+        "date": "2021-03-11",
+        "infected": "465",
+        "death": "4"
+    },
+    {
+        "date": "2021-03-12",
+        "infected": "488",
+        "death": "10"
+    },
+    {
+        "date": "2021-03-13",
+        "infected": "490",
+        "death": "5"
+    },
+    {
+        "date": "2021-03-14",
+        "infected": "459",
+        "death": "2"
+    },
+    {
+        "date": "2021-03-15",
+        "infected": "379",
+        "death": "6"
+    },
+    {
+        "date": "2021-03-16",
+        "infected": "363",
+        "death": "3"
+    },
+    {
+        "date": "2021-03-17",
+        "infected": "469",
+        "death": "8"
+    },
+    {
+        "date": "2021-03-18",
+        "infected": "445",
+        "death": "2"
+    },
+    {
+        "date": "2021-03-19",
+        "infected": "463",
+        "death": "2"
+    },
+    {
+        "date": "2021-03-20",
+        "infected": "447",
+        "death": "3"
+    },
+    {
+        "date": "2021-03-21",
+        "infected": "456",
+        "death": "3"
+    },
+    {
+        "date": "2021-03-22",
+        "infected": "415",
+        "death": "1"
+    },
+    {
+        "date": "2021-03-23",
+        "infected": "346",
+        "death": "7"
+    },
+    {
+        "date": "2021-03-24",
+        "infected": "428",
+        "death": "3"
+    },
+    {
+        "date": "2021-03-25",
+        "infected": "430",
+        "death": "2"
+    },
+    {
+        "date": "2021-03-26",
+        "infected": "489",
+        "death": "7"
+    },
+    {
+        "date": "2021-03-27",
+        "infected": "505",
+        "death": "5"
+    },
+    {
+        "date": "2021-03-28",
+        "infected": "482",
+        "death": "1"
+    },
+    {
+        "date": "2021-03-29",
+        "infected": "382",
+        "death": "4"
+    },
+    {
+        "date": "2021-03-30",
+        "infected": "447",
+        "death": "3"
+    },
+    {
+        "date": "2021-03-31",
+        "infected": "506",
+        "death": "2"
+    },
+    {
+        "date": "2021-04-01",
+        "infected": "551",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-02",
+        "infected": "557",
+        "death": "2"
+    },
+    {
+        "date": "2021-04-03",
+        "infected": "543",
+        "death": "3"
+    },
+    {
+        "date": "2021-04-04",
+        "infected": "543",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-05",
+        "infected": "473",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-06",
+        "infected": "477",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-07",
+        "infected": "668",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-08",
+        "infected": "700",
+        "death": "2"
+    },
+    {
+        "date": "2021-04-09",
+        "infected": "671",
+        "death": "6"
+    },
+    {
+        "date": "2021-04-10",
+        "infected": "677",
+        "death": "1"
+    },
+    {
+        "date": "2021-04-11",
+        "infected": "614",
+        "death": "3"
+    },
+    {
+        "date": "2021-04-12",
+        "infected": "587",
+        "death": "2"
+    },
+    {
+        "date": "2021-04-13",
+        "infected": "542",
+        "death": "5"
+    },
+    {
+        "date": "2021-04-14",
+        "infected": "731",
+        "death": "7"
+    },
+    {
+        "date": "2021-04-15",
+        "infected": "698",
+        "death": "6"
+    },
+    {
+        "date": "2021-04-16",
+        "infected": "673",
+        "death": "2"
+    },
+    {
+        "date": "2021-04-17",
+        "infected": "658",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-18",
+        "infected": "671",
+        "death": "3"
+    },
+    {
+        "date": "2021-04-19",
+        "infected": "532",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-20",
+        "infected": "549",
+        "death": "1"
+    },
+    {
+        "date": "2021-04-21",
+        "infected": "731",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-22",
+        "infected": "735",
+        "death": "2"
+    },
+    {
+        "date": "2021-04-23",
+        "infected": "797",
+        "death": "3"
+    },
+    {
+        "date": "2021-04-24",
+        "infected": "785",
+        "death": "1"
+    },
+    {
+        "date": "2021-04-25",
+        "infected": "644",
+        "death": "1"
+    },
+    {
+        "date": "2021-04-26",
+        "infected": "499",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-27",
+        "infected": "512",
+        "death": "3"
+    },
+    {
+        "date": "2021-04-28",
+        "infected": "769",
+        "death": "1"
+    },
+    {
+        "date": "2021-04-29",
+        "infected": "679",
+        "death": "4"
+    },
+    {
+        "date": "2021-04-30",
+        "infected": "661",
+        "death": "3"
+    },
+    {
+        "date": "2021-05-01",
+        "infected": "627",
+        "death": "3"
+    },
+    {
+        "date": "2021-05-02",
+        "infected": "606",
+        "death": "2"
+    },
+    {
+        "date": "2021-05-03",
+        "infected": "488",
+        "death": "1"
+    },
+    {
+        "date": "2021-05-04",
+        "infected": "541",
+        "death": "6"
+    },
+    {
+        "date": "2021-05-05",
+        "infected": "676",
+        "death": "7"
+    },
+    {
+        "date": "2021-05-06",
+        "infected": "574",
+        "death": "4"
+    },
+    {
+        "date": "2021-05-07",
+        "infected": "525",
+        "death": "9"
+    },
+    {
+        "date": "2021-05-08",
+        "infected": "701",
+        "death": "5"
+    },
+    {
+        "date": "2021-05-09",
+        "infected": "564",
+        "death": "9"
+    },
+    {
+        "date": "2021-05-10",
+        "infected": "463",
+        "death": "1"
+    },
+    {
+        "date": "2021-05-11",
+        "infected": "510",
+        "death": "4"
+    },
+    {
+        "date": "2021-05-12",
+        "infected": "634",
+        "death": "5"
+    },
+    {
+        "date": "2021-05-13",
+        "infected": "715",
+        "death": "7"
+    },
+    {
+        "date": "2021-05-14",
+        "infected": "747",
+        "death": "2"
+    },
+    {
+        "date": "2021-05-15",
+        "infected": "681",
+        "death": "3"
+    },
+    {
+        "date": "2021-05-16",
+        "infected": "610",
+        "death": "4"
+    },
+    {
+        "date": "2021-05-17",
+        "infected": "619",
+        "death": "3"
+    },
+    {
+        "date": "2021-05-18",
+        "infected": "528",
+        "death": "1"
+    },
+    {
+        "date": "2021-05-19",
+        "infected": "654",
+        "death": "8"
+    },
+    {
+        "date": "2021-05-20",
+        "infected": "646",
+        "death": "4"
+    },
+    {
+        "date": "2021-05-21",
+        "infected": "561",
+        "death": "6"
+    },
+    {
+        "date": "2021-05-22",
+        "infected": "666",
+        "death": "4"
+    },
+    {
+        "date": "2021-05-23",
+        "infected": "585",
+        "death": "5"
+    },
+    {
+        "date": "2021-05-24",
+        "infected": "530",
+        "death": "3"
+    },
+    {
+        "date": "2021-05-25",
+        "infected": "516",
+        "death": "4"
+    },
+    {
+        "date": "2021-05-26",
+        "infected": "705",
+        "death": "2"
+    },
+    {
+        "date": "2021-05-27",
+        "infected": "629",
+        "death": "3"
+    },
+    {
+        "date": "2021-05-28",
+        "infected": "587",
+        "death": "3"
+    },
+    {
+        "date": "2021-05-29",
+        "infected": "533",
+        "death": "5"
+    },
+    {
+        "date": "2021-05-30",
+        "infected": "480",
+        "death": "6"
+    },
+    {
+        "date": "2021-05-31",
+        "infected": "430",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-01",
+        "infected": "459",
+        "death": "4"
+    },
+    {
+        "date": "2021-06-02",
+        "infected": "677",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-03",
+        "infected": "681",
+        "death": "3"
+    },
+    {
+        "date": "2021-06-04",
+        "infected": "695",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-05",
+        "infected": "744",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-06",
+        "infected": "556",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-07",
+        "infected": "485",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-08",
+        "infected": "454",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-09",
+        "infected": "602",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-10",
+        "infected": "610",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-11",
+        "infected": "556",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-12",
+        "infected": "565",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-13",
+        "infected": "452",
+        "death": "3"
+    },
+    {
+        "date": "2021-06-14",
+        "infected": "399",
+        "death": "3"
+    },
+    {
+        "date": "2021-06-15",
+        "infected": "373",
+        "death": "4"
+    },
+    {
+        "date": "2021-06-16",
+        "infected": "545",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-17",
+        "infected": "540",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-18",
+        "infected": "507",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-19",
+        "infected": "482",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-20",
+        "infected": "429",
+        "death": "5"
+    },
+    {
+        "date": "2021-06-21",
+        "infected": "357",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-22",
+        "infected": "394",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-23",
+        "infected": "645",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-24",
+        "infected": "610",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-25",
+        "infected": "634",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-26",
+        "infected": "668",
+        "death": "3"
+    },
+    {
+        "date": "2021-06-27",
+        "infected": "614",
+        "death": "1"
+    },
+    {
+        "date": "2021-06-28",
+        "infected": "501",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-29",
+        "infected": "595",
+        "death": "2"
+    },
+    {
+        "date": "2021-06-30",
+        "infected": "794",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-01",
+        "infected": "761",
+        "death": "3"
+    },
+    {
+        "date": "2021-07-02",
+        "infected": "825",
+        "death": "3"
+    },
+    {
+        "date": "2021-07-03",
+        "infected": "794",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-04",
+        "infected": "743",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-05",
+        "infected": "711",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-06",
+        "infected": "746",
+        "death": "4"
+    },
+    {
+        "date": "2021-07-07",
+        "infected": "1,211",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-08",
+        "infected": "1,275",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-09",
+        "infected": "1,316",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-10",
+        "infected": "1,378",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-11",
+        "infected": "1,324",
+        "death": "5"
+    },
+    {
+        "date": "2021-07-12",
+        "infected": "1,100",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-13",
+        "infected": "1,150",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-14",
+        "infected": "1,613",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-15",
+        "infected": "1,599",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-16",
+        "infected": "1,535",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-17",
+        "infected": "1,449",
+        "death": "4"
+    },
+    {
+        "date": "2021-07-18",
+        "infected": "1,453",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-19",
+        "infected": "1,251",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-20",
+        "infected": "1,278",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-21",
+        "infected": "1,781",
+        "death": "1"
+    },
+    {
+        "date": "2021-07-22",
+        "infected": "1,841",
+        "death": "3"
+    },
+    {
+        "date": "2021-07-23",
+        "infected": "1,629",
+        "death": "3"
+    },
+    {
+        "date": "2021-07-24",
+        "infected": "1,627",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-25",
+        "infected": "1,487",
+        "death": "5"
+    },
+    {
+        "date": "2021-07-26",
+        "infected": "1,318",
+        "death": "4"
+    },
+    {
+        "date": "2021-07-27",
+        "infected": "1,363",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-28",
+        "infected": "1,895",
+        "death": "4"
+    },
+    {
+        "date": "2021-07-29",
+        "infected": "1,673",
+        "death": "2"
+    },
+    {
+        "date": "2021-07-30",
+        "infected": "1,710",
+        "death": "4"
+    },
+    {
+        "date": "2021-07-31",
+        "infected": "1,538",
+        "death": "6"
+    },
+    {
+        "date": "2021-08-01",
+        "infected": "1,442",
+        "death": "3"
+    },
+    {
+        "date": "2021-08-02",
+        "infected": "1,218",
+        "death": "1"
+    },
+    {
+        "date": "2021-08-03",
+        "infected": "1,200",
+        "death": "5"
+    },
+    {
+        "date": "2021-08-04",
+        "infected": "1,725",
+        "death": "2"
+    },
+    {
+        "date": "2021-08-05",
+        "infected": "1,775",
+        "death": "3"
+    },
+    {
+        "date": "2021-08-06",
+        "infected": "1,704",
+        "death": "4"
+    },
+    {
+        "date": "2021-08-07",
+        "infected": "1,823",
+        "death": "3"
+    },
+    {
+        "date": "2021-08-08",
+        "infected": "1,727",
+        "death": "5"
+    },
+    {
+        "date": "2021-08-09",
+        "infected": "1,491",
+        "death": "4"
+    },
+    {
+        "date": "2021-08-10",
+        "infected": "1,537",
+        "death": "9"
+    },
+    {
+        "date": "2021-08-11",
+        "infected": "2,221",
+        "death": "1"
+    },
+    {
+        "date": "2021-08-12",
+        "infected": "1,987",
+        "death": "3"
+    },
+    {
+        "date": "2021-08-13",
+        "infected": "1,989",
+        "death": "6"
+    },
+    {
+        "date": "2021-08-14",
+        "infected": "1,928",
+        "death": "4"
+    },
+    {
+        "date": "2021-08-15",
+        "infected": "1,816",
+        "death": "8"
+    },
+    {
+        "date": "2021-08-16",
+        "infected": "1,554",
+        "death": "11"
+    },
+    {
+        "date": "2021-08-17",
+        "infected": "1,372",
+        "death": "6"
+    },
+    {
+        "date": "2021-08-18",
+        "infected": "1,803",
+        "death": "5"
+    },
+    {
+        "date": "2021-08-19",
+        "infected": "2,152",
+        "death": "13"
+    },
+    {
+        "date": "2021-08-20",
+        "infected": "2,050",
+        "death": "6"
+    },
+    {
+        "date": "2021-08-21",
+        "infected": "1,876",
+        "death": "5"
+    },
+    {
+        "date": "2021-08-22",
+        "infected": "1,626",
+        "death": "13"
+    },
+    {
+        "date": "2021-08-23",
+        "infected": "1,417",
+        "death": "7"
+    },
+    {
+        "date": "2021-08-24",
+        "infected": "1,507",
+        "death": "6"
+    },
+    {
+        "date": "2021-08-25",
+        "infected": "2,154",
+        "death": "9"
+    },
+    {
+        "date": "2021-08-26",
+        "infected": "1,882",
+        "death": "20"
+    },
+    {
+        "date": "2021-08-27",
+        "infected": "1,837",
+        "death": "8"
+    },
+    {
+        "date": "2021-08-28",
+        "infected": "1,791",
+        "death": "11"
+    },
+    {
+        "date": "2021-08-29",
+        "infected": "1,619",
+        "death": "3"
+    },
+    {
+        "date": "2021-08-30",
+        "infected": "1,485",
+        "death": "5"
+    },
+    {
+        "date": "2021-08-31",
+        "infected": "1,369",
+        "death": "1"
+    },
+    {
+        "date": "2021-09-01",
+        "infected": "2,024",
+        "death": "7"
+    },
+    {
+        "date": "2021-09-02",
+        "infected": "1,959",
+        "death": "11"
+    },
+    {
+        "date": "2021-09-03",
+        "infected": "1,708",
+        "death": "5"
+    },
+    {
+        "date": "2021-09-04",
+        "infected": "1,803",
+        "death": "7"
+    },
+    {
+        "date": "2021-09-05",
+        "infected": "1,490",
+        "death": "6"
+    },
+    {
+        "date": "2021-09-06",
+        "infected": "1,375",
+        "death": "6"
+    },
+    {
+        "date": "2021-09-07",
+        "infected": "1,597",
+        "death": "3"
+    },
+    {
+        "date": "2021-09-08",
+        "infected": "2,048",
+        "death": "4"
+    },
+    {
+        "date": "2021-09-09",
+        "infected": "2,049",
+        "death": "9"
+    },
+    {
+        "date": "2021-09-10",
+        "infected": "1,892",
+        "death": "5"
+    },
+    {
+        "date": "2021-09-11",
+        "infected": "1,864",
+        "death": "10"
+    },
+    {
+        "date": "2021-09-12",
+        "infected": "1,755",
+        "death": "1"
+    },
+    {
+        "date": "2021-09-13",
+        "infected": "1,433",
+        "death": "1"
+    },
+    {
+        "date": "2021-09-14",
+        "infected": "1,495",
+        "death": "7"
+    },
+    {
+        "date": "2021-09-15",
+        "infected": "2,078",
+        "death": "13"
+    },
+    {
+        "date": "2021-09-16",
+        "infected": "1,942",
+        "death": "6"
+    },
+    {
+        "date": "2021-09-17",
+        "infected": "2,008",
+        "death": "3"
+    },
+    {
+        "date": "2021-09-18",
+        "infected": "2,087",
+        "death": "5"
+    },
+    {
+        "date": "2021-09-19",
+        "infected": "1,909",
+        "death": "10"
+    },
+    {
+        "date": "2021-09-20",
+        "infected": "1,603",
+        "death": "5"
+    },
+    {
+        "date": "2021-09-21",
+        "infected": "1,729",
+        "death": "4"
+    },
+    {
+        "date": "2021-09-22",
+        "infected": "1,720",
+        "death": "6"
+    },
+    {
+        "date": "2021-09-23",
+        "infected": "1,715",
+        "death": "8"
+    },
+    {
+        "date": "2021-09-24",
+        "infected": "2,429",
+        "death": "7"
+    },
+    {
+        "date": "2021-09-25",
+        "infected": "3,268",
+        "death": "7"
+    },
+    {
+        "date": "2021-09-26",
+        "infected": "2,768",
+        "death": "9"
+    },
+    {
+        "date": "2021-09-27",
+        "infected": "2,381",
+        "death": "6"
+    },
+    {
+        "date": "2021-09-28",
+        "infected": "2,287",
+        "death": "8"
+    },
+    {
+        "date": "2021-09-29",
+        "infected": "2,881",
+        "death": "10"
+    },
+    {
+        "date": "2021-09-30",
+        "infected": "2,561",
+        "death": "7"
+    },
+    {
+        "date": "2021-10-01",
+        "infected": "2,483",
+        "death": "16"
+    },
+    {
+        "date": "2021-10-02",
+        "infected": "2,247",
+        "death": "7"
+    },
+    {
+        "date": "2021-10-03",
+        "infected": "2,084",
+        "death": "3"
+    },
+    {
+        "date": "2021-10-04",
+        "infected": "1,670",
+        "death": "6"
+    },
+    {
+        "date": "2021-10-05",
+        "infected": "1,574",
+        "death": "11"
+    },
+    {
+        "date": "2021-10-06",
+        "infected": "2,027",
+        "death": "12"
+    },
+    {
+        "date": "2021-10-07",
+        "infected": "2,425",
+        "death": "8"
+    },
+    {
+        "date": "2021-10-08",
+        "infected": "2,171",
+        "death": "10"
+    },
+    {
+        "date": "2021-10-09",
+        "infected": "1,953",
+        "death": "6"
+    },
+    {
+        "date": "2021-10-10",
+        "infected": "1,594",
+        "death": "15"
+    },
+    {
+        "date": "2021-10-11",
+        "infected": "1,297",
+        "death": "8"
+    },
+    {
+        "date": "2021-10-12",
+        "infected": "1,346",
+        "death": "11"
+    },
+    {
+        "date": "2021-10-13",
+        "infected": "1,582",
+        "death": "11"
+    },
+    {
+        "date": "2021-10-14",
+        "infected": "1,938",
+        "death": "13"
+    },
+    {
+        "date": "2021-10-15",
+        "infected": "1,683",
+        "death": "8"
+    },
+    {
+        "date": "2021-10-16",
+        "infected": "1,616",
+        "death": "18"
+    },
+    {
+        "date": "2021-10-17",
+        "infected": "1,420",
+        "death": "16"
+    },
+    {
+        "date": "2021-10-18",
+        "infected": "1,049",
+        "death": "8"
+    },
+    {
+        "date": "2021-10-19",
+        "infected": "1,073",
+        "death": "21"
+    },
+    {
+        "date": "2021-10-20",
+        "infected": "1,571",
+        "death": "9"
+    },
+    {
+        "date": "2021-10-21",
+        "infected": "1,441",
+        "death": "11"
+    },
+    {
+        "date": "2021-10-22",
+        "infected": "1,437",
+        "death": "16"
+    },
+    {
+        "date": "2021-10-23",
+        "infected": "1,508",
+        "death": "20"
+    },
+    {
+        "date": "2021-10-24",
+        "infected": "1,422",
+        "death": "21"
+    },
+    {
+        "date": "2021-10-25",
+        "infected": "1,190",
+        "death": "7"
+    },
+    {
+        "date": "2021-10-26",
+        "infected": "1,265",
+        "death": "15"
+    },
+    {
+        "date": "2021-10-27",
+        "infected": "1,952",
+        "death": "9"
+    },
+    {
+        "date": "2021-10-28",
+        "infected": "2,110",
+        "death": "11"
+    },
+    {
+        "date": "2021-10-29",
+        "infected": "2,123",
+        "death": "9"
+    },
+    {
+        "date": "2021-10-30",
+        "infected": "2,103",
+        "death": "13"
+    },
+    {
+        "date": "2021-10-31",
+        "infected": "2,061",
+        "death": "19"
+    },
+    {
+        "date": "2021-11-01",
+        "infected": "1,684",
+        "death": "9"
+    },
+    {
+        "date": "2021-11-02",
+        "infected": "1,589",
+        "death": "16"
+    },
+    {
+        "date": "2021-11-03",
+        "infected": "2,665",
+        "death": "18"
+    },
+    {
+        "date": "2021-11-04",
+        "infected": "2,482",
+        "death": "24"
+    },
+    {
+        "date": "2021-11-05",
+        "infected": "2,342",
+        "death": "20"
+    },
+    {
+        "date": "2021-11-06",
+        "infected": "2,246",
+        "death": "20"
+    },
+    {
+        "date": "2021-11-07",
+        "infected": "2,224",
+        "death": "11"
+    },
+    {
+        "date": "2021-11-08",
+        "infected": "1,758",
+        "death": "13"
+    },
+    {
+        "date": "2021-11-09",
+        "infected": "1,715",
+        "death": "18"
+    },
+    {
+        "date": "2021-11-10",
+        "infected": "2,424",
+        "death": "14"
+    },
+    {
+        "date": "2021-11-11",
+        "infected": "2,519",
+        "death": "21"
+    },
+    {
+        "date": "2021-11-12",
+        "infected": "2,368",
+        "death": "18"
+    },
+    {
+        "date": "2021-11-13",
+        "infected": "2,324",
+        "death": "32"
+    },
+    {
+        "date": "2021-11-14",
+        "infected": "2,418",
+        "death": "20"
+    },
+    {
+        "date": "2021-11-15",
+        "infected": "2,003",
+        "death": "12"
+    },
+    {
+        "date": "2021-11-16",
+        "infected": "2,124",
+        "death": "22"
+    },
+    {
+        "date": "2021-11-17",
+        "infected": "3,184",
+        "death": "21"
+    },
+    {
+        "date": "2021-11-18",
+        "infected": "3,292",
+        "death": "29"
+    },
+    {
+        "date": "2021-11-19",
+        "infected": "3,033",
+        "death": "28"
+    },
+    {
+        "date": "2021-11-20",
+        "infected": "3,203",
+        "death": "29"
+    },
+    {
+        "date": "2021-11-21",
+        "infected": "3,119",
+        "death": "30"
+    },
+    {
+        "date": "2021-11-22",
+        "infected": "2,826",
+        "death": "24"
+    },
+    {
+        "date": "2021-11-23",
+        "infected": "2,697",
+        "death": "30"
+    },
+    {
+        "date": "2021-11-24",
+        "infected": "4,115",
+        "death": "34"
+    },
+    {
+        "date": "2021-11-25",
+        "infected": "3,937",
+        "death": "39"
+    },
+    {
+        "date": "2021-11-26",
+        "infected": "3,895",
+        "death": "39"
+    },
+    {
+        "date": "2021-11-27",
+        "infected": "4,067",
+        "death": "52"
+    },
+    {
+        "date": "2021-11-28",
+        "infected": "3,925",
+        "death": "56"
+    },
+    {
+        "date": "2021-11-29",
+        "infected": "3,307",
+        "death": "32"
+    },
+    {
+        "date": "2021-11-30",
+        "infected": "3,032",
+        "death": "44"
+    },
+    {
+        "date": "2021-12-01",
+        "infected": "5,120",
+        "death": "34"
+    },
+    {
+        "date": "2021-12-02",
+        "infected": "5,262",
+        "death": "47"
+    },
+    {
+        "date": "2021-12-03",
+        "infected": "4,944",
+        "death": "34"
+    },
+    {
+        "date": "2021-12-04",
+        "infected": "5,352",
+        "death": "70"
+    },
+    {
+        "date": "2021-12-05",
+        "infected": "5,125",
+        "death": "43"
+    },
+    {
+        "date": "2021-12-06",
+        "infected": "4,324",
+        "death": "41"
+    },
+    {
+        "date": "2021-12-07",
+        "infected": "4,952",
+        "death": "64"
+    },
+    {
+        "date": "2021-12-08",
+        "infected": "7,173",
+        "death": "63"
+    },
+    {
+        "date": "2021-12-09",
+        "infected": "7,102",
+        "death": "57"
+    },
+    {
+        "date": "2021-12-10",
+        "infected": "7,020",
+        "death": "53"
+    },
+    {
+        "date": "2021-12-11",
+        "infected": "6,972",
+        "death": "80"
+    },
+    {
+        "date": "2021-12-12",
+        "infected": "6,683",
+        "death": "42"
+    },
+    {
+        "date": "2021-12-13",
+        "infected": "5,816",
+        "death": "40"
+    },
+    {
+        "date": "2021-12-14",
+        "infected": "5,565",
+        "death": "94"
+    },
+    {
+        "date": "2021-12-15",
+        "infected": "7,848",
+        "death": "70"
+    },
+    {
+        "date": "2021-12-16",
+        "infected": "7,619",
+        "death": "62"
+    },
+    {
+        "date": "2021-12-17",
+        "infected": "7,434",
+        "death": "73"
+    },
+    {
+        "date": "2021-12-18",
+        "infected": "7,310",
+        "death": "53"
+    },
+    {
+        "date": "2021-12-19",
+        "infected": "6,233",
+        "death": "78"
+    },
+    {
+        "date": "2021-12-20",
+        "infected": "5,316",
+        "death": "54"
+    },
+    {
+        "date": "2021-12-21",
+        "infected": "5,194",
+        "death": "52"
+    },
+    {
+        "date": "2021-12-22",
+        "infected": "7,454",
+        "death": "78"
+    },
+    {
+        "date": "2021-12-23",
+        "infected": "6,914",
+        "death": "109"
+    },
+    {
+        "date": "2021-12-24",
+        "infected": "6,233",
+        "death": "56"
+    },
+    {
+        "date": "2021-12-25",
+        "infected": "5,839",
+        "death": "105"
+    },
+    {
+        "date": "2021-12-26",
+        "infected": "5,415",
+        "death": "69"
+    },
+    {
+        "date": "2021-12-27",
+        "infected": "4,204",
+        "death": "55"
+    },
+    {
+        "date": "2021-12-28",
+        "infected": "3,864",
+        "death": "46"
+    },
+    {
+        "date": "2021-12-29",
+        "infected": "5,406",
+        "death": "36"
+    },
+    {
+        "date": "2021-12-30",
+        "infected": "5,034",
+        "death": "73"
+    },
+    {
+        "date": "2021-12-31",
+        "infected": "4,872",
+        "death": "108"
+    },
+    {
+        "date": "2022-01-01",
+        "infected": "4,414",
+        "death": "62"
+    },
+    {
+        "date": "2022-01-02",
+        "infected": "3,830",
+        "death": "69"
+    },
+    {
+        "date": "2022-01-03",
+        "infected": "3,124",
+        "death": "36"
+    },
+    {
+        "date": "2022-01-04",
+        "infected": "3,022",
+        "death": "51"
+    },
+    {
+        "date": "2022-01-05",
+        "infected": "4,441",
+        "death": "57"
+    },
+    {
+        "date": "2022-01-06",
+        "infected": "4,123",
+        "death": "49"
+    },
+    {
+        "date": "2022-01-07",
+        "infected": "3,711",
+        "death": "45"
+    },
+    {
+        "date": "2022-01-08",
+        "infected": "3,503",
+        "death": "54"
+    },
+    {
+        "date": "2022-01-09",
+        "infected": "3,370",
+        "death": "51"
+    },
+    {
+        "date": "2022-01-10",
+        "infected": "3,005",
+        "death": "34"
+    },
+    {
+        "date": "2022-01-11",
+        "infected": "3,094",
+        "death": "43"
+    },
+    {
+        "date": "2022-01-12",
+        "infected": "4,383",
+        "death": "52"
+    },
+    {
+        "date": "2022-01-13",
+        "infected": "4,160",
+        "death": "44"
+    },
+    {
+        "date": "2022-01-14",
+        "infected": "4,537",
+        "death": "49"
+    },
+    {
+        "date": "2022-01-15",
+        "infected": "4,419",
+        "death": "22"
+    },
+    {
+        "date": "2022-01-16",
+        "infected": "4,189",
+        "death": "29"
+    },
+    {
+        "date": "2022-01-17",
+        "infected": "3,856",
+        "death": "23"
+    },
+    {
+        "date": "2022-01-18",
+        "infected": "4,070",
+        "death": "45"
+    },
+    {
+        "date": "2022-01-19",
+        "infected": "5,804",
+        "death": "74"
+    },
+    {
+        "date": "2022-01-20",
+        "infected": "6,600",
+        "death": "28"
+    },
+    {
+        "date": "2022-01-21",
+        "infected": "6,766",
+        "death": "21"
+    },
+    {
+        "date": "2022-01-22",
+        "infected": "7,004",
+        "death": "28"
+    },
+    {
+        "date": "2022-01-23",
+        "infected": "7,625",
+        "death": "11"
+    },
+    {
+        "date": "2022-01-24",
+        "infected": "7,511",
+        "death": "25"
+    },
+    {
+        "date": "2022-01-25",
+        "infected": "8,570",
+        "death": "23"
+    },
+    {
+        "date": "2022-01-26",
+        "infected": "13,005",
+        "death": "32"
+    },
+    {
+        "date": "2022-01-27",
+        "infected": "14,514",
+        "death": "34"
+    },
+    {
+        "date": "2022-01-28",
+        "infected": "16,090",
+        "death": "24"
+    },
+    {
+        "date": "2022-01-29",
+        "infected": "17,509",
+        "death": "34"
+    },
+    {
+        "date": "2022-01-30",
+        "infected": "17,522",
+        "death": "20"
+    },
+    {
+        "date": "2022-01-31",
+        "infected": "17,075",
+        "death": "23"
+    },
+    {
+        "date": "2022-02-01",
+        "infected": "18,333",
+        "death": "17"
+    },
+    {
+        "date": "2022-02-02",
+        "infected": "20,267",
+        "death": "15"
+    },
+    {
+        "date": "2022-02-03",
+        "infected": "22,905",
+        "death": "25"
+    },
+    {
+        "date": "2022-02-04",
+        "infected": "27,435",
+        "death": "24"
+    },
+    {
+        "date": "2022-02-05",
+        "infected": "36,336",
+        "death": "22"
+    },
+    {
+        "date": "2022-02-06",
+        "infected": "38,687",
+        "death": "15"
+    },
+    {
+        "date": "2022-02-07",
+        "infected": "35,280",
+        "death": "13"
+    },
+    {
+        "date": "2022-02-08",
+        "infected": "36,713",
+        "death": "36"
+    },
+    {
+        "date": "2022-02-09",
+        "infected": "49,545",
+        "death": "21"
+    },
+    {
+        "date": "2022-02-10",
+        "infected": "54,117",
+        "death": "20"
+    },
+    {
+        "date": "2022-02-11",
+        "infected": "53,914",
+        "death": "49"
+    },
+    {
+        "date": "2022-02-12",
+        "infected": "54,936",
+        "death": "33"
+    },
+    {
+        "date": "2022-02-13",
+        "infected": "56,409",
+        "death": "36"
+    },
+    {
+        "date": "2022-02-14",
+        "infected": "54,561",
+        "death": "21"
+    },
+    {
+        "date": "2022-02-15",
+        "infected": "57,165",
+        "death": "61"
+    },
+    {
+        "date": "2022-02-16",
+        "infected": "90,438",
+        "death": "39"
+    },
+    {
+        "date": "2022-02-17",
+        "infected": "93,123",
+        "death": "36"
+    },
+    {
+        "date": "2022-02-18",
+        "infected": "109,814",
+        "death": "45"
+    },
+    {
+        "date": "2022-02-19",
+        "infected": "102,200",
+        "death": "71"
+    },
+    {
+        "date": "2022-02-20",
+        "infected": "104,820",
+        "death": "51"
+    },
+    {
+        "date": "2022-02-21",
+        "infected": "95,355",
+        "death": "45"
+    },
+    {
+        "date": "2022-02-22",
+        "infected": "99,559",
+        "death": "58"
+    },
+    {
+        "date": "2022-02-23",
+        "infected": "171,446",
+        "death": "99"
+    },
+    {
+        "date": "2022-02-24",
+        "infected": "170,003",
+        "death": "82"
+    },
+    {
+        "date": "2022-02-25",
+        "infected": "165,883",
+        "death": "94"
+    },
+    {
+        "date": "2022-02-26",
+        "infected": "166,193",
+        "death": "112"
+    },
+    {
+        "date": "2022-02-27",
+        "infected": "163,556",
+        "death": "49"
+    },
+    {
+        "date": "2022-02-28",
+        "infected": "139,623",
+        "death": "114"
+    },
+    {
+        "date": "2022-03-01",
+        "infected": "138,983",
+        "death": "112"
+    },
+    {
+        "date": "2022-03-02",
+        "infected": "219,216",
+        "death": "96"
+    },
+    {
+        "date": "2022-03-03",
+        "infected": "198,797",
+        "death": "128"
+    },
+    {
+        "date": "2022-03-04",
+        "infected": "266,841",
+        "death": "186"
+    },
+    {
+        "date": "2022-03-05",
+        "infected": "254,318",
+        "death": "216"
+    },
+    {
+        "date": "2022-03-06",
+        "infected": "243,614",
+        "death": "161"
+    },
+    {
+        "date": "2022-03-07",
+        "infected": "210,699",
+        "death": "139"
+    },
+    {
+        "date": "2022-03-08",
+        "infected": "202,703",
+        "death": "186"
+    },
+    {
+        "date": "2022-03-09",
+        "infected": "342,427",
+        "death": "158"
+    },
+    {
+        "date": "2022-03-10",
+        "infected": "327,525",
+        "death": "206"
+    },
+    {
+        "date": "2022-03-11",
+        "infected": "282,969",
+        "death": "229"
+    },
+    {
+        "date": "2022-03-12",
+        "infected": "383,646",
+        "death": "269"
+    },
+    {
+        "date": "2022-03-13",
+        "infected": "350,159",
+        "death": "251"
+    },
+    {
+        "date": "2022-03-14",
+        "infected": "309,768",
+        "death": "200"
+    },
+    {
+        "date": "2022-03-15",
+        "infected": "362,265",
+        "death": "293"
+    },
+    {
+        "date": "2022-03-16",
+        "infected": "400,553",
+        "death": "164"
+    },
+    {
+        "date": "2022-03-17",
+        "infected": "621,168",
+        "death": "429"
+    },
+    {
+        "date": "2022-03-18",
+        "infected": "406,854",
+        "death": "301"
+    },
+    {
+        "date": "2022-03-19",
+        "infected": "381,379",
+        "death": "319"
+    },
+    {
+        "date": "2022-03-20",
+        "infected": "334,607",
+        "death": "327"
+    },
+    {
+        "date": "2022-03-21",
+        "infected": "209,118",
+        "death": "329"
+    },
+    {
+        "date": "2022-03-22",
+        "infected": "353,885",
+        "death": "384"
+    },
+    {
+        "date": "2022-03-23",
+        "infected": "490,770",
+        "death": "291"
+    },
+    {
+        "date": "2022-03-24",
+        "infected": "395,518",
+        "death": "469"
+    },
+    {
+        "date": "2022-03-25",
+        "infected": "339,462",
+        "death": "393"
+    },
+    {
+        "date": "2022-03-26",
+        "infected": "335,524",
+        "death": "323"
+    },
+    {
+        "date": "2022-03-27",
+        "infected": "318,065",
+        "death": "282"
+    },
+    {
+        "date": "2022-03-28",
+        "infected": "187,176",
+        "death": "287"
+    },
+    {
+        "date": "2022-03-29",
+        "infected": "347,474",
+        "death": "237"
+    },
+    {
+        "date": "2022-03-30",
+        "infected": "424,568",
+        "death": "432"
+    },
+    {
+        "date": "2022-03-31",
+        "infected": "320,686",
+        "death": "375"
+    },
+    {
+        "date": "2022-04-01",
+        "infected": "280,238",
+        "death": "360"
+    },
+    {
+        "date": "2022-04-02",
+        "infected": "264,144",
+        "death": "339"
+    },
+    {
+        "date": "2022-04-03",
+        "infected": "234,255",
+        "death": "306"
+    },
+    {
+        "date": "2022-04-04",
+        "infected": "127,162",
+        "death": "218"
+    },
+    {
+        "date": "2022-04-05",
+        "infected": "266,097",
+        "death": "209"
+    },
+    {
+        "date": "2022-04-06",
+        "infected": "286,260",
+        "death": "371"
+    },
+    {
+        "date": "2022-04-07",
+        "infected": "224,784",
+        "death": "348"
+    },
+    {
+        "date": "2022-04-08",
+        "infected": "205,311",
+        "death": "373"
+    },
+    {
+        "date": "2022-04-09",
+        "infected": "185,533",
+        "death": "338"
+    },
+    {
+        "date": "2022-04-10",
+        "infected": "164,455",
+        "death": "329"
+    },
+    {
+        "date": "2022-04-11",
+        "infected": "90,912",
+        "death": "258"
+    },
+    {
+        "date": "2022-04-12",
+        "infected": "210,723",
+        "death": "171"
+    },
+    {
+        "date": "2022-04-13",
+        "infected": "195,389",
+        "death": "184"
+    },
+    {
+        "date": "2022-04-14",
+        "infected": "148,423",
+        "death": "318"
+    },
+    {
+        "date": "2022-04-15",
+        "infected": "125,823",
+        "death": "264"
+    },
+    {
+        "date": "2022-04-16",
+        "infected": "107,894",
+        "death": "273"
+    },
+    {
+        "date": "2022-04-17",
+        "infected": "92,973",
+        "death": "203"
+    },
+    {
+        "date": "2022-04-18",
+        "infected": "47,729",
+        "death": "132"
+    },
+    {
+        "date": "2022-04-19",
+        "infected": "118,474",
+        "death": "130"
+    },
+    {
+        "date": "2022-04-20",
+        "infected": "111,291",
+        "death": "166"
+    },
+    {
+        "date": "2022-04-21",
+        "infected": "90,849",
+        "death": "147"
+    },
+    {
+        "date": "2022-04-22",
+        "infected": "81,042",
+        "death": "206"
+    },
+    {
+        "date": "2022-04-23",
+        "infected": "75,422",
+        "death": "151"
+    },
+    {
+        "date": "2022-04-24",
+        "infected": "64,699",
+        "death": "109"
+    },
+    {
+        "date": "2022-04-25",
+        "infected": "34,361",
+        "death": "110"
+    },
+    {
+        "date": "2022-04-26",
+        "infected": "80,340",
+        "death": "82"
+    },
+    {
+        "date": "2022-04-27",
+        "infected": "76,769",
+        "death": "141"
+    },
+    {
+        "date": "2022-04-28",
+        "infected": "57,456",
+        "death": "122"
+    },
+    {
+        "date": "2022-04-29",
+        "infected": "50,555",
+        "death": "136"
+    },
+    {
+        "date": "2022-04-30",
+        "infected": "43,275",
+        "death": "70"
+    },
+    {
+        "date": "2022-05-01",
+        "infected": "37,760",
+        "death": "81"
+    },
+    {
+        "date": "2022-05-02",
+        "infected": "20,076",
+        "death": "83"
+    },
+    {
+        "date": "2022-05-03",
+        "infected": "51,118",
+        "death": "49"
+    },
+    {
+        "date": "2022-05-04",
+        "infected": "49,055",
+        "death": "72"
+    },
+    {
+        "date": "2022-05-05",
+        "infected": "42,288",
+        "death": "79"
+    },
+    {
+        "date": "2022-05-06",
+        "infected": "26,701",
+        "death": "48"
+    },
+    {
+        "date": "2022-05-07",
+        "infected": "39,590",
+        "death": "83"
+    },
+    {
+        "date": "2022-05-08",
+        "infected": "40,048",
+        "death": "71"
+    },
+    {
+        "date": "2022-05-09",
+        "infected": "20,588",
+        "death": "40"
+    },
+    {
+        "date": "2022-05-10",
+        "infected": "49,923",
+        "death": "62"
+    },
+    {
+        "date": "2022-05-11",
+        "infected": "43,913",
+        "death": "29"
+    },
+    {
+        "date": "2022-05-12",
+        "infected": "35,898",
+        "death": "63"
+    },
+    {
+        "date": "2022-05-13",
+        "infected": "32,451",
+        "death": "52"
+    },
+    {
+        "date": "2022-05-14",
+        "infected": "29,581",
+        "death": "55"
+    },
+    {
+        "date": "2022-05-15",
+        "infected": "25,434",
+        "death": "48"
+    },
+    {
+        "date": "2022-05-16",
+        "infected": "13,296",
+        "death": "35"
+    },
+    {
+        "date": "2022-05-17",
+        "infected": "35117",
+        "death": "27"
+    },
+    {
+        "date": "2022-05-18",
+        "infected": "31352",
+        "death": "31"
+    },
+    {
+        "date": "2022-05-19",
+        "infected": "28130",
+        "death": "40"
+    }
+]

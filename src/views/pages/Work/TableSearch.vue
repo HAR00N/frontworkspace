@@ -3,12 +3,15 @@
     <v-container fluid class="px-6 py-0">
       <v-row class="mt-1">
         <v-col cols="12" class="pb-0">
-          <datatable-search @searchDetail="changeSearch">
+          <!-- <datatable-search @searchDetail="changeSearch">
+          </datatable-search> -->
+          <datatable-search @searchDetail="changeSearch" :title="`검색 페이지`" :contents="`동적 상세 검색 컴포넌트`">
           </datatable-search>
         </v-col>
       </v-row>
       <v-row class="">
         <v-col cols="12" class="pt-0">
+          <!-- <datatable-simple :search="search"> </datatable-simple> -->
           <datatable-simple :search="search"> </datatable-simple>
         </v-col>
       </v-row>
@@ -16,7 +19,7 @@
   </div>
 </template>
 <script>
-import DatatableSearch from "../../dashboard/tables/DetailSearch.vue";
+import DatatableSearch from "../../dashboard/components/tables/DetailSearch.vue";
 import DatatableSimple from "../../dashboard/components/tables/DataTable.vue";
 
 export default {

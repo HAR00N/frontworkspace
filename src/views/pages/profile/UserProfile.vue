@@ -4,9 +4,9 @@
 			<v-col cols="12" md="8">
 				<base-material-card>
 					<template v-slot:heading>
-						<div class="display-2 font-weight-medium">Profile</div>
+						<div class="display-2 font-weight-medium black--text">Profile</div>
 
-						<div class="subtitle-1 font-weight-light">Haroon's Dev profile</div>
+						<div class="subtitle-1 font-weight-light white--text pl-1">Haroon's Dev profile</div>
 					</template>
 
 					<v-card elevation="0" class="pb-5">
@@ -113,35 +113,16 @@
 			</v-col>
 
 			<v-col cols="12" md="4">
-				<base-material-card
-					class="v-card-profile"
-					elevation="0"
-					avatar="src/assets/mycharacter/haroonwhiteback.png"
-				>
-					<v-card-text class="text-center">
-						<h6 class="display-1 mb-1 grey--text">Fullstack Dev</h6>
-
-						<h4 class="display-2 font-weight-medium mb-3 black--text">
-							Haroon
-						</h4>
-
-						<p class="font-weight-light grey--text">
-							Don't be scared of the truth because we need to restart the human
-							foundation in truth And I love you like Kanye loves Kanye I love
-							Rick Owens’ bed design but the back is...
-						</p>
-
-						<v-btn color="blue lighten-1" rounded class="mr-0"> Follow </v-btn>
-					</v-card-text>
-				</base-material-card>
+				<profile-card/>
 			</v-col>
 		</v-row>
 	</v-container>
 </template>
 
 <script>
+import ProfileCard from "../../dashboard/components/core/ProfileCard.vue"
 export default {
-	//
+	components: { ProfileCard },
 };
 </script>
 

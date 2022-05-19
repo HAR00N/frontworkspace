@@ -37,14 +37,14 @@ export default new Router({
           component: () => import('@/views/pages/profile/UserTimeline'),
         },
         {
-          name: 'GWNU QA',
-          path: '/Work/GwnuQa',
-          component: () => import('@/views/pages/Work/GwnuQa'),
+          name: 'OpenApi',
+          path: '/Work/OpenApi',
+          component: () => import('@/views/pages/Work/OpenApi'),
         },
         {
-          name: 'REB',
-          path: '/Work/RebHrd',
-          component: () => import('@/views/pages/Work/RebHrd'),
+          name: 'TableSearch',
+          path: '/Work/TableSearch',
+          component: () => import('@/views/pages/Work/TableSearch'),
         },
         {
           name: 'MERS Modeling',

@@ -12,6 +12,7 @@
 // * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 import Vue from 'vue'
+import './plugins/axios'
 import App from './App.vue'
 import router from '../src/routers/router'
 import store from './store/store'
@@ -20,7 +21,9 @@ import './plugins/chartist'
 import './plugins/vee-validate'
 import vuetify from './plugins/vuetify'
 import i18n from './i18n'
+import dotenv from 'dotenv'
 
+dotenv.config()
 Vue.config.productionTip = false
 
 new Vue({

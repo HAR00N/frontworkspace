@@ -4,8 +4,8 @@
       <div class="card-header-padding" style="padding: 0.25rem 0.5rem">
         <div class="d-flex align-center">
           <v-col align="left" cols="6">
-            <h5 class="font-weight-bold text-h5 text-typo mb-0">title</h5>
-            <p class="text-sm text-body mb-0">contents</p>
+            <h5 class="font-weight-bold text-h5 text-typo mb-0">{{title}}</h5>
+            <p class="text-sm text-body mb-0">{{contents}}</p>
           </v-col>
           <v-col align="right" cols="6">
             <v-btn
@@ -78,7 +78,7 @@ export default {
   Fat: "",
   Carbs: "",
   Protein: "",
-  props: {},
+  props: ["title", "contents"],
   data() {
     return {
       items: "",

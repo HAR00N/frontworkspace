@@ -1,0 +1,270 @@
+[
+    {
+      "title": "Portfolio page 개발",
+      "date": "22 MAY",
+      "color": "cyan",
+      "icon": "mdi-hammer-wrench",
+      "badges": [
+        {
+          "text": "Vue.js",
+          "iconColor": "default",
+          "color": "#4FC08D",
+          "src": "src/assets/icon/vuejs.svg"
+        },
+        {
+          "text": "Vuetify.js",
+          "iconColor": "default",
+          "color": "#1867C0",
+          "src": "src/assets/icon/vuetify.svg"
+        },
+        {
+          "text": "JS ES6",
+          "iconColor": "black",
+          "color": "#F7DF1E",
+          "src": "src/assets/icon/javascript.svg"
+        },
+        {
+          "text": "Git",
+          "iconColor": "default",
+          "color": "#F05032",
+          "src": "src/assets/icon/git.svg"
+        }
+      ]
+    },
+    {
+      "title": "공공 데이터 포털 Api 적용",
+      "date": "22 APR",
+      "color": "amber",
+      "icon": "mdi-application-brackets-outline",
+      "badges": [
+        {
+          "text": "Spring Boot",
+          "iconColor": "default",
+          "color": "#6DB33F",
+          "src": "src/assets/icon/springboot.svg"
+        },
+        {
+          "text": "Kotlin",
+          "iconColor": "default",
+          "color": "#7F52FF",
+          "src": "src/assets/icon/kotlin.svg"
+        },
+        {
+          "text": "Gradle",
+          "iconColor": "default",
+          "color": "#02303A",
+          "src": "src/assets/icon/gradle.svg"
+        },
+        {
+          "text": "Go",
+          "iconColor": "default",
+          "color": "#00ADD8",
+          "src": "src/assets/icon/go.svg"
+        },
+        {
+          "text": "MySQL",
+          "iconColor": "default",
+          "color": "#4479A1",
+          "src": "src/assets/icon/mysql.svg"
+        },
+        {
+          "text": "Git",
+          "iconColor": "default",
+          "color": "#F05032",
+          "src": "src/assets/icon/git.svg"
+        }
+      ]
+    },
+    {
+      "title": "공공 기업 직원 홈페이지 개발",
+      "date": "22 FEB",
+      "color": "amber",
+      "icon": "mdi-file-document",
+      "badges": [
+        {
+          "text": "Spring",
+          "iconColor": "default",
+          "color": "#6DB33F",
+          "src": "src/assets/icon/spring.svg"
+        },
+        {
+          "text": "java",
+          "iconColor": "default",
+          "color": "#007396",
+          "src": "src/assets/icon/java.svg"
+        },
+        {
+          "text": "Maven",
+          "iconColor": "default",
+          "color": "#C71A36",
+          "src": "src/assets/icon/maven.svg"
+        },
+        {
+          "text": "Docker",
+          "iconColor": "default",
+          "color": "#2496ED",
+          "src": "src/assets/icon/docker.svg"
+        },
+        {
+          "text": "MySQL",
+          "iconColor": "default",
+          "color": "#4479A1",
+          "src": "src/assets/icon/mysql.svg"
+        },
+        {
+          "text": "Vue.js",
+          "iconColor": "default",
+          "color": "#4FC08D",
+          "src": "src/assets/icon/vuejs.svg"
+        },
+        {
+          "text": "Vuetify.js",
+          "iconColor": "default",
+          "color": "#1867C0",
+          "src": "src/assets/icon/vuetify.svg"
+        },
+        {
+          "text": "JS ES6",
+          "iconColor": "black",
+          "color": "#F7DF1E",
+          "src": "src/assets/icon/javascript.svg"
+        },
+        {
+          "text": "Git",
+          "iconColor": "default",
+          "color": "#F05032",
+          "src": "src/assets/icon/git.svg"
+        }
+      ]
+    },
+    {
+      "title": "국립 대학교 사이트 고도화",
+      "date": "22 FEB",
+      "color": "orange",
+      "icon": "mdi-auto-fix",
+      "badges": [
+        {
+          "text": "Spring",
+          "iconColor": "default",
+          "color": "#6DB33F",
+          "src": "src/assets/icon/spring.svg"
+        },
+        {
+          "text": "java",
+          "iconColor": "default",
+          "color": "#007396",
+          "src": "src/assets/icon/java.svg"
+        },
+        {
+          "text": "Maven",
+          "iconColor": "default",
+          "color": "#C71A36",
+          "src": "src/assets/icon/maven.svg"
+        },
+        {
+          "text": "Tomcat",
+          "iconColor": "black",
+          "color": "#F8DC75",
+          "src": "src/assets/icon/tomcat.svg"
+        },
+        {
+          "text": "Oracle",
+          "iconColor": "default",
+          "color": "#F80000",
+          "src": "src/assets/icon/oracle.svg"
+        },
+        {
+          "text": "Jquery",
+          "iconColor": "default",
+          "color": "#0769AD",
+          "src": "src/assets/icon/jquery.svg"
+        },
+        {
+          "text": "SVN",
+          "iconColor": "default",
+          "color": "#809CC9",
+          "src": "src/assets/icon/svn.svg"
+        }
+      ]
+    },
+    {
+      "title": "인턴",
+      "date": "22 FEB",
+      "color": "green",
+      "icon": "mdi-tie",
+      "badges": [
+        {
+          "text": "java",
+          "iconColor": "default",
+          "color": "#007396",
+          "src": "src/assets/icon/java.svg"
+        },
+        {
+          "text": "matlab",
+          "iconColor": "default",
+          "color": "#FF7F00",
+          "src": "src/assets/icon/matlab.svg"
+        },
+        {
+          "text": "Git",
+          "iconColor": "default",
+          "color": "#F05032",
+          "src": "src/assets/icon/git.svg"
+        }
+      ]
+    },
+    {
+      "title": "모바일게임 점수 예측 모델링",
+      "date": "19 SEP",
+      "color": "pink",
+      "icon": "mdi-chart-line",
+      "badges": [
+        {
+          "text": "matlab",
+          "iconColor": "default",
+          "color": "#FF7F00",
+          "src": "src/assets/icon/matlab.svg"
+        },
+        {
+          "text": "excel",
+          "iconColor": "default",
+          "color": "#217346",
+          "src": "src/assets/icon/excel.svg"
+        }
+      ]
+    },
+    {
+      "title": "수학 프로그래밍",
+      "date": "17 MAR",
+      "color": "amber",
+      "src": "src/assets/icon/matlab.svg",
+      "badges": [
+        {
+          "text": "matlab",
+          "iconColor": "default",
+          "color": "#FF7F00",
+          "src": "src/assets/icon/matlab.svg"
+        }
+      ]
+    },
+    {
+      "title": "편입학",
+      "date": "17 MAR",
+      "color": "orange",
+      "icon": "mdi-pencil"
+    },
+    {
+      "title": "응용수학과 학술제 최우수상",
+      "date": "14 SEP",
+      "color": "cyan",
+      "icon": "mdi-license",
+      "badges": [
+        {
+          "text": "ppt",
+          "iconColor": "default",
+          "color": "#B7472A",
+          "src": "src/assets/icon/ppt.svg"
+        }
+      ]
+    }
+  ]

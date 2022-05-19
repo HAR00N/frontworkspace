@@ -97,7 +97,7 @@
       },
       color: {
         type: String,
-        default: 'blue lighten-1',
+        default: 'blue-grey lighten-3',
       },
       icon: {
         type: String,
