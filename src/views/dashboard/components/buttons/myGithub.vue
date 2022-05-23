@@ -23,7 +23,7 @@
         {{ title }}
       </v-btn>
     </template>
-    <span> Click to Code </span>
+    <span> Click to GitHub </span>
   </v-tooltip>
 </template>
 

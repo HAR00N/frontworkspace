@@ -22,15 +22,16 @@
           ></v-text-field>
         </template>
         <v-date-picker
-        color="primary"
+          class="my-0 pt-4"
+          color="primary"
           v-model="date"
-          @click="dateUpdate(date)"
-          no-title
+          @change="[dateUpdate(date), $refs.menu.save(date), (menu = false)]"
           scrollable
+          no-title
           :max="maxDate"
           :min="minDate"
         >
-          <v-spacer></v-spacer>
+          <!-- <v-spacer></v-spacer>
           <v-btn text color="primary" @click="menu = false"> Cancel </v-btn>
           <v-btn
             text
@@ -38,7 +39,7 @@
             @click="[$refs.menu.save(date), dateUpdate(date)]"
           >
             OK
-          </v-btn>
+          </v-btn> -->
         </v-date-picker>
       </v-menu>
     </v-col>
@@ -49,9 +50,10 @@
 export default {
   props: ["minDate", "maxDate"],
   data: () => ({
-    date: new Date(Date.now() - new Date().getTimezoneOffset() * 60000)
-      .toISOString()
-      .substr(0, 10),
+    // date: new Date(Date.now() - new Date().getTimezoneOffset() * 60000)
+    //   .toISOString()
+    //   .substr(0, 10),
+    date: null,
     menu: false,
     modal: false,
     menu2: false,

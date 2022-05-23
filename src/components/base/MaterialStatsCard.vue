@@ -61,7 +61,7 @@
       },
       subIconColor: {
         type: String,
-        default: undefined,
+        default: 'blue-grey lighten-3',
       },
       subTextColor: {
         type: String,

@@ -1,7 +1,7 @@
 [
     {
       "title": "Portfolio page 개발",
-      "date": "22 MAY",
+      "date": "MAY 2022",
       "color": "cyan",
       "icon": "mdi-hammer-wrench",
       "badges": [
@@ -33,7 +33,7 @@
     },
     {
       "title": "공공 데이터 포털 Api 적용",
-      "date": "22 APR",
+      "date": "APR 2022",
       "color": "amber",
       "icon": "mdi-application-brackets-outline",
       "badges": [
@@ -77,7 +77,7 @@
     },
     {
       "title": "공공 기업 직원 홈페이지 개발",
-      "date": "22 FEB",
+      "date": "FEB 2022",
       "color": "amber",
       "icon": "mdi-file-document",
       "badges": [
@@ -139,7 +139,7 @@
     },
     {
       "title": "국립 대학교 사이트 고도화",
-      "date": "22 FEB",
+      "date": "FEB 2022",
       "color": "orange",
       "icon": "mdi-auto-fix",
       "badges": [
@@ -188,8 +188,8 @@
       ]
     },
     {
-      "title": "인턴",
-      "date": "22 FEB",
+      "title": "솔루션/SI 기업 인턴",
+      "date": "FEB 2022",
       "color": "green",
       "icon": "mdi-tie",
       "badges": [
@@ -215,7 +215,7 @@
     },
     {
       "title": "모바일게임 점수 예측 모델링",
-      "date": "19 SEP",
+      "date": "SEP 2019",
       "color": "pink",
       "icon": "mdi-chart-line",
       "badges": [
@@ -235,7 +235,7 @@
     },
     {
       "title": "수학 프로그래밍",
-      "date": "17 MAR",
+      "date": "MAR 2017",
       "color": "amber",
       "src": "src/assets/icon/matlab.svg",
       "badges": [
@@ -249,13 +249,13 @@
     },
     {
       "title": "편입학",
-      "date": "17 MAR",
+      "date": "MAR 2017",
       "color": "orange",
       "icon": "mdi-pencil"
     },
     {
       "title": "응용수학과 학술제 최우수상",
-      "date": "14 SEP",
+      "date": "SEP 2014",
       "color": "cyan",
       "icon": "mdi-license",
       "badges": [

@@ -129,7 +129,7 @@ export default {
 				active: false,
 				items: [
 					{ title: 'Table Search', to: '/Work/TableSearch' },
-					{ title: 'Open APi', to: '/Work/OpenApi' },
+					{ title: 'Open API', to: '/Work/OpenApi' },
 				],
 			},
 			{
