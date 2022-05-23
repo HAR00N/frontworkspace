@@ -1,5 +1,5 @@
 <template>
-  <v-card class="card-shadow border-radius-xl z-index-2" elevation="0">
+  <v-card class="card-shadow border-radius-xl z-index-2" elevation="0" color="transparent">
     <!-- <div class="px-2 py-0">
       <h6 class="text-h6 text-typo font-weight-bold">SEIR chart</h6>
     </div> -->
@@ -110,11 +110,12 @@ export default {
               drawOnChartArea: true,
               drawTicks: false,
               borderDash: [5, 5],
+              color: '#78909C'
             },
             ticks: {
               display: true,
               padding: 10,
-              color: "#b2b9bf",
+              color: "#78909C",
               font: {
                 size: 11,
                 family: "Open Sans",
@@ -130,10 +131,11 @@ export default {
               drawOnChartArea: true,
               drawTicks: true,
               borderDash: [5, 5],
+              color: '#78909C'
             },
             ticks: {
               display: true,
-              color: "#b2b9bf",
+              color: "#78909C",
               padding: 10,
               font: {
                 size: 11,

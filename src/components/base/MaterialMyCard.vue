@@ -17,7 +17,7 @@
       <v-sheet
         v-else
         :class="{
-          'pa-7': !$slots.image
+          'px-7': !$slots.image
         }"
         :color="color"
         :max-height="icon ? 90 : undefined"
@@ -88,7 +88,7 @@
 
 <script>
   export default {
-    name: 'MaterialCard',
+    name: 'MaterialMyCard',
 
     props: {
       avatar: {
@@ -114,10 +114,6 @@
       title: {
         type: String,
         default: '',
-      },
-      class: {
-        type: String,
-        default: 'text-start v-card--material__heading mb-n6',
       },
     },
 

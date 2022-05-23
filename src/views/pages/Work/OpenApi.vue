@@ -73,7 +73,9 @@
               <v-tab-item v-for="item in tab" :key="tab.name">
                 <v-card flat>
                   <git-hub :href="item.href" :title="item.iconTitle" />
-                  <v-card-text class="mt-2 py-1" v-text="item.text" />
+                  <!-- <v-card-text class="mt-2 py-1" v-text="item.text" /> -->
+                  <h3 class="ml-2 mt-2">Dev version</h3>
+                  <pre class="mt-1 py-1 ml-2 text-block"> {{ item.text }}</pre>
                 </v-card>
               </v-tab-item>
             </v-tabs-items>
@@ -103,16 +105,34 @@
             </v-tabs>
 
             <v-tabs-items v-model="apitabs">
-              <v-tab-item v-for="item in apitab" :key="tab.name">
+              <!-- <v-tab-item v-for="item in apitab" :key="tab.name">
                 <v-card flat>
-                  <v-card-text
-                    v-if="item.text"
-                    class="mt-2 py-1"
-                    v-text="item.text"
-                  />
+                  <pre v-if="item.text" class="text-block mt-2 py-1">
+                    {{item.text}}
+                  </pre>
                   <div id="app" v-if="item.code">
                     <v-card elevation="0" color="#313131" class="pa-4 mx-4">
                       <pre class="code-block white--text"> {{ item.code }}</pre>
+                    </v-card>
+                  </div>
+                </v-card>
+              </v-tab-item> -->
+              <v-tab-item>
+                <v-card flat>
+                  <div id="app">
+                    <v-card elevation="0" class="pa-0 ml-2">
+                      <span> 공공 데이터 포털 DATA.Go.Kr <br> </span>
+                      <span> https://www.data.go.kr/index.do <br> <br> </span>
+                      <span> 질병관리청 코로나19 국내발생현황 조회 </span> 
+                    </v-card>
+                  </div>
+                </v-card>
+              </v-tab-item>
+              <v-tab-item>
+                <v-card flat>
+                  <div id="app">
+                    <v-card elevation="0" color="#313131" class="pa-4 mx-4">
+                      <pre class="code-block white--text"> {{ apitab[1].code }}</pre>
                     </v-card>
                   </div>
                 </v-card>
@@ -146,7 +166,11 @@ export default {
       apitab: [
         {
           name: "reference",
-          text: "dd",
+          text: 
+`공공 데이터 포털 DATA.Go.Kr
+ https://www.data.go.kr/index.do
+ 
+ 질병관리청 코로나19 국내발생현황 조회`,
         },
         {
           name: "data format",
@@ -178,7 +202,9 @@ export default {
           src: "src/assets/icon/go.svg",
           height: "40",
           color: "color-go",
-          text: "Go 입니다",
+          text: 
+`Go : 1.18.1
+ Goland : 2022.01`,
           iconTitle: "Covid Data Api",
           href: "https://github.com/HAR00N/covidDataApi",
         },
@@ -187,7 +213,11 @@ export default {
           src: "src/assets/icon/kotlin.svg",
           height: "25",
           color: "color-kotlin",
-          text: "Kotlin 입니다 안녕",
+          text: 
+`Kotlin : 1.6.21
+ Java : 8(1.8.0_241)
+ Spring Boot : 2.6.7
+ IntelliJ(Ultimate) : 2022.01`,
           iconTitle: "Rest Api Kotlin",
           href: "https://github.com/HAR00N/restApi_Kotlin",
         },
@@ -228,5 +258,9 @@ export default {
 <style>
 .code-block {
   font-family: Consolas, 'Courier New', monospace;
+}
+.text-block {
+  font-family:'Malgun Gothic';
+  font-size:12pt;
 }
 </style>
