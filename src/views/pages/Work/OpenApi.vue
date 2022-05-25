@@ -48,42 +48,6 @@
     <v-row>
       <v-col cols="12" md="4">
         <v-card elevation="0">
-          <base-material-card icon="mdi-xml" title="Code">
-            <v-tabs
-              v-model="tabs"
-              slider-color="grey lighten-1"
-              active-class="black--text"
-            >
-              <v-tab
-                class="mr-2 grey--text"
-                :ripple="false"
-                v-for="item in tab"
-                :key="tab.name"
-              >
-                <img
-                  :src="item.src"
-                  :height="item.height"
-                  :class="`${item.color} mr-2`"
-                />
-                {{ item.name }}
-              </v-tab>
-            </v-tabs>
-
-            <v-tabs-items v-model="tabs">
-              <v-tab-item v-for="item in tab" :key="tab.name">
-                <v-card flat>
-                  <git-hub :href="item.href" :title="item.iconTitle" />
-                  <!-- <v-card-text class="mt-2 py-1" v-text="item.text" /> -->
-                  <h3 class="ml-2 mt-2">Dev version</h3>
-                  <pre class="mt-1 py-1 ml-2 text-block"> {{ item.text }}</pre>
-                </v-card>
-              </v-tab-item>
-            </v-tabs-items>
-          </base-material-card>
-        </v-card>
-      </v-col>
-      <v-col cols="12" md="4">
-        <v-card elevation="0">
           <base-material-card
             icon="mdi-cog-outline"
             title="API"
@@ -121,6 +85,22 @@
                 <v-card flat>
                   <div id="app">
                     <v-card elevation="0" class="pa-0 ml-2">
+                      <span> 
+                        공공 데이터 포털 (DATA.Go.Kr) 에서 키를 발급받아 <br>
+                        Go 언어 기반 프로그래밍으로 호출후 (kotlin ver 제작중) <br>
+                        MySQL database에 저장합니다. <br>
+                        GitHub.io 특성 상 정적 데이터만 사용 가능하기 때문에 <br>
+                        JSON 형태로 export하여 데이터를 사용합니다.
+                      </span>
+                      
+                    </v-card>
+                  </div>
+                </v-card>
+              </v-tab-item>
+              <v-tab-item>
+                <v-card flat>
+                  <div id="app">
+                    <v-card elevation="0" class="pa-0 ml-2">
                       <span> 공공 데이터 포털 DATA.Go.Kr <br> </span>
                       <span> https://www.data.go.kr/index.do <br> <br> </span>
                       <span> 질병관리청 코로나19 국내발생현황 조회 </span> 
@@ -132,9 +112,45 @@
                 <v-card flat>
                   <div id="app">
                     <v-card elevation="0" color="#313131" class="pa-4 mx-4">
-                      <pre class="code-block white--text"> {{ apitab[1].code }}</pre>
+                      <pre class="code-block white--text"> {{ apitab[2].code }}</pre>
                     </v-card>
                   </div>
+                </v-card>
+              </v-tab-item>
+            </v-tabs-items>
+          </base-material-card>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="4">
+        <v-card elevation="0">
+          <base-material-card icon="mdi-xml" title="Code">
+            <v-tabs
+              v-model="tabs"
+              slider-color="grey lighten-1"
+              active-class="black--text"
+            >
+              <v-tab
+                class="mr-2 grey--text"
+                :ripple="false"
+                v-for="item in tab"
+                :key="tab.name"
+              >
+                <img
+                  :src="item.src"
+                  :height="item.height"
+                  :class="`${item.color} mr-2`"
+                />
+                {{ item.name }}
+              </v-tab>
+            </v-tabs>
+
+            <v-tabs-items v-model="tabs">
+              <v-tab-item v-for="item in tab" :key="tab.name">
+                <v-card flat>
+                  <git-hub :href="item.href" :title="item.iconTitle" />
+                  <!-- <v-card-text class="mt-2 py-1" v-text="item.text" /> -->
+                  <h3 class="ml-2 mt-2">Dev version</h3>
+                  <pre class="mt-1 py-1 ml-2 text-block"> {{ item.text }}</pre>
                 </v-card>
               </v-tab-item>
             </v-tabs-items>
@@ -164,6 +180,14 @@ export default {
   data() {
     return {
       apitab: [
+        {
+          name: "features",
+          text: 
+`공공 데이터 포털 DATA.Go.Kr
+ https://www.data.go.kr/index.do
+ 
+ 질병관리청 코로나19 국내발생현황 조회`,
+        },
         {
           name: "reference",
           text: 
@@ -218,8 +242,8 @@ export default {
  Java : 8(1.8.0_241)
  Spring Boot : 2.6.7
  IntelliJ(Ultimate) : 2022.01`,
-          iconTitle: "Rest Api Kotlin",
-          href: "https://github.com/HAR00N/restApi_Kotlin",
+          iconTitle: "covid Data Api Kotlin (ongoing)",
+          href: "https://github.com/HAR00N/covidDataApi_Kotlin",
         },
       ],
       content: {

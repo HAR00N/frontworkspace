@@ -27,21 +27,21 @@
               : Recovered
             </p>
 
-            <v-card class="mb-1 mt-0 mx-4" elevation="0">
+            <p class="mb-1 mt-0 mx-4" elevation="0">
               Real data : 실제 감염군 수 <br />
               Susceptible (감염대상군) : 감염될 수 있으나 아직 감염되지 않은
               개체의 수 <br />
               Infected (감염군) : 병을 전염시킬 수 있는 개체의 수 <br />
               Recovered (회복군) : 병에서 회복한 개체의 수와 격리 중 사망한
               개체의 수의 합
-            </v-card>
+            </p>
 
-            <template v-slot:actions>
+            <!-- <template v-slot:actions>
               <v-icon class="mr-1" small> mdi-clock-outline </v-icon>
               <span class="caption grey--text font-weight-light"
                 >updated 4 minutes ago</span
               >
-            </template>
+            </template> -->
           </base-material-my-card>
         </v-col>
 
@@ -72,7 +72,7 @@
               : Recovered
             </p>
 
-            <v-card class="mb-1 mt-0 mx-4" elevation="0">
+            <p class="mb-1 mt-0 mx-4" elevation="0">
               Real data : 실제 감염군 수 <br />
               Susceptible (감염대상군) : 감염될 수 있으나 아직 감염되지 않은
               개체의 수 <br />
@@ -81,14 +81,14 @@
               Infected (감염군) : 병을 전염시킬 수 있는 개체의 수 <br />
               Recovered (회복군) : 병에서 회복한 개체의 수와 격리 중 사망한
               개체의 수의 합
-            </v-card>
+            </p>
 
-            <template v-slot:actions>
+            <!-- <template v-slot:actions>
               <v-icon class="mr-1" small> mdi-clock-outline </v-icon>
               <span class="caption grey--text font-weight-light"
                 >updated 4 minutes ago</span
               >
-            </template>
+            </template> -->
           </base-material-my-card>
         </v-col>
 
@@ -162,6 +162,22 @@
           </v-card>
         </v-col>
         <v-spacer /> -->
+      </v-row>
+      <v-divider class="pb-4 align-center" />
+      <v-row>
+        <v-col cols="12" md="4">
+          <base-material-card
+            icon="mdi-cube-outline"
+            title="Modelling"
+            color="grey darken-1"
+          >
+          <p class="d-inline-flex font-weight-light ml-2 mt-3 mb-1">
+            S E I R 의 관계를 수학적으로 계산한 뒤 <br>
+            Matlab에 수식과 데이터를 입력하고 lsqcurvefit으로 최적화 <br>
+            chart.js 라이브러리를 이용하여 그래프를 구현
+          </p>
+          </base-material-card>
+        </v-col>
       </v-row>
     </v-container>
   </div>

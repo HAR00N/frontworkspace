@@ -138,7 +138,7 @@ export default {
 				active: false,
 				items: [
 					{ title: 'MERS Modeling', to: '/Personal/MersModeling' },
-					{ title: 'Game Modeling', to: '/Personal/GameModeling' },
+					// { title: 'Game Modeling', to: '/Personal/GameModeling' },
 				],
 			},
 			// {
@@ -159,12 +159,12 @@ export default {
 			// 	active: false,
 			// 	items: [{ title: 'Typography', to: '/components/typography' }],
 			// },
-			{
-				title: 'Icons',
-				icon: 'mdi-chart-bubble',
-				active: false,
-				items: [{ title: 'Icons', to: '/components/icons' }],
-			},
+			// {
+			// 	title: 'Icons',
+			// 	icon: 'mdi-chart-bubble',
+			// 	active: false,
+			// 	items: [{ title: 'Icons', to: '/components/icons' }],
+			// },
 			// {
 			// 	title: 'Google Maps',
 			// 	icon: 'mdi-map-marker',
