@@ -4,16 +4,24 @@
       <v-row>
         <v-col cols="12" md="8">
           <base-material-card>
-          <template v-slot:heading>
-						<div class="display-2 font-weight-medium black--text">Timeline</div>
+            <template v-slot:heading>
+              <div class="display-2 font-weight-medium black--text">
+                Timeline
+              </div>
 
-						<div class="subtitle-1 font-weight-light white--text pl-1">Haroon's timeline</div>
-					</template>
+              <div class="subtitle-1 font-weight-light white--text pl-1">
+                Haroon's timeline
+              </div>
+            </template>
             <!-- <div class="pt-2">
               <h2 class="mb-2 mt-2 ml-6 pl-4">Timeline</h2>
             </div> -->
             <v-card class="card-shadow mb-30 pa-4 pt-0 mt-0" elevation="0">
-              <v-timeline dense align-top class="timeline-line-color elevation-0">
+              <v-timeline
+                dense
+                align-top
+                class="timeline-line-color elevation-0"
+              >
                 <!-- <v-timeline-item
                 v-for="(item, i) in timeline"
                 :key="i"
@@ -64,14 +72,18 @@
                     </h3>
                   </template>
                   <div class="pb-0 pt-0 mr-6">
-                    <h3 :class="`font-weight-normal mb-4 black--text`">
+                    <h3 :class="`font-weight-normal mb-0 black--text`">
                       {{ item.title }}
                     </h3>
+                    <div class="mb-4 timeline-subtitle">
+                      {{ item.subtitle }}
+                    </div>
                     <div>
-                      Lorem ipsum dolor sit amet, no nam oblique veritus.
+                      <!-- Lorem ipsum dolor sit amet, no nam oblique veritus.
                       Commune scaevola imperdiet nec ut, sed euismod convenire
                       principes at. Est et nobis iisque percipit, an vim zril
-                      disputando voluptatibus, vix an salutandi sententiae.
+                      disputando voluptatibus, vix an salutandi sententiae. -->
+                      {{ item.content }}
                     </div>
                   </div>
 
@@ -110,7 +122,9 @@
         </v-col>
 
         <v-col cols="12" md="4">
-          <profile-card />
+          <v-card class="sticky" elevation="0" color="transparent">
+            <profile-card />
+          </v-card>
         </v-col>
         <top-button />
       </v-row>
@@ -121,15 +135,16 @@
 <script>
 import TopButton from "../../dashboard/components/util/TopButton.vue";
 import ProfileCard from "../../dashboard/components/core/ProfileCard.vue";
-import TimelineData from "../../dashboard/components/data/TimelineData.json"
+import TimelineData from "../../dashboard/components/data/TimelineData.json";
 export default {
   components: { TopButton, ProfileCard },
-  mounted () {
-    this.timelines = TimelineData
+  mounted() {
+    this.timelines = TimelineData;
   },
   data: () => ({
-    timelines:[{
-      title: "",
+    timelines: [
+      {
+        title: "",
         date: "",
         color: "",
         icon: "",
@@ -141,7 +156,21 @@ export default {
             src: "",
           },
         ],
-    }],
+      },
+    ],
   }),
 };
 </script>
+
+<style>
+.timeline-subtitle {
+  font-size: 1em;
+  font-family: consolas;
+  color: #757575;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+</style>

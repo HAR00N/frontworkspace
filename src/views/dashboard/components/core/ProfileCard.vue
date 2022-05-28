@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0" class="position-sticky" rounded="lg">
+  <v-card elevation="0" rounded="lg">
     <base-material-card
       class="v-card-profile"
       elevation="0"
@@ -25,4 +25,5 @@ export default {};
 </script>
 
 <style>
+
 </style>

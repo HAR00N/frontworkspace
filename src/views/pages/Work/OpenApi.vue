@@ -46,7 +46,7 @@
     </v-row>
     <v-divider class="pb-4 align-center" />
     <v-row>
-      <v-col cols="12" md="4">
+      <v-col cols="12" md="5">
         <v-card elevation="0">
           <base-material-card
             icon="mdi-cog-outline"
@@ -121,7 +121,7 @@
           </base-material-card>
         </v-card>
       </v-col>
-      <v-col cols="12" md="4">
+      <v-col cols="12" md="5">
         <v-card elevation="0">
           <base-material-card icon="mdi-xml" title="Code">
             <v-tabs
