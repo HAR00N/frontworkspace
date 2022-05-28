@@ -58,7 +58,7 @@
                 >
                 </v-select>
               </v-col>
-              selected : {{selected}}
+              <!-- selected : {{selected}} -->
             </template>
           </v-row>
           

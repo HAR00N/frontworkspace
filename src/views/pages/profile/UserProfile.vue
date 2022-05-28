@@ -15,7 +15,7 @@
             <v-container class="py-0">
               <v-row>
                 <v-col cols="12" md="4" class="px-4">
-                  <v-card elevation="0" class="mt-0 px-0" tile>
+                  <v-card elevation="0" class="underline px-0" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Name</v-card-text
                     >
@@ -24,7 +24,7 @@
                 </v-col>
 
                 <v-col cols="12" md="4" class="px-4">
-                  <v-card elevation="0" class="mt-0 px-0" tile>
+                  <v-card elevation="0" class="underline px-0" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Birth</v-card-text
                     >
@@ -35,7 +35,7 @@
                 </v-col>
 
                 <v-col cols="12" md="4" class="px-4">
-                  <v-card elevation="0" class="mt-0 px" tile>
+                  <v-card elevation="0" class="underline px" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Address</v-card-text
                     >
@@ -46,7 +46,7 @@
                 </v-col>
 
                 <v-col cols="12" md="6" class="px-4">
-                  <v-card elevation="0" class="mt-0 px" tile>
+                  <v-card elevation="0" class="underline px" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       E-mail</v-card-text
                     >
@@ -74,7 +74,7 @@
                 </v-col>
 
                 <v-col cols="12" md="6" class="px-4">
-                  <v-card elevation="0" class="mt-0 px" tile>
+                  <v-card elevation="0" class="underline px" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       GitHub</v-card-text
                     >
@@ -100,7 +100,7 @@
                 </v-col>
 
                 <v-col cols="12" md="6" class="px-4">
-                  <v-card elevation="0" class="mt-0 px" tile>
+                  <v-card elevation="0" class="underline px" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Educational Qualifications</v-card-text
                     >
@@ -114,7 +114,7 @@
                 </v-col>
 
                 <v-col cols="12" md="6" class="px-4">
-                  <v-card elevation="0" class="mt-0 px" tile>
+                  <v-card elevation="0" class="underline px" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Employment (Intern)
                     </v-card-text>
@@ -167,11 +167,16 @@
 
           <v-card elevation="0" class="pb-5">
             <v-container class="py-0">
-              <v-card-title class="pa-0"> Stack Now </v-card-title>
               <v-row>
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="py-0 px-2">
+                  <v-card-title class="pa-0"> Stack Now </v-card-title>
+                </v-col>
+              </v-row>
+
+              <v-row>
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="mt-0 px-0" tile>
-                    <v-card-text class="text-caption grey--text pb-0 px-0">
+                    <v-card-text class="text-caption grey--text pa-0 pt-2">
                       Backend</v-card-text
                     >
                     <v-card-text class="pt-1 px-0 pb-0">
@@ -188,69 +193,93 @@
                   </v-card>
                 </v-col>
 
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="mt-0 px-0" tile>
-                    <v-card-text class="text-caption grey--text pb-0 px-0">
+                    <v-card-text class="text-caption grey--text pa-0 pt-2">
                       Frontend</v-card-text
                     >
                     <v-card-text class="pt-1 px-0 pb-1">
                       JavaScript (ES6)
                     </v-card-text>
                     <v-card-text class="px-0 pb-2 pt-1">
-						Vue.js, Vuetify.js
+                      Vue.js, Vuetify.js
                     </v-card-text>
                   </v-card>
                 </v-col>
 
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="mt-0 px" tile>
-                    <v-card-text class="text-caption grey--text pb-0 px-0">
-                      Devops & Tools</v-card-text
+                    <v-card-text class="text-caption grey--text pa-0 pt-2">
+                      DevOps & Tools</v-card-text
                     >
                     <v-card-text class="pt-1 px-0 pb-0">
-						MySQL, MariaDB, Oracle
+                      MySQL, MariaDB, Oracle
                     </v-card-text>
                     <v-card-text class="px-0 py-1">
-						Tomcat, Docker
+                      Tomcat, Docker
                     </v-card-text>
-                    <v-card-text class="px-0 pb-2 pt-0">
-						Git, SVN
-                    </v-card-text>
+                    <v-card-text class="px-0 pb-2 pt-0"> Git, SVN </v-card-text>
                   </v-card>
                 </v-col>
               </v-row>
-              <v-divider class="mb-2" />
-              <v-card-title class="pa-0"> Stack Practice </v-card-title>
+              <v-divider class="mb-4" />
               <v-row>
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="py-0 px-2">
+                  <v-card-title class="pa-0 pt-4">
+                    Stack Practice
+                  </v-card-title>
+                </v-col>
+                <v-col cols="12" md="4"> </v-col>
+                <v-col cols="12" md="4" class="py-0 px-2">
+                  <v-card-title class="pa-0 pt-4"> IDEs </v-card-title>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="mt-0 px-0" tile>
-                    <v-card-text class="text-caption grey--text pb-0 px-0">
+                    <v-card-text class="text-caption grey--text pa-0 pt-2">
                       Backend</v-card-text
                     >
-                    <v-card-text class="pt-1 px-0 pb-2"> Java </v-card-text>
+                    <v-card-text class="pt-1 px-0 pb-0">
+                      Kotlin, Go
+                    </v-card-text>
+                    <v-card-text class="px-0 py-1">
+                      Spring Boot, Node.js
+                    </v-card-text>
+                    <v-card-text class="px-0 pb-2 pt-0">
+                      JPA, Gradle
+                    </v-card-text>
                   </v-card>
                 </v-col>
 
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="mt-0 px-0" tile>
-                    <v-card-text class="text-caption grey--text pb-0 px-0">
+                    <v-card-text class="text-caption grey--text pa-0 pt-2">
                       Frontend</v-card-text
                     >
-                    <v-card-text class="pt-1 px-0 pb-2"> Vue.js </v-card-text>
+                    <v-card-text class="pt-1 px-0 pb-1"> JSP </v-card-text>
+                    <v-card-text class="px-0 pb-2 pt-1"> JQuery </v-card-text>
                   </v-card>
                 </v-col>
 
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="mt-0 px" tile>
-                    <v-card-text class="text-caption grey--text pb-0 px-0">
-                      Devops & Tools</v-card-text
+                    <v-card-text class="text-caption grey--text pa-0 pt-2">
+                      IDEs</v-card-text
                     >
-                    <v-card-text class="pt-1 px-0 pb-2">
-                      MySQL, Oracle
+                    <v-card-text class="pt-1 px-0 pb-0">
+                      Eclipse (Egovframework)
+                    </v-card-text>
+                    <v-card-text class="px-0 py-1">
+                      VScode, IntelliJ, GoLand
+                    </v-card-text>
+                    <v-card-text class="px-0 pb-2 pt-0">
+                      DBeaver, MySQL Workbench
                     </v-card-text>
                   </v-card>
                 </v-col>
               </v-row>
+              <v-divider />
             </v-container>
           </v-card>
         </base-material-card>
@@ -269,7 +298,7 @@ export default {
 </script>
 
 <style>
-.mt-0 {
+.underline {
   border-bottom: 1px solid #bdbdbd !important;
 }
 .sticky {

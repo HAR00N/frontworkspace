@@ -1,15 +1,15 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" md="8">
+      <v-col cols="12" md="6">
         <v-card color="transparent" elevation="0">
-          <v-card-title class="main-title"> Hello! </v-card-title>
-          <v-card-subtitle class="main-subtitle mt-4 ml-2">
+          <v-card-title class="main-title justify-end"> Hello! </v-card-title>
+          <v-card-subtitle class="main-subtitle text-right mt-4 ml-2">
             Welcome to my Portfolio
           </v-card-subtitle>
         </v-card>
       </v-col>
-      <v-col cols="12" md="4">
+      <v-col cols="12" md="6">
         <img src="@/assets/mycharacter/haroon.png" class="align-center" />
       </v-col>
     </v-row>
