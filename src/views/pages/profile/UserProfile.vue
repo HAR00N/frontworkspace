@@ -119,7 +119,7 @@
                       Employment (Intern)
                     </v-card-text>
                     <v-card-text class="pt-1 px-0 pb-0">
-                      2022.02 - 2022.05
+                      2022.02 - 2022.05 (3개월)
                     </v-card-text>
                     <v-card-text class="px-0 pb-2 pt-1">
                       (주)다인리더스
