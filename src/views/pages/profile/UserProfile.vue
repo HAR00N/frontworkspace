@@ -11,10 +11,10 @@
             </div>
           </template>
 
-          <v-card elevation="0" class="pb-5">
+          <v-card elevation="0" class="pb-2 mb-0">
             <v-container class="py-0">
               <v-row>
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="underline px-0" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Name</v-card-text
@@ -23,7 +23,7 @@
                   </v-card>
                 </v-col>
 
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="underline px-0" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Birth</v-card-text
@@ -34,7 +34,7 @@
                   </v-card>
                 </v-col>
 
-                <v-col cols="12" md="4" class="px-4">
+                <v-col cols="12" md="4" class="px-4 pt-0">
                   <v-card elevation="0" class="underline px" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Address</v-card-text
@@ -100,7 +100,7 @@
                 </v-col>
 
                 <v-col cols="12" md="6" class="px-4">
-                  <v-card elevation="0" class="underline px" tile>
+                  <v-card elevation="0" class="underline" tile>
                     <v-card-text class="text-caption grey--text pb-0 px-0">
                       Educational Qualifications</v-card-text
                     >
