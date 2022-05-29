@@ -17,7 +17,7 @@ export default new Router({
           component: () => import('@/views/pages/main/MainPage'),
         },
         {
-          name: 'Profile',
+          name: 'Stack',
           path: '/Profile/Profile',
           component: () => import('@/views/pages/profile/UserProfile'),
         },
