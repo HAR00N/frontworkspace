@@ -4356,17 +4356,32 @@
     },
     {
         "date": "2022-06-09",
-        "infected": "12158",
+        "infected": "12157",
         "death": "18"
     },
     {
         "date": "2022-06-10",
-        "infected": "9315",
+        "infected": "9312",
         "death": "18"
     },
     {
         "date": "2022-06-11",
-        "infected": "8442",
+        "infected": "8441",
         "death": "10"
+    },
+    {
+        "date": "2022-06-12",
+        "infected": "7381",
+        "death": "20"
+    },
+    {
+        "date": "2022-06-13",
+        "infected": "3828",
+        "death": "17"
+    },
+    {
+        "date": "2022-06-14",
+        "infected": "9778",
+        "death": "2"
     }
 ]
