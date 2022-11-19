@@ -128,7 +128,7 @@ export default {
 				title: 'Work Exp',
 				active: false,
 				items: [
-					{ title: 'Table Search', to: '/Work/TableSearch' },
+					// { title: 'Table Search', to: '/Work/TableSearch' },
 					{ title: 'Open API', to: '/Work/OpenApi' },
 				],
 			},
