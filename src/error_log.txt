@@ -1,0 +1,3023 @@
+C:\>imp high_230217/dainls123@localhost:1522 file=C:/dump/full_exp_20230212.dmp full=y log=C:/dump/full_exp_20230212.log
+Import: Release 21.0.0.0.0 - Production on 수 3월 22 13:09:40 2023
+Version 21.3.0.0.0
+
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+
+다음에 접속됨: Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+
+익스포트 파일은 규정 경로를 거쳐 EXPORT:V11.02.00 에 의해 생성되었습니다
+
+경고: 객체는 다른 사용자 SYSTEM(이)가 엑스포트한 것입니다.
+
+KO16MSWIN949 문자집합과 AL16UTF16 NCHAR 문자 집합에 임포트가 완성되었습니다
+AL32UTF8 문자 집합을 사용해서 서버를 임포트합니다 (문자집합 변환이 가능합니다)
+IMP-00403:
+
+경고: 이 임포트는 권한 문제로 인해 실패한 DDL이 포함된 개별 SQL 파일 "C:/dump/\full_exp_20230212_sys.sql"을(를) 생성했습니다.
+
+. SYSTEM 객체를 SYSTEM(으)로 임포트하는 중입니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE TABLESPACE "SYSAUX" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB/sysaux01."
+ "dbf' SIZE 1270M       AUTOEXTEND ON NEXT 10485760  MAXSIZE 32767M EXTENT MA"
+ "NAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAGEMENT AU"
+ "TO"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE UNDO TABLESPACE "UNDOTBS1" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB/un"
+ "dotbs01.dbf' SIZE 11160M       AUTOEXTEND ON NEXT 5242880  MAXSIZE 32767M E"
+ "XTENT MANAGEMENT LOCAL "
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE TEMPORARY TABLESPACE "TEMP" BLOCKSIZE 8192 TEMPFILE  '/oradata/JOB/t"
+ "emp01.dbf' SIZE 1707M       AUTOEXTEND ON NEXT 655360  MAXSIZE 32767M EXTEN"
+ "T MANAGEMENT LOCAL  UNIFORM SIZE 1048576"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE TABLESPACE "USERS" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB/users01.db"
+ "f' SIZE 13107200       AUTOEXTEND ON NEXT 1310720  MAXSIZE 32767M EXTENT MA"
+ "NAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAGEMENT AU"
+ "TO"
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TEMPORARY TABLESPACE "KANGJOB_TEMP" BLOCKSIZE 8192 TEMPFILE  '/orada"
+ "ta/JOB_TS/kangJOB_temp.dbf' SIZE 1073741824       EXTENT MANAGEMENT LOCAL  "
+ "UNIFORM SIZE 1048576"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/kangJOB_temp.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "KANGJOB" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB_TS/kangJ"
+ "OB.dbf' SIZE 10240M       EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PER"
+ "MANENT  SEGMENT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/kangJOB.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "LEMA3" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB_TS/lema3.d"
+ "bf' SIZE 1073741824       EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PER"
+ "MANENT  SEGMENT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/lema3.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_COMM_DAT" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_COMM_DAT.DAT' SIZE 1740M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M, '/oradata/JOB_TS/TS_EGOV_COMM_DAT_02.DAT' SIZE 2048M       AUTOEXT"
+ "END ON NEXT 8192  MAXSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONL"
+ "INE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_COMM_DAT.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_COMM_IDX" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_COMM_IDX.DAT' SIZE 1920M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M, '/oradata/JOB_TS/TS_EGOV_COMM_IDX_02.DAT' SIZE 2048M       AUTOEXT"
+ "END ON NEXT 8192  MAXSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONL"
+ "INE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_COMM_IDX.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_JOBS_DAT" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_JOBS_DAT.DAT' SIZE 2755M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_JOBS_DAT.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_JOBS_IDX" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_JOBS_IDX.DAT' SIZE 1915M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_JOBS_IDX.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TEMPORARY TABLESPACE "TS_EGOV_JOBS_TEMP" BLOCKSIZE 8192 TEMPFILE  '/"
+ "oradata/JOB_TS/TS_EGOV_JOBS_TEMP.DBF' SIZE 536870912       EXTENT MANAGEMEN"
+ "T LOCAL  UNIFORM SIZE 1048576"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_JOBS_TEMP.DBF' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "HIGH_TS" BLOCKSIZE 8192 DATAFILE  '/oradata/high/high_da"
+ "ta.dbf' SIZE 5400M       AUTOEXTEND ON NEXT 104857600  MAXSIZE 32767M EXTEN"
+ "T MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAGEMEN"
+ "T AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/high/high_data.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "HIGH_IS" BLOCKSIZE 8192 DATAFILE  '/oradata/high/high_in"
+ "dex.dbf' SIZE 104857600       AUTOEXTEND ON NEXT 20971520  MAXSIZE 32767M E"
+ "XTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAG"
+ "EMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/high/high_index.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "GWNU_IIE_TS" BLOCKSIZE 8192 DATAFILE  '/oradata/gwnu_iie"
+ "/gwnu_iie_ts_data.dbf' SIZE 209715200       AUTOEXTEND ON NEXT 52428800  MA"
+ "XSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGME"
+ "NT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/gwnu_iie/gwnu_iie_ts_data.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "GWNU_IIE_IS" BLOCKSIZE 8192 DATAFILE  '/oradata/gwnu_iie"
+ "/gwnu_iie_ts_index.dbf' SIZE 52428800       AUTOEXTEND ON NEXT 10485760  MA"
+ "XSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGME"
+ "NT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/gwnu_iie/gwnu_iie_ts_index.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 65140 오류가 발생했습니다:
+ "CREATE PROFILE "MONITORING_PROFILE" LIMIT COMPOSITE_LIMIT DEFAULT SESSIONS_"
+ "PER_USER DEFAULT CPU_PER_SESSION DEFAULT CPU_PER_CALL DEFAULT LOGICAL_READS"
+ "_PER_SESSION DEFAULT LOGICAL_READS_PER_CALL DEFAULT IDLE_TIME DEFAULT CONNE"
+ "CT_TIME DEFAULT PRIVATE_SGA DEFAULT FAILED_LOGIN_ATTEMPTS UNLIMITED PASSWOR"
+ "D_LIFE_TIME DEFAULT PASSWORD_REUSE_TIME DEFAULT PASSWORD_REUSE_MAX DEFAULT "
+ "PASSWORD_LOCK_TIME DEFAULT PASSWORD_GRACE_TIME DEFAULT"
+IMP-00003: ORACLE 오류 65140이(가) 발생했습니다.
+ORA-65140: 공통 프로파일 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1031 오류가 발생했습니다:
+ "ALTER USER "SYS" IDENTIFIED BY VALUES 'D828360453A85A9D' TEMPORARY TABLESPA"
+ "CE "TEMP""
+IMP-00003: ORACLE 오류 1031이(가) 발생했습니다.
+ORA-01031: 권한이 불충분합니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "OUTLN" IDENTIFIED BY VALUES '4A3BA55E08595C81' TEMPORARY TABLE"
+ "SPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "ORDDATA" IDENTIFIED BY VALUES 'A93EC937FCD1DC2A' DEFAULT TABLE"
+ "SPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "MDDATA" IDENTIFIED BY VALUES 'DF02A496267DEE66' DEFAULT TABLES"
+ "PACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SPATIAL_WFS_ADMIN_USR" IDENTIFIED BY VALUES '7117215D6BEE6E82'"
+ " DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACC"
+ "OUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SPATIAL_CSW_ADMIN_USR" IDENTIFIED BY VALUES '1B290858DD14107E'"
+ " DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACC"
+ "OUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SYSMAN" IDENTIFIED BY VALUES '447B729161192C24' DEFAULT TABLES"
+ "PACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "MGMT_VIEW" IDENTIFIED BY VALUES '0C76C7EED0CE95EB' TEMPORARY T"
+ "ABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "FLOWS_FILES" IDENTIFIED BY VALUES 'A615F72D8D4B7A3D' DEFAULT T"
+ "ABLESPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "APEX_PUBLIC_USER" IDENTIFIED BY VALUES '3C91E6A20F0770EC' DEFA"
+ "ULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT "
+ "LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "APEX_030200" IDENTIFIED BY VALUES '059E9CA418F39DED' DEFAULT T"
+ "ABLESPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "OWBSYS" IDENTIFIED BY VALUES '46FFE7B1869A6388' DEFAULT TABLES"
+ "PACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "OWBSYS_AUDIT" IDENTIFIED BY VALUES '3378320729DADFE1' DEFAULT "
+ "TABLESPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOC"
+ "K"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SCOTT" IDENTIFIED BY VALUES 'F894844C34402B67' DEFAULT TABLESP"
+ "ACE "USERS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "LEMA3" IDENTIFIED BY VALUES '9331057B98FE3756' DEFAULT TABLESP"
+ "ACE "LEMA3" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "JOBS" IDENTIFIED BY VALUES '7C3432B9CC307BC2' DEFAULT TABLESPA"
+ "CE "TS_EGOV_JOBS_DAT" TEMPORARY TABLESPACE "TS_EGOV_JOBS_TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "BIADMIN" IDENTIFIED BY VALUES '6AD66790C3EFFDE9' DEFAULT TABLE"
+ "SPACE "USERS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "KANGJOB" IDENTIFIED BY VALUES 'A0E8085BC3C51FC2' DEFAULT TABLE"
+ "SPACE "KANGJOB" TEMPORARY TABLESPACE "KANGJOB_TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "UCDP" IDENTIFIED BY VALUES '7D3A45CB409A8D96' DEFAULT TABLESPA"
+ "CE "TS_EGOV_COMM_DAT" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "UCDPVIEW" IDENTIFIED BY VALUES 'AFA9FFF22A521ADE' DEFAULT TABL"
+ "ESPACE "TS_EGOV_COMM_DAT" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "PETRA" IDENTIFIED BY VALUES '8CA4998A35ECC559' DEFAULT TABLESP"
+ "ACE "USERS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "HIGHDAINLS" IDENTIFIED BY VALUES '4DC687C1F5642FC5' DEFAULT TA"
+ "BLESPACE "HIGH_TS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "GWNU_IIE" IDENTIFIED BY VALUES '79FB92C314699843' DEFAULT TABL"
+ "ESPACE "GWNU_IIE_TS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SELECT_CATALOG_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "SELECT_CATALOG_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "EXECUTE_CATALOG_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "EXECUTE_CATALOG_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DELETE_CATALOG_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "DELETE_CATALOG_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'DELETE_CATALOG_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "LOGSTDBY_ADMINISTRATOR""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "LOGSTDBY_ADMINISTRATOR" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DBFS_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "DBFS_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "AQ_ADMINISTRATOR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "AQ_USER_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "AQ_USER_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DATAPUMP_EXP_FULL_DATABASE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "DATAPUMP_EXP_FULL_DATABASE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DATAPUMP_IMP_FULL_DATABASE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "DATAPUMP_IMP_FULL_DATABASE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "ADM_PARALLEL_EXECUTE_TASK""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "ADM_PARALLEL_EXECUTE_TASK" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "GATHER_SYSTEM_STATISTICS""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "GATHER_SYSTEM_STATISTICS" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVA_DEPLOY""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "JAVA_DEPLOY" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'JAVA_DEPLOY'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "RECOVERY_CATALOG_OWNER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "RECOVERY_CATALOG_OWNER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SCHEDULER_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "SCHEDULER_ADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "HS_ADMIN_SELECT_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "HS_ADMIN_SELECT_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "HS_ADMIN_EXECUTE_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "HS_ADMIN_EXECUTE_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "HS_ADMIN_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "HS_ADMIN_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 439 오류가 발생했습니다:
+ "CREATE ROLE "GLOBAL_AQ_USER_ROLE" IDENTIFIED GLOBALLY "
+IMP-00003: ORACLE 오류 439이(가) 발생했습니다.
+ORA-00439: 기능이 사용으로 설정되지 않음: Enterprise User Security
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OEM_ADVISOR""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OEM_ADVISOR" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OEM_MONITOR""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OEM_MONITOR" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "WM_ADMIN_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "WM_ADMIN_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVAUSERPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVAUSERPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVAIDPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVAIDPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVASYSPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVASYSPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVADEBUGPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVADEBUGPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "EJBCLIENT""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "EJBCLIENT" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JMXSERVER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JMXSERVER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVA_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVA_ADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "CTXAPP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "CTXAPP" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDBADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDBADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_SET_INVOKER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_SET_INVOKER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "AUTHENTICATEDUSER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "AUTHENTICATEDUSER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_WEBSERVICES""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_WEBSERVICES" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_WEBSERVICES_WITH_PUBLIC""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_WEBSERVICES_WITH_PUBLIC" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_WEBSERVICES_OVER_HTTP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_WEBSERVICES_OVER_HTTP" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OLAP_DBA""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OLAP_DBA" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "ORDADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "ORDADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OLAP_XS_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OLAP_XS_ADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OWB_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "OWB_USER" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "CWM_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "CWM_USER" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CWM_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OLAP_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OLAP_USER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SPATIAL_WFS_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "SPATIAL_WFS_ADMIN" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_WFS_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "WFS_USR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "WFS_USR_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'WFS_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SPATIAL_CSW_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "SPATIAL_CSW_ADMIN" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_CSW_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "CSW_USR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "CSW_USR_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CSW_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "MGMT_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "MGMT_USER" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "APEX_ADMINISTRATOR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "APEX_ADMINISTRATOR_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'APEX_ADMINISTRATOR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OWB$CLIENT" IDENTIFIED BY VALUES '13D492A4459DFE0D'"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "OWB$CLIENT" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OWB_DESIGNCENTER_VIEW""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "OWB_DESIGNCENTER_VIEW" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_DESIGNCENTER_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE LIBRARY TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY DIRECTORY TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP ANY ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT GRANT ANY ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE LIBRARY TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY DIRECTORY TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP ANY ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT GRANT ANY ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT SELECT ANY DICTIONARY TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLE TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER USER TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "MGMT_USER""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "FLOWS_FILES""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'FLOWS_FILES'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "APEX_PUBLIC_USER""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_PUBLIC_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER USER TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY CONTEXT TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE USER TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP USER TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ROLE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP PUBLIC SYNONYM TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLESPACE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP TABLESPACE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE CLUSTER TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DIMENSION TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE INDEXTYPE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE MATERIALIZED VIEW TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE OPERATOR TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SEQUENCE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TRIGGER TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TYPE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER DATABASE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE JOB TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SYSTEM TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY CONTEXT TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DATABASE LINK TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DIMENSION TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE INDEXTYPE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE JOB TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE MATERIALIZED VIEW TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SEQUENCE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP PUBLIC SYNONYM TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TRIGGER TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TYPE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT GLOBAL QUERY REWRITE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER USER TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY TRIGGER TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE EXTERNAL JOB TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ANALYZE ANY TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DATABASE LINK TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DIMENSION TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE INDEXTYPE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SEQUENCE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE MATERIALIZED VIEW TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TYPE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "OWBSYS_AUDIT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS_AUDIT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "OWBSYS_AUDIT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS_AUDIT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SCOTT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT SELECT ANY TABLE TO "BIADMIN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'BIADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "UCDPVIEW""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDPVIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY TABLE TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TRIGGER TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT SELECT ANY DICTIONARY TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY PROCEDURE TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY TRIGGER TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY TRIGGER TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY INDEX TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY SYNONYM TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "DELETE_CATALOG_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'DELETE_CATALOG_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "DELETE_CATALOG_ROLE" TO "DBA" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'DELETE_CATALOG_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "JAVA_DEPLOY" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'JAVA_DEPLOY'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "JAVA_DEPLOY" TO "DBA""
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'JAVA_DEPLOY'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "CWM_USER" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CWM_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_WFS_ADMIN" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_WFS_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_WFS_ADMIN" TO "SPATIAL_WFS_ADMIN_USR" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_WFS_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "WFS_USR_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'WFS_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_CSW_ADMIN" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_CSW_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_CSW_ADMIN" TO "SPATIAL_CSW_ADMIN_USR" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_CSW_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "CSW_USR_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CSW_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "SELECT_CATALOG_ROLE" TO "SYSMAN" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "SYSMAN" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "MGMT_VIEW""
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "SYSTEM""
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "APEX_ADMINISTRATOR_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'APEX_ADMINISTRATOR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "AQ_ADMINISTRATOR_ROLE" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "AQ_USER_ROLE" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "JAVAUSERPRIV" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "JAVA_ADMIN" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "OLAP_USER" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "CWM_USER" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CWM_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB$CLIENT" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB$CLIENT" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_DESIGNCENTER_VIEW" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_DESIGNCENTER_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_DESIGNCENTER_VIEW" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_DESIGNCENTER_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_USER" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_USER" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "SCOTT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SCOTT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "EXP_FULL_DATABASE" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "IMP_FULL_DATABASE" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "BIADMIN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'BIADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "EXP_FULL_DATABASE" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "IMP_FULL_DATABASE" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "SELECT_CATALOG_ROLE" TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "GWNU_IIE" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "HIGHDAINLS" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "UCDP" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "UCDPVIEW" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'UCDPVIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "LEMA3" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SPATIAL_WFS_ADMIN_USR" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SPATIAL_CSW_ADMIN_USR" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "APEX_PUBLIC_USER" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'APEX_PUBLIC_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SCOTT" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "BIADMIN" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'BIADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "PETRA" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SYSMAN" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "FLOWS_FILES" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'FLOWS_FILES'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "APEX_030200" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "OWBSYS" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "OWBSYS_AUDIT" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'OWBSYS_AUDIT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "MGMT_VIEW" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'MGMT_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "KANGJOB" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "JOBS" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SYSMAN" QUOTA UNLIMITED ON "SYSAUX""
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "FLOWS_FILES" QUOTA UNLIMITED ON "SYSAUX""
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'FLOWS_FILES'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 2153 오류가 발생했습니다:
+ "CREATE PUBLIC DATABASE LINK "HAKLINK" CONNECT TO "NJOBCHIUP" IDENTIFIED BY "
+ "VALUES '0699352EF527985F766AA031D3D5AA77BAF5AD2F4FCDF8AB410DF215FCF2F81D67C"
+ "E75E78C55CCE9919A0E8B6CAA5C1627654E51ECAED783C0DFAB27375DA22EBBB9BDDC64B8E7"
+ "60201BBE9BE28F058527BD7A71B2F34458074982AA319B6958C12FEAFA00A281D31EA66E049"
+ "C2BCEE3418E27AFBF50D033B0B15F050B0C1750' USING '(DESCRIPTION ="
+ "    (ADDRESS = (PROTOCOL = TCP)(HOST = 202.30.48.26)(PORT = 1620))"
+ "    (CONNECT_DATA ="
+ "      (SID = ORA12)"
+ "    )"
+ "  )'"
+IMP-00003: ORACLE 오류 2153이(가) 발생했습니다.
+ORA-02153: VALUES 비밀번호 문자열이 부적당합니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE PUBLIC DATABASE LINK "HAN" CONNECT TO "HAN" IDENTIFIED BY VALUES '05"
+ "39BF5BFFB00CDBED036B80645F1794B7' USING '(description ="
+ "(address = (protocol = tcp)(host=122.199.150.6)(port=1521))"
+ "(connect_data = (server = dedicated)"
+ "(service_name = ora9)"
+ "))'"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE PUBLIC DATABASE LINK "KANGJOB.HAN" CONNECT TO "HAN" IDENTIFIED BY VA"
+ "LUES '058A6B5A30E342403394A7782024DAE5B8' USING '(description ="
+ "(address = (protocol = tcp)(host=122.199.150.6)(port=1521))"
+ "(connect_data = (server = dedicated)"
+ "(service_name = ora9)"
+ "))'"
+. HIGHDAINLS 객체를 HIGHDAINLS(으)로 임포트하는 중입니다
+IMP-00003: ORACLE 오류 1435이(가) 발생했습니다.
+ORA-01435: 사용자가 존재하지 않습니다
+. SYSTEM 객체를 SYSTEM(으)로 임포트하는 중입니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "LOGMNR_EVOLVE_SEQ$" MINVALUE 1 MAXVALUE 999999999999999999"
+ "9999999999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_EXCEPTIONS_S" MINVALUE 1 MAXVALUE 9999999999999999"
+ "999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "LOGMNR_UIDS$" MINVALUE 1 MAXVALUE 999999999999999999999999"
+ "9999 INCREMENT BY 1 START WITH 100 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "MVIEW$_ADVSEQ_GENERIC" MINVALUE 1 MAXVALUE 4294967295 INCR"
+ "EMENT BY 1 START WITH 1 CACHE 50 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "MVIEW$_ADVSEQ_ID" MINVALUE 1 MAXVALUE 4294967295 INCREMENT"
+ " BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_FLAVORS_S" MINVALUE -2147483647 MAXVALUE 214748364"
+ "7 INCREMENT BY 1 START WITH 1 NOCACHE NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_FLAVOR_NAME_S" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 1 NOCACHE NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_REPPROP_KEY" MINVALUE 1 MAXVALUE 99999999999999999"
+ "99999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT_LOG_SEQUENCE" MINVALUE 1 MAXVALUE 99999999999999999"
+ "99999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_REFRESH_TEMPLATES_S" MINVALUE 1 MAXVALUE 999999999"
+ "9999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_USER_AUTHORIZATIONS_S" MINVALUE 1 MAXVALUE 9999999"
+ "999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_REFGROUPS_S" MINVALUE 1 MAXVALUE 99999999"
+ "99999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_OBJECTS_S" MINVALUE 1 MAXVALUE 9999999999"
+ "999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_PARMS_S" MINVALUE 1 MAXVALUE 999999999999"
+ "9999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_USER_PARM_VALUES_S" MINVALUE 1 MAXVALUE 9999999999"
+ "999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_SITES_S" MINVALUE 1 MAXVALUE 999999999999"
+ "9999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMP_OUTPUT_S" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_RUNTIME_PARMS_S" MINVALUE 1 MAXVALUE 9999999999999"
+ "999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "TEMPLATE$_TARGETS_S" MINVALUE 1 MAXVALUE 99999999999999999"
+ "99999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "LOGMNR_SEQ$" MINVALUE 1 MAXVALUE 9999999999999999999999999"
+ "999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+. ORDDATA 객체를 ORDDATA(으)로 임포트하는 중입니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_DICT_A_DA_ID_SEQ" MINVALUE 1 MAXVALUE 9999999999999"
+ "999999999999999 INCREMENT BY 1 START WITH 2419 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_CT_PRED_SET_SEQ" MINVALUE 1 MAXVALUE 99999999999999"
+ "99999999999999 INCREMENT BY 1 START WITH 10 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_CT_PRED_SEQ" MINVALUE 1 MAXVALUE 999999999999999999"
+ "9999999999 INCREMENT BY 1 START WITH 62 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_DATA_MODEL_SEQ" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 2 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_STOREDTAGS_STID_SEQ" MINVALUE 1 MAXVALUE 9999999999"
+ "999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_UID_DEFS_UDID_SEQ" MINVALUE 1 MAXVALUE 999999999999"
+ "9999999999999999 INCREMENT BY 1 START WITH 246 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_RT_PREF_P_PPID_SEQ" MINVALUE 1 MAXVALUE 99999999999"
+ "99999999999999999 INCREMENT BY 1 START WITH 14 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_ANON_ATTRS_SEQ" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 38 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_MPD_P_MPID_SEQ" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_PRV_A_PA_ID_SEQ" MINVALUE 1 MAXVALUE 99999999999999"
+ "99999999999999 INCREMENT BY 1 START WITH 4 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_STD_A_SA_ID_SEQ" MINVALUE 1 MAXVALUE 99999999999999"
+ "99999999999999 INCREMENT BY 1 START WITH 2416 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_DOCS_ID_SEQ" MINVALUE 1 MAXVALUE 999999999999999999"
+ "9999999999 INCREMENT BY 1 START WITH 10 NOCACHE ORDER NOCYCLE"
+. SYSMAN 객체를 SYSMAN(으)로 임포트하는 중입니다
+ "ALTER SESSION SET CURRENT_SCHEMA= "SYSMAN""
+IMP-00003: ORACLE 오류 1435이(가) 발생했습니다.
+ORA-01435: 사용자가 존재하지 않습니다
+IMP-00000: 임포트가 실패로 끝났습니다
+
+C:\>ALTER SESSION SET "_ORACLE_SCRIPT"=TRUE;
+'ALTER'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\>sqlplus / as sysdba
+
+SQL*Plus: Release 21.0.0.0.0 - Production on 수 3월 22 13:33:29 2023
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle.  All rights reserved.
+
+
+다음에 접속됨:
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+
+SQL> ALTER SESSION SET "_ORACLE_SCRIPT"=TRUE;
+
+세션이 변경되었습니다.
+
+SQL> exit
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0에서 분리되었습니다.
+
+C:\>imp high_230217/dainls123@localhost:1522 file=C:/dump/full_exp_20230212.dmp full=y log=C:/dump/full_exp_20230212.log
+
+Import: Release 21.0.0.0.0 - Production on 수 3월 22 13:33:39 2023
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+
+다음에 접속됨: Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+
+익스포트 파일은 규정 경로를 거쳐 EXPORT:V11.02.00 에 의해 생성되었습니다
+
+경고: 객체는 다른 사용자 SYSTEM(이)가 엑스포트한 것입니다.
+
+KO16MSWIN949 문자집합과 AL16UTF16 NCHAR 문자 집합에 임포트가 완성되었습니다
+AL32UTF8 문자 집합을 사용해서 서버를 임포트합니다 (문자집합 변환이 가능합니다)
+IMP-00403:
+
+경고: 이 임포트는 권한 문제로 인해 실패한 DDL이 포함된 개별 SQL 파일 "C:/dump/\full_exp_20230212_sys.sql"을(를) 생성했습니다.
+
+. SYSTEM 객체를 SYSTEM(으)로 임포트하는 중입니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE TABLESPACE "SYSAUX" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB/sysaux01."
+ "dbf' SIZE 1270M       AUTOEXTEND ON NEXT 10485760  MAXSIZE 32767M EXTENT MA"
+ "NAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAGEMENT AU"
+ "TO"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE UNDO TABLESPACE "UNDOTBS1" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB/un"
+ "dotbs01.dbf' SIZE 11160M       AUTOEXTEND ON NEXT 5242880  MAXSIZE 32767M E"
+ "XTENT MANAGEMENT LOCAL "
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE TEMPORARY TABLESPACE "TEMP" BLOCKSIZE 8192 TEMPFILE  '/oradata/JOB/t"
+ "emp01.dbf' SIZE 1707M       AUTOEXTEND ON NEXT 655360  MAXSIZE 32767M EXTEN"
+ "T MANAGEMENT LOCAL  UNIFORM SIZE 1048576"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE TABLESPACE "USERS" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB/users01.db"
+ "f' SIZE 13107200       AUTOEXTEND ON NEXT 1310720  MAXSIZE 32767M EXTENT MA"
+ "NAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAGEMENT AU"
+ "TO"
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TEMPORARY TABLESPACE "KANGJOB_TEMP" BLOCKSIZE 8192 TEMPFILE  '/orada"
+ "ta/JOB_TS/kangJOB_temp.dbf' SIZE 1073741824       EXTENT MANAGEMENT LOCAL  "
+ "UNIFORM SIZE 1048576"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/kangJOB_temp.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "KANGJOB" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB_TS/kangJ"
+ "OB.dbf' SIZE 10240M       EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PER"
+ "MANENT  SEGMENT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/kangJOB.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "LEMA3" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB_TS/lema3.d"
+ "bf' SIZE 1073741824       EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PER"
+ "MANENT  SEGMENT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/lema3.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_COMM_DAT" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_COMM_DAT.DAT' SIZE 1740M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M, '/oradata/JOB_TS/TS_EGOV_COMM_DAT_02.DAT' SIZE 2048M       AUTOEXT"
+ "END ON NEXT 8192  MAXSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONL"
+ "INE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_COMM_DAT.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_COMM_IDX" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_COMM_IDX.DAT' SIZE 1920M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M, '/oradata/JOB_TS/TS_EGOV_COMM_IDX_02.DAT' SIZE 2048M       AUTOEXT"
+ "END ON NEXT 8192  MAXSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONL"
+ "INE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_COMM_IDX.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_JOBS_DAT" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_JOBS_DAT.DAT' SIZE 2755M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_JOBS_DAT.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "TS_EGOV_JOBS_IDX" BLOCKSIZE 8192 DATAFILE  '/oradata/JOB"
+ "_TS/TS_EGOV_JOBS_IDX.DAT' SIZE 1915M       AUTOEXTEND ON NEXT 8192  MAXSIZE"
+ " 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT "
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_JOBS_IDX.DAT' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TEMPORARY TABLESPACE "TS_EGOV_JOBS_TEMP" BLOCKSIZE 8192 TEMPFILE  '/"
+ "oradata/JOB_TS/TS_EGOV_JOBS_TEMP.DBF' SIZE 536870912       EXTENT MANAGEMEN"
+ "T LOCAL  UNIFORM SIZE 1048576"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/JOB_TS/TS_EGOV_JOBS_TEMP.DBF' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "HIGH_TS" BLOCKSIZE 8192 DATAFILE  '/oradata/high/high_da"
+ "ta.dbf' SIZE 5400M       AUTOEXTEND ON NEXT 104857600  MAXSIZE 32767M EXTEN"
+ "T MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAGEMEN"
+ "T AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/high/high_data.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "HIGH_IS" BLOCKSIZE 8192 DATAFILE  '/oradata/high/high_in"
+ "dex.dbf' SIZE 104857600       AUTOEXTEND ON NEXT 20971520  MAXSIZE 32767M E"
+ "XTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGMENT SPACE MANAG"
+ "EMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/high/high_index.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "GWNU_IIE_TS" BLOCKSIZE 8192 DATAFILE  '/oradata/gwnu_iie"
+ "/gwnu_iie_ts_data.dbf' SIZE 209715200       AUTOEXTEND ON NEXT 52428800  MA"
+ "XSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGME"
+ "NT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/gwnu_iie/gwnu_iie_ts_data.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 1119 오류가 발생했습니다:
+ "CREATE TABLESPACE "GWNU_IIE_IS" BLOCKSIZE 8192 DATAFILE  '/oradata/gwnu_iie"
+ "/gwnu_iie_ts_index.dbf' SIZE 52428800       AUTOEXTEND ON NEXT 10485760  MA"
+ "XSIZE 32767M EXTENT MANAGEMENT LOCAL  AUTOALLOCATE  ONLINE PERMANENT  SEGME"
+ "NT SPACE MANAGEMENT AUTO"
+IMP-00003: ORACLE 오류 1119이(가) 발생했습니다.
+ORA-01119: '/oradata/gwnu_iie/gwnu_iie_ts_index.dbf' 데이터베이스 파일 작성시 오류가 생겼습니다
+ORA-27040: 파일 생성 오류, 파일을 생성할 수 없습니다.
+OSD-04002: ？?？? ?? ?? ????
+O/S-Error: (OS 3) ?????？?？?? a?? ?? ?????？？
+IMP-00017: 다음 명령이 실패하고 ORACLE 65140 오류가 발생했습니다:
+ "CREATE PROFILE "MONITORING_PROFILE" LIMIT COMPOSITE_LIMIT DEFAULT SESSIONS_"
+ "PER_USER DEFAULT CPU_PER_SESSION DEFAULT CPU_PER_CALL DEFAULT LOGICAL_READS"
+ "_PER_SESSION DEFAULT LOGICAL_READS_PER_CALL DEFAULT IDLE_TIME DEFAULT CONNE"
+ "CT_TIME DEFAULT PRIVATE_SGA DEFAULT FAILED_LOGIN_ATTEMPTS UNLIMITED PASSWOR"
+ "D_LIFE_TIME DEFAULT PASSWORD_REUSE_TIME DEFAULT PASSWORD_REUSE_MAX DEFAULT "
+ "PASSWORD_LOCK_TIME DEFAULT PASSWORD_GRACE_TIME DEFAULT"
+IMP-00003: ORACLE 오류 65140이(가) 발생했습니다.
+ORA-65140: 공통 프로파일 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1031 오류가 발생했습니다:
+ "ALTER USER "SYS" IDENTIFIED BY VALUES 'D828360453A85A9D' TEMPORARY TABLESPA"
+ "CE "TEMP""
+IMP-00003: ORACLE 오류 1031이(가) 발생했습니다.
+ORA-01031: 권한이 불충분합니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "OUTLN" IDENTIFIED BY VALUES '4A3BA55E08595C81' TEMPORARY TABLE"
+ "SPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "ORDDATA" IDENTIFIED BY VALUES 'A93EC937FCD1DC2A' DEFAULT TABLE"
+ "SPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "MDDATA" IDENTIFIED BY VALUES 'DF02A496267DEE66' DEFAULT TABLES"
+ "PACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SPATIAL_WFS_ADMIN_USR" IDENTIFIED BY VALUES '7117215D6BEE6E82'"
+ " DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACC"
+ "OUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SPATIAL_CSW_ADMIN_USR" IDENTIFIED BY VALUES '1B290858DD14107E'"
+ " DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACC"
+ "OUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SYSMAN" IDENTIFIED BY VALUES '447B729161192C24' DEFAULT TABLES"
+ "PACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "MGMT_VIEW" IDENTIFIED BY VALUES '0C76C7EED0CE95EB' TEMPORARY T"
+ "ABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "FLOWS_FILES" IDENTIFIED BY VALUES 'A615F72D8D4B7A3D' DEFAULT T"
+ "ABLESPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "APEX_PUBLIC_USER" IDENTIFIED BY VALUES '3C91E6A20F0770EC' DEFA"
+ "ULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT "
+ "LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "APEX_030200" IDENTIFIED BY VALUES '059E9CA418F39DED' DEFAULT T"
+ "ABLESPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "OWBSYS" IDENTIFIED BY VALUES '46FFE7B1869A6388' DEFAULT TABLES"
+ "PACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOCK"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "OWBSYS_AUDIT" IDENTIFIED BY VALUES '3378320729DADFE1' DEFAULT "
+ "TABLESPACE "SYSAUX" TEMPORARY TABLESPACE "TEMP" PASSWORD EXPIRE ACCOUNT LOC"
+ "K"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "SCOTT" IDENTIFIED BY VALUES 'F894844C34402B67' DEFAULT TABLESP"
+ "ACE "USERS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "LEMA3" IDENTIFIED BY VALUES '9331057B98FE3756' DEFAULT TABLESP"
+ "ACE "LEMA3" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "JOBS" IDENTIFIED BY VALUES '7C3432B9CC307BC2' DEFAULT TABLESPA"
+ "CE "TS_EGOV_JOBS_DAT" TEMPORARY TABLESPACE "TS_EGOV_JOBS_TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "BIADMIN" IDENTIFIED BY VALUES '6AD66790C3EFFDE9' DEFAULT TABLE"
+ "SPACE "USERS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "KANGJOB" IDENTIFIED BY VALUES 'A0E8085BC3C51FC2' DEFAULT TABLE"
+ "SPACE "KANGJOB" TEMPORARY TABLESPACE "KANGJOB_TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "UCDP" IDENTIFIED BY VALUES '7D3A45CB409A8D96' DEFAULT TABLESPA"
+ "CE "TS_EGOV_COMM_DAT" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "UCDPVIEW" IDENTIFIED BY VALUES 'AFA9FFF22A521ADE' DEFAULT TABL"
+ "ESPACE "TS_EGOV_COMM_DAT" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "PETRA" IDENTIFIED BY VALUES '8CA4998A35ECC559' DEFAULT TABLESP"
+ "ACE "USERS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "HIGHDAINLS" IDENTIFIED BY VALUES '4DC687C1F5642FC5' DEFAULT TA"
+ "BLESPACE "HIGH_TS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE USER "GWNU_IIE" IDENTIFIED BY VALUES '79FB92C314699843' DEFAULT TABL"
+ "ESPACE "GWNU_IIE_TS" TEMPORARY TABLESPACE "TEMP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SELECT_CATALOG_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "SELECT_CATALOG_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "EXECUTE_CATALOG_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "EXECUTE_CATALOG_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DELETE_CATALOG_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "DELETE_CATALOG_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'DELETE_CATALOG_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "LOGSTDBY_ADMINISTRATOR""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "LOGSTDBY_ADMINISTRATOR" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DBFS_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "DBFS_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "AQ_ADMINISTRATOR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "AQ_USER_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "AQ_USER_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DATAPUMP_EXP_FULL_DATABASE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "DATAPUMP_EXP_FULL_DATABASE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "DATAPUMP_IMP_FULL_DATABASE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "DATAPUMP_IMP_FULL_DATABASE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "ADM_PARALLEL_EXECUTE_TASK""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "ADM_PARALLEL_EXECUTE_TASK" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "GATHER_SYSTEM_STATISTICS""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "GATHER_SYSTEM_STATISTICS" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVA_DEPLOY""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "JAVA_DEPLOY" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'JAVA_DEPLOY'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "RECOVERY_CATALOG_OWNER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "RECOVERY_CATALOG_OWNER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SCHEDULER_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "SCHEDULER_ADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "HS_ADMIN_SELECT_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "HS_ADMIN_SELECT_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "HS_ADMIN_EXECUTE_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "HS_ADMIN_EXECUTE_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "HS_ADMIN_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "HS_ADMIN_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 439 오류가 발생했습니다:
+ "CREATE ROLE "GLOBAL_AQ_USER_ROLE" IDENTIFIED GLOBALLY "
+IMP-00003: ORACLE 오류 439이(가) 발생했습니다.
+ORA-00439: 기능이 사용으로 설정되지 않음: Enterprise User Security
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OEM_ADVISOR""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OEM_ADVISOR" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OEM_MONITOR""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OEM_MONITOR" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "WM_ADMIN_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "WM_ADMIN_ROLE" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVAUSERPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVAUSERPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVAIDPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVAIDPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVASYSPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVASYSPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVADEBUGPRIV""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVADEBUGPRIV" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "EJBCLIENT""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "EJBCLIENT" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JMXSERVER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JMXSERVER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "JAVA_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "JAVA_ADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "CTXAPP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "CTXAPP" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDBADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDBADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_SET_INVOKER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_SET_INVOKER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "AUTHENTICATEDUSER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "AUTHENTICATEDUSER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_WEBSERVICES""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_WEBSERVICES" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_WEBSERVICES_WITH_PUBLIC""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_WEBSERVICES_WITH_PUBLIC" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "XDB_WEBSERVICES_OVER_HTTP""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "XDB_WEBSERVICES_OVER_HTTP" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OLAP_DBA""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OLAP_DBA" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "ORDADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "ORDADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OLAP_XS_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OLAP_XS_ADMIN" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OWB_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "OWB_USER" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "CWM_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "CWM_USER" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CWM_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OLAP_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "REVOKE "OLAP_USER" FROM SYSTEM"
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SPATIAL_WFS_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "SPATIAL_WFS_ADMIN" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_WFS_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "WFS_USR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "WFS_USR_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'WFS_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "SPATIAL_CSW_ADMIN""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "SPATIAL_CSW_ADMIN" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_CSW_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "CSW_USR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "CSW_USR_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CSW_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "MGMT_USER""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "MGMT_USER" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "APEX_ADMINISTRATOR_ROLE""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "APEX_ADMINISTRATOR_ROLE" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'APEX_ADMINISTRATOR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OWB$CLIENT" IDENTIFIED BY VALUES '13D492A4459DFE0D'"
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "OWB$CLIENT" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 65096 오류가 발생했습니다:
+ "CREATE ROLE "OWB_DESIGNCENTER_VIEW""
+IMP-00003: ORACLE 오류 65096이(가) 발생했습니다.
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "REVOKE "OWB_DESIGNCENTER_VIEW" FROM SYSTEM"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_DESIGNCENTER_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE LIBRARY TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY DIRECTORY TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP ANY ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT GRANT ANY ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY ROLE TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE LIBRARY TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY DIRECTORY TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP ANY ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT GRANT ANY ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY ROLE TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT SELECT ANY DICTIONARY TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLE TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER USER TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "MGMT_USER""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "FLOWS_FILES""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'FLOWS_FILES'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "APEX_PUBLIC_USER""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_PUBLIC_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER USER TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY CONTEXT TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE USER TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP USER TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ROLE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP PUBLIC SYNONYM TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLESPACE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP TABLESPACE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE CLUSTER TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DIMENSION TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE INDEXTYPE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE MATERIALIZED VIEW TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE OPERATOR TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SEQUENCE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TRIGGER TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TYPE TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER DATABASE TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE JOB TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SYSTEM TO "APEX_030200""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY CONTEXT TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DATABASE LINK TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DIMENSION TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE INDEXTYPE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE JOB TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE MATERIALIZED VIEW TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SEQUENCE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT DROP PUBLIC SYNONYM TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TABLE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TRIGGER TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TYPE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT GLOBAL QUERY REWRITE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER USER TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY TRIGGER TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE EXTERNAL JOB TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ANALYZE ANY TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DATABASE LINK TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE DIMENSION TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE INDEXTYPE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SEQUENCE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE MATERIALIZED VIEW TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SYNONYM TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TYPE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PROCEDURE TO "OWB$CLIENT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "OWBSYS_AUDIT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS_AUDIT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER SESSION TO "OWBSYS_AUDIT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS_AUDIT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "SCOTT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT SELECT ANY TABLE TO "BIADMIN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'BIADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE SESSION TO "UCDPVIEW""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDPVIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY TABLE TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE PUBLIC SYNONYM TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE VIEW TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE TRIGGER TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT SELECT ANY DICTIONARY TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY PROCEDURE TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT ALTER ANY TRIGGER TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY TRIGGER TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY INDEX TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT CREATE ANY SYNONYM TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT UNLIMITED TABLESPACE TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "DELETE_CATALOG_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'DELETE_CATALOG_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "DELETE_CATALOG_ROLE" TO "DBA" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'DELETE_CATALOG_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "JAVA_DEPLOY" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'JAVA_DEPLOY'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "JAVA_DEPLOY" TO "DBA""
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'JAVA_DEPLOY'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "CWM_USER" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CWM_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_WFS_ADMIN" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_WFS_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SPATIAL_WFS_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_WFS_ADMIN" TO "SPATIAL_WFS_ADMIN_USR" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_WFS_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "WFS_USR_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'WFS_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_CSW_ADMIN" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_CSW_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SPATIAL_CSW_ADMIN_USR""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "SPATIAL_CSW_ADMIN" TO "SPATIAL_CSW_ADMIN_USR" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'SPATIAL_CSW_ADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "CSW_USR_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CSW_USR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "SELECT_CATALOG_ROLE" TO "SYSMAN" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SYSMAN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "SYSMAN" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "MGMT_VIEW""
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "MGMT_USER" TO "SYSTEM""
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'MGMT_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "APEX_ADMINISTRATOR_ROLE" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'APEX_ADMINISTRATOR_ROLE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "APEX_030200" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "AQ_ADMINISTRATOR_ROLE" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "AQ_USER_ROLE" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "JAVAUSERPRIV" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "JAVA_ADMIN" TO "OWBSYS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "OLAP_USER" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "CWM_USER" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'CWM_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB$CLIENT" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB$CLIENT" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB$CLIENT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_DESIGNCENTER_VIEW" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_DESIGNCENTER_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_DESIGNCENTER_VIEW" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_DESIGNCENTER_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_USER" TO "SYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1919 오류가 발생했습니다:
+ "GRANT "OWB_USER" TO "OWBSYS" WITH ADMIN OPTION"
+IMP-00003: ORACLE 오류 1919이(가) 발생했습니다.
+ORA-01919: 롤 'OWB_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "SCOTT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "SCOTT""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "LEMA3""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "EXP_FULL_DATABASE" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "IMP_FULL_DATABASE" TO "JOBS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "BIADMIN""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'BIADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "KANGJOB""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "EXP_FULL_DATABASE" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "IMP_FULL_DATABASE" TO "UCDP""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "SELECT_CATALOG_ROLE" TO "PETRA""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "HIGHDAINLS""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "CONNECT" TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "DBA" TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1917 오류가 발생했습니다:
+ "GRANT "RESOURCE" TO "GWNU_IIE""
+IMP-00003: ORACLE 오류 1917이(가) 발생했습니다.
+ORA-01917: 사용자 또는 롤 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "GWNU_IIE" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'GWNU_IIE'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "HIGHDAINLS" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'HIGHDAINLS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "UCDP" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'UCDP'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "UCDPVIEW" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'UCDPVIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "LEMA3" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'LEMA3'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SPATIAL_WFS_ADMIN_USR" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SPATIAL_WFS_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SPATIAL_CSW_ADMIN_USR" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SPATIAL_CSW_ADMIN_USR'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "APEX_PUBLIC_USER" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'APEX_PUBLIC_USER'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SCOTT" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SCOTT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "BIADMIN" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'BIADMIN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "PETRA" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'PETRA'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SYSMAN" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "FLOWS_FILES" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'FLOWS_FILES'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "APEX_030200" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'APEX_030200'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "OWBSYS" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'OWBSYS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "OWBSYS_AUDIT" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'OWBSYS_AUDIT'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "MGMT_VIEW" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'MGMT_VIEW'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "KANGJOB" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'KANGJOB'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "JOBS" DEFAULT ROLE ALL"
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'JOBS'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "SYSMAN" QUOTA UNLIMITED ON "SYSAUX""
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'SYSMAN'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 1918 오류가 발생했습니다:
+ "ALTER USER "FLOWS_FILES" QUOTA UNLIMITED ON "SYSAUX""
+IMP-00003: ORACLE 오류 1918이(가) 발생했습니다.
+ORA-01918: 사용자 'FLOWS_FILES'(이)가 존재하지 않습니다
+IMP-00017: 다음 명령이 실패하고 ORACLE 2153 오류가 발생했습니다:
+ "CREATE PUBLIC DATABASE LINK "HAKLINK" CONNECT TO "NJOBCHIUP" IDENTIFIED BY "
+ "VALUES '0699352EF527985F766AA031D3D5AA77BAF5AD2F4FCDF8AB410DF215FCF2F81D67C"
+ "E75E78C55CCE9919A0E8B6CAA5C1627654E51ECAED783C0DFAB27375DA22EBBB9BDDC64B8E7"
+ "60201BBE9BE28F058527BD7A71B2F34458074982AA319B6958C12FEAFA00A281D31EA66E049"
+ "C2BCEE3418E27AFBF50D033B0B15F050B0C1750' USING '(DESCRIPTION ="
+ "    (ADDRESS = (PROTOCOL = TCP)(HOST = 202.30.48.26)(PORT = 1620))"
+ "    (CONNECT_DATA ="
+ "      (SID = ORA12)"
+ "    )"
+ "  )'"
+IMP-00003: ORACLE 오류 2153이(가) 발생했습니다.
+ORA-02153: VALUES 비밀번호 문자열이 부적당합니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE PUBLIC DATABASE LINK "HAN" CONNECT TO "HAN" IDENTIFIED BY VALUES '05"
+ "39BF5BFFB00CDBED036B80645F1794B7' USING '(description ="
+ "(address = (protocol = tcp)(host=122.199.150.6)(port=1521))"
+ "(connect_data = (server = dedicated)"
+ "(service_name = ora9)"
+ "))'"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE PUBLIC DATABASE LINK "KANGJOB.HAN" CONNECT TO "HAN" IDENTIFIED BY VA"
+ "LUES '058A6B5A30E342403394A7782024DAE5B8' USING '(description ="
+ "(address = (protocol = tcp)(host=122.199.150.6)(port=1521))"
+ "(connect_data = (server = dedicated)"
+ "(service_name = ora9)"
+ "))'"
+. HIGHDAINLS 객체를 HIGHDAINLS(으)로 임포트하는 중입니다
+IMP-00003: ORACLE 오류 1435이(가) 발생했습니다.
+ORA-01435: 사용자가 존재하지 않습니다
+. SYSTEM 객체를 SYSTEM(으)로 임포트하는 중입니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "LOGMNR_EVOLVE_SEQ$" MINVALUE 1 MAXVALUE 999999999999999999"
+ "9999999999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_EXCEPTIONS_S" MINVALUE 1 MAXVALUE 9999999999999999"
+ "999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "LOGMNR_UIDS$" MINVALUE 1 MAXVALUE 999999999999999999999999"
+ "9999 INCREMENT BY 1 START WITH 100 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "MVIEW$_ADVSEQ_GENERIC" MINVALUE 1 MAXVALUE 4294967295 INCR"
+ "EMENT BY 1 START WITH 1 CACHE 50 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "MVIEW$_ADVSEQ_ID" MINVALUE 1 MAXVALUE 4294967295 INCREMENT"
+ " BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_FLAVORS_S" MINVALUE -2147483647 MAXVALUE 214748364"
+ "7 INCREMENT BY 1 START WITH 1 NOCACHE NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_FLAVOR_NAME_S" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 1 NOCACHE NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_REPPROP_KEY" MINVALUE 1 MAXVALUE 99999999999999999"
+ "99999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT_LOG_SEQUENCE" MINVALUE 1 MAXVALUE 99999999999999999"
+ "99999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_REFRESH_TEMPLATES_S" MINVALUE 1 MAXVALUE 999999999"
+ "9999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_USER_AUTHORIZATIONS_S" MINVALUE 1 MAXVALUE 9999999"
+ "999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_REFGROUPS_S" MINVALUE 1 MAXVALUE 99999999"
+ "99999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_OBJECTS_S" MINVALUE 1 MAXVALUE 9999999999"
+ "999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_PARMS_S" MINVALUE 1 MAXVALUE 999999999999"
+ "9999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_USER_PARM_VALUES_S" MINVALUE 1 MAXVALUE 9999999999"
+ "999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMPLATE_SITES_S" MINVALUE 1 MAXVALUE 999999999999"
+ "9999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_TEMP_OUTPUT_S" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "REPCAT$_RUNTIME_PARMS_S" MINVALUE 1 MAXVALUE 9999999999999"
+ "999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "TEMPLATE$_TARGETS_S" MINVALUE 1 MAXVALUE 99999999999999999"
+ "99999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "LOGMNR_SEQ$" MINVALUE 1 MAXVALUE 9999999999999999999999999"
+ "999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+. ORDDATA 객체를 ORDDATA(으)로 임포트하는 중입니다
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_DICT_A_DA_ID_SEQ" MINVALUE 1 MAXVALUE 9999999999999"
+ "999999999999999 INCREMENT BY 1 START WITH 2419 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_CT_PRED_SET_SEQ" MINVALUE 1 MAXVALUE 99999999999999"
+ "99999999999999 INCREMENT BY 1 START WITH 10 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_CT_PRED_SEQ" MINVALUE 1 MAXVALUE 999999999999999999"
+ "9999999999 INCREMENT BY 1 START WITH 62 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_DATA_MODEL_SEQ" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 2 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_STOREDTAGS_STID_SEQ" MINVALUE 1 MAXVALUE 9999999999"
+ "999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_UID_DEFS_UDID_SEQ" MINVALUE 1 MAXVALUE 999999999999"
+ "9999999999999999 INCREMENT BY 1 START WITH 246 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_RT_PREF_P_PPID_SEQ" MINVALUE 1 MAXVALUE 99999999999"
+ "99999999999999999 INCREMENT BY 1 START WITH 14 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_ANON_ATTRS_SEQ" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 38 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_MPD_P_MPID_SEQ" MINVALUE 1 MAXVALUE 999999999999999"
+ "9999999999999 INCREMENT BY 1 START WITH 1 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_PRV_A_PA_ID_SEQ" MINVALUE 1 MAXVALUE 99999999999999"
+ "99999999999999 INCREMENT BY 1 START WITH 4 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_STD_A_SA_ID_SEQ" MINVALUE 1 MAXVALUE 99999999999999"
+ "99999999999999 INCREMENT BY 1 START WITH 2416 NOCACHE ORDER NOCYCLE"
+IMP-00015: 객체가 이미 존재하므로 다음 명령이 실패했습니다
+ "CREATE SEQUENCE "ORDDCM_DOCS_ID_SEQ" MINVALUE 1 MAXVALUE 999999999999999999"
+ "9999999999 INCREMENT BY 1 START WITH 10 NOCACHE ORDER NOCYCLE"
+. SYSMAN 객체를 SYSMAN(으)로 임포트하는 중입니다
+ "ALTER SESSION SET CURRENT_SCHEMA= "SYSMAN""
+IMP-00003: ORACLE 오류 1435이(가) 발생했습니다.
+ORA-01435: 사용자가 존재하지 않습니다
+IMP-00000: 임포트가 실패로 끝났습니다
